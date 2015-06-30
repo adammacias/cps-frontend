@@ -4,7 +4,7 @@
     {% include head.html %}
   </head>
   <body>
-    <a id="skippy" class="sr-only sr-only-focusable" href="#main"><div class="container"><span class="skiplink-text">Skip to main content</span></div></a>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#main"><div class="container"><span class="skiplink-text">Pular para o conteúdo</span></div></a>
 
     {% include header.html %}
 
@@ -25,8 +25,16 @@
         <aside id="sidebar" class="col-md-3" role="complementary">
           {% if page.url == "/sobre/" %}
             {% include nav/sobre.html %}
-          {% elsif page.url == "xxx" %}
-            {% include nav/xxx.html %}
+          {% elsif page.url == "/introducao/" %}
+            {% include nav/introducao.html %}
+          {% elsif page.url == "/marca/" %}
+            {% include nav/marca.html %}
+          {% elsif page.url == "/css/" %}
+            {% include nav/css.html %}
+          {% elsif page.url == "/componentes/" %}
+            {% include nav/componentes.html %}
+          {% elsif page.url == "/js/" %}
+            {% include nav/js.html %}
           {% endif %}
         </aside>
         {% endif %}

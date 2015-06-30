@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 // ==========================================================================
-// Theme Style Main
+// Centro Paula Souza Core Style
 // ==========================================================================
 
 /*!
@@ -16,13 +16,8 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-@charset "utf-8";
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "variables",           // Theme          Custom Variables
-        "bootstrap/bootstrap", // Bootstrap      Styles Core
-        "brand",               // Brand          Styles Core
-        "pygments-manni",      // Pygments Manni Styles
-        "layout"               // Theme          Custom Layout
-;
+//@import "centropaulasouza";
+@import "variables";            // Theme          Custom Variables
+@import "bootstrap/bootstrap";  // Bootstrap      Styles Core
+@import "brand";             // Brand          Styles Core
+@import "pygments-manni";       // Pygments Manni Styles
