@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#main"><div class="container"><span class="skiplink-text">Skip to main content</span></div></a>
+
+    {% include header.html %}
+
+    <header class="page-header">
+      <h1 class="entry-title">{{ site.title }}</h1>
+      <p class="lead">{{ site.description }}</p>
+    </header>
+
+    <div id="wrapper" class="container">
+      <div class="row">
+        <main id="content" class="col-md-{% if page.sidebar %}9{% else %}12{% endif %}" role="main"  tabindex="-1">
+          <div class="entry-content">
+            {{ content }}
+          </div>
+        </main>
+      </div>
+    </div><!-- /#wrapper  -->
+
+    {% include footer.html %}
+
+  </body>
+</html>
