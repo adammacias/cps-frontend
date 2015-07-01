@@ -3,7 +3,7 @@
 # Screenshoot deve ter obrigatóriamente 1000x800 e 90%
 #
 
-nome: Etec X
-screenshot: screenshot-X.png
-url: http://X.edu.br
-city: X-XX
+# - title: Etec X
+#   screenshot: screenshot-X.png
+#   url: http://X.edu.br
+#   city: X-XX

@@ -10,7 +10,7 @@ sass:
 # Site settings
 permalink: /posts/:title
 title: Centro Paula Souza Styleguide
-description: > # Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
+description: Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
 baseurl: "/cps-bootstrap/" # the subpath of your site, e.g. /blog/
 baseurl_content: "http://adammacias.github.io/cps-bootstrap/content/" # put path absolute
 url: "http://adammacias.github.io" # the base hostname & protocol for your site

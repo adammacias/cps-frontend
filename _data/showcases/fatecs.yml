@@ -3,12 +3,12 @@
 # Screenshoot deve ter obrigatóriamente 1000x800 e 90%
 #
 
-nome: Fatec Rubens Lara - Baixada Santista
-screenshot: screenshot-fatecrl.png
-url: http://fatecrl.edu.br
-city: Santos-SP
+- title: Fatec Rubens Lara - Baixada Santista
+  screenshot: screenshot-fatecrl.png
+  url: http://fatecrl.edu.br"
+  city: Santos-SP"
 
-nome: Fatec X
-screenshot: screenshot-X.png
-url: http://X.edu.br
-city: X-XX
+# - title: Fatec X
+#   screenshot: screenshot-X.png
+#   url: http://X.edu.br
+#   city: X-XX
