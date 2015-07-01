@@ -1,5 +1,5 @@
 # Build settings
-exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components, src ]
+exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components, src, tcc/*.docx ]
 timezone: America/Sao_Paulo # e.g. America/New_York or America/Sao_Paulo
 markdown: kramdown # rdiscount
 highlighter: pygments
