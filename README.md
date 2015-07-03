@@ -4,7 +4,7 @@ Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
 
 ### Equipe
 - [@adammacias][adammacias]
-- [@ramonduran][flaviacs]
+- [@flaviacs][flaviacs]
 - [@ramonduran][ramonduran]
 
 [adammacias]: https://github.com/adammacias
