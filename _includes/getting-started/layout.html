@@ -1,0 +1,135 @@
+<h1 class="page-header">Estrutura do Layout</h1>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<h2>Cabeçalho</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<h3>Logos</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+{% highlight html %}
+<header id="header" role="banner">
+    <div class="container">
+        <div class="logos">
+            <!-- logo Fatec/Etec -->
+            <div class="logo-site">
+                <a href="/" title="Página Inicial">
+                    <h1 class="hidden">Fatec Rubens Lara - Baixada Santista</h1>
+                    <img class="svg" src="/brand/fatecrl/logo.svg" alt="" width="165" height="80">
+                </a>
+            </div>
+            <!-- logo Centro Paula Souza -->
+            <div class="logo-cps">
+                <a href="http://www.centropaulasouza.sp.gov.br/" title="Portal Centro Paula Souza" target="_blank">
+                    <h2 class="hidden">Centro Paula Souza</h2>
+                    <img class="img" src="/assets/img/logo-cps.png" alt="" width="260" height="50">
+                </a>
+            </div>
+            <!-- logo Governo do Estado de São Paulo -->
+            <div class="logo-sp">
+                <a href="http://www.saopaulo.sp.gov.br/" title="Portal Gorverno do Estado de São Paulo" target="_blank">
+                    <h2 class="hidden">Governo do Estado de São Paulo</h2>
+                    <img class="img" src="/assets/img/logo-govsp.png" alt="" width="150" height="100">
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar" role="navigation" data-spy="affix" data-offset-top="140">
+        ...
+    </nav>
+</header>
+{% endhighlight %}
+<h3>Barra de navegação</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+{% highlight html %}
+<header id="header" role="banner">
+    <div class="container">
+        <div class="logos">
+            ...
+        </div>
+    </div>
+    <nav class="navbar" role="navigation" data-spy="affix" data-offset-top="140">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Alterar navegação</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" title="Fatec Rubens Lara - Baixada Santista">
+                    <span class="visible-xs">Fatec Rubens Lara - Santos</span>
+                    <img class="logo-fatec-simbolo svg visible-lg" src="/assets/img/logo-fatec-simbolo-white.svg" width="30" height="30" alt="Logo Fatec">
+                </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Institucional</a></li>
+                    <li><a href="#">Vestibular</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Cursos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li role="presentation" class="dropdown-header">Graduação</li>
+                            <li><a href="#"><em class="glyphicon glyphicon-education"></em> Curso Um</a></li>
+                            <li><a href="#"><em class="glyphicon glyphicon-education"></em> Curso Dois</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation" class="dropdown-header">Graduação a Distância</li>
+                            <li><a href="#"><em class="glyphicon glyphicon-education"></em> Curso Um</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation" class="dropdown-header">Técnico</li>
+                            <li><a href="#"><em class="glyphicon glyphicon-education"></em> Curso Um</a></li>
+                            <li><a href="#"><em class="glyphicon glyphicon-education"></em> Curso Dois</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li role="presentation" class="dropdown-header">Informações</li>
+                            <li><a href="#" title="Matrícula">Matrícula</a></li>
+                            <li><a href="#" title="Rematrícula">Rematrícula</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Setores</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Notícias</a></li>
+                    <li><a href="#">Calendário</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Área Restrita &nbsp;<em class="glyphicon glyphicon-user"></em></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><em class="glyphicon glyphicon-lock"></em> Login Moodle</a></li>
+                            <li><a href="#"><em class="glyphicon glyphicon-lock"></em> Login SIGA</a></li>
+                            <li><a href="http://outlook.com/fatec.sp.gov.br" title="Link externo Outlook Fatec" target="_blank"><em class="glyphicon glyphicon-envelope"></em> E-mail Fatec</a></li>
+                            <li><a href="http://outlook.com/etec.sp.gov.br" title="Link externo Outlook Etec" target="_blank"><em class="glyphicon glyphicon-envelope"></em> E-mail Etec</a></li>
+                            <li><a href="http://mail.office365.com/" title="Link externo Outlook Corporativo"><em class="glyphicon glyphicon-envelope"></em> E-mail Corporativo</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+{% endhighlight %}
+<h2>Conteúdo da Página</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+{% highlight html %}
+<!-- Cabeçalho -->
+<header id="header" role="banner">
+    ...
+</header>
+<!-- Conteúdo -->
+<div id="wrapper" class="container">
+    <div class="row">
+        <main id="content" class="col-md-12" role="main" tabindex="-1">
+            <h1>Template básico <br>Centro Paula Souza Guia de Estilos</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+        </main>
+    </div>
+</div>
+<!-- Rodapé -->
+<footer id="footer" role="banner">
+    ...
+</footer>
+{% endhighlight %}
+<h2>Rodapé</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+{% highlight html %}
+<footer id="footer" role="contentinfo">
+    <p class="text-center">This site is &copy; to Centro Paula Souza Guia de Estilos 2015</p>
+</footer>
+{% endhighlight %}

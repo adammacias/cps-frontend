@@ -480,11 +480,13 @@ $brand-header-logo-color-hover: lighten($brand-header-logo-color, 10%);
 //
 // Generate theme for default Centro Paula Souza
 //
-@include create-theme($fatec-name, $fatec-color, false);
+@include create-theme($cps-name, $cps-color, false);
+@include create-theme($fatec-name, $fatec-color, true);
+@include create-theme($etec-name, $etec-color, true);
 
 //
 // Generate theme for all courses
 //
-@each $site, $color in ($default-name, $default-color), ($fatec-name, $fatec-color), ($ads-name, $ads-color), ($ge-name, $ge-color), ($gp-name, $gp-color), ($si-name, $si-color), ($log-name, $log-color) {
+@each $site, $color in ($default-name, $default-color), ($ads-name, $ads-color), ($ge-name, $ge-color), ($gp-name, $gp-color), ($si-name, $si-color), ($log-name, $log-color) {
     @include create-theme($site, $color);
 }

@@ -22,9 +22,17 @@ $bootstrap-sass-asset-helper: false;
 $default-name: default;
 $default-color: #69868e;
 
+// Site CPS
+$cps-name: cps;
+$cps-color: lighten(rgb(148,22,17), 10%); // #e05444
+
 // Site Fatec
 $fatec-name: fatec;
 $fatec-color: lighten(rgb(148,22,17), 10%); // #e05444
+
+// Site Etec
+$etec-name: etec;
+$etec-color: lighten(rgb(148,22,17), 10%); // #e05444
 
 // Site Ads
 $ads-name: ads;

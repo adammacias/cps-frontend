@@ -4,40 +4,48 @@
     {% include head.html %}
   </head>
   <body>
-    <a id="skippy" class="sr-only sr-only-focusable" href="#main"><div class="container"><span class="skiplink-text">Pular para o conteúdo</span></div></a>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#main"><div class="container"><span class="skiplink-text">Pular para conteúdo</span></div></a>
 
     {% include header.html %}
 
     <header id="page-header">
-      <h1 class="entry-title">{{ page.title }}</h1>
-      <p class="lead">{{ page.description }}</p>
+      <div class="container">
+        <div class="row">
+          {% if page.sidebar %}
+          <aside class="col-md-2" role="complementary" role="navigation" data-spy="affix" data-offset-top="350">
+            <span class="sr-only">Índice</span>
+            {% if page.url == "/sobre/" %}
+              {% include nav/about.html %}
+            {% elsif page.url == "/introducao/" %}
+              {% include nav/getting-started.html %}
+            {% elsif page.url == "/marca/" %}
+              {% include nav/branding.html %}
+            {% elsif page.url == "/css/" %}
+              {% include nav/css.html %}
+            {% elsif page.url == "/componentes/" %}
+              {% include nav/components.html %}
+            {% elsif page.url == "/js/" %}
+              {% include nav/js.html %}
+            {% endif %}
+          </aside>
+          {% endif %}
+          <div class="col-md-{% if page.sidebar %}6{% else %}6{% endif %}">
+            <h1 class="entry-title">{{ page.title }}</h1>
+            <p class="lead">{{ page.description }}</p>
+          </div>
+        </div>
+      </div>
     </header>
 
     <div id="wrapper" class="container">
       <div class="row">
-        <main id="content" class="col-md-{% if page.sidebar %}9{% else %}12{% endif %}" role="main"  tabindex="-1">
+
+        <main id="content" class="col-md-12" role="main"  tabindex="-1">
           <div class="entry-content">
             {{ content }}
           </div>
         </main>
 
-        {% if page.sidebar %}
-        <aside id="sidebar" class="col-md-3" role="complementary">
-          {% if page.url == "/sobre/" %}
-            {% include nav/sobre.html %}
-          {% elsif page.url == "/introducao/" %}
-            {% include nav/introducao.html %}
-          {% elsif page.url == "/marca/" %}
-            {% include nav/marca.html %}
-          {% elsif page.url == "/css/" %}
-            {% include nav/css.html %}
-          {% elsif page.url == "/componentes/" %}
-            {% include nav/componentes.html %}
-          {% elsif page.url == "/js/" %}
-            {% include nav/js.html %}
-          {% endif %}
-        </aside>
-        {% endif %}
       </div>
     </div><!-- /#wrapper  -->
 
