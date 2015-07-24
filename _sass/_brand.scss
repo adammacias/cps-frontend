@@ -62,18 +62,29 @@ a.thumbnail-opacity {
 }
 
 //
+// Create Palete color and background
+//
+@mixin create-palette($site, $color) {
+    //
+    // Palete color and background
+    //
+    .palette-#{$site}-color {
+        color: $color !important;
+    }
+    .palette-#{$site}-bg {
+        background: $color !important;
+    }
+}
+
+//
 // Create theme
 //
 @mixin create-theme($site, $color, $bodyclass: true) {
     //
     // Palete color and background
     //
-    .color-#{$site} {
-        color: $color !important;
-    }
-    .bg-#{$site} {
-        background: $color !important;
-    }
+    @include create-palette($site, $color);
+
     //
     // Choose if will be for body with class or without
     //
@@ -490,3 +501,13 @@ $brand-header-logo-color-hover: lighten($brand-header-logo-color, 10%);
 @each $site, $color in ($default-name, $default-color), ($ads-name, $ads-color), ($ge-name, $ge-color), ($gp-name, $gp-color), ($si-name, $si-color), ($log-name, $log-color) {
     @include create-theme($site, $color);
 }
+
+//@include create-palette($site, $color);
+
+//
+// Generate palletes
+//
+@each $site, $color in ("branco", #fff), ("vermelho", $cps-color), ("cinza-escuro-extra", $gray-base), ("cinza-escuro", $gray-dark), ("cinza", $gray), ("cinza-claro", $gray-light), ("cinza-claro-extra", $gray-lighter) {
+    @include create-palette($site, $color);
+}
+//$default-color: #69868e;
