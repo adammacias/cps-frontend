@@ -3,17 +3,37 @@ layout: default
 title: Identidade
 permalink: /identidade/
 sidebar: true
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Manual de identidade visual da marca \"Centro Paula Souza\", \"Fatec\" e \"Etec\" para aplicação em projetos web."
 ---
 
 <style type="text/css">
+
 .docs-logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.docs-logo p {
+  margin: 0;
+}
+
+.docs-logo .logo {
+  zoom: 110%;
+  -moz-transform: scale(1.1);
+}
+
+
+
+
+
+.docs-logo-img {
   padding: 30px;
 }
-.docs-logo img {
+.docs-logo-img img {
   max-width: 300px;
 }
-.docs-logo figcaption {
+.docs-logo-img figcaption {
     margin-top: 15px;
 }
 .label-success {
@@ -26,85 +46,8 @@ description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do e
   padding: 10px 15px 0;
   font-size: 12px;
 }
-.name {
-  color: #B01116;
-  font-size: 1.2em;
-  position: relative;
-  background: transparent;
-  /*margin-right: auto;
-  margin-left: auto;*/
-  margin-top: -1.5em;
-  max-width:150px;
-  text-align: right;
-  /*white-space: nowrap;*/
-}
-.sub-name {
-  color: #3A5461;
-  font-size: 1em;
-  position: relative;
-  background: transparent;
-  /*margin-right: auto;
-  margin-left: auto;*/
-  margin-top: -0.5em;
-  max-width:150px;
-  text-align: right;
-}
 
-.logo-fatec {
-  zoom: 100%;
-}
-.logo-fatec img {
-  max-width: 100%;
-}
 </style>
-
-<h1 class="page-header">TESTS LOGOS</h1>
-
-<figure class="logo-fatec" style="width:150px">
-                <img src="{{ "assets/brand/logo-fatec.svg" | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="150">
-                <h1 class="name">Araçatuba</h1>
-                <h2 class="sub-name">Prof. Fernando Amaral de Almeida Prado</h2>
-            </figure>
-
-            <hr>
-
-            <figure class="logo-fatec" style="width:150px">
-                <img src="{{ "assets/brand/logo-fatec.svg" | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="150">
-                <h1 class="name">Baixada Santista</h1>
-                <h2 class="sub-name">Rubens Lara</h2>
-            </figure>
-
-            <hr>
-
-            <figure class="logo-fatec" style="width:150px">
-                <img src="{{ "assets/brand/logo-fatec.svg" | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="150">
-                <h1 class="name">Qualquer nome aqui yes</h1>
-                <h2 class="sub-name">Outro nome qualquer tambem aqui</h2>
-            </figure>
-
-
-<h2>ZOOM 2x</h2>
-
-  <figure class="logo-fatec" style="zoom: 200%;">
-                <img src="{{ "assets/brand/logo-fatec.svg" | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="150">
-                <h1 class="name">Baixada Santista</h1>
-                <h2 class="sub-name">Rubens Lara</h2>
-            </figure>
-
-
-
-
-<h2>ZOOM 3x</h2>
-
-  <figure class="logo-fatec" style="zoom: 300%;">
-                <img src="{{ "assets/brand/logo-fatec.svg" | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="150">
-                <h1 class="name">Baixada Santista</h1>
-                <h2 class="sub-name">Rubens Lara</h2>
-            </figure>
-
-
-
-
 
 <section id="section-download">{% include branding/download.html %}</section>
 <section id="section-cps">{% include branding/cps.html %}</section>

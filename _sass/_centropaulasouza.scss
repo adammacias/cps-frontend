@@ -20,7 +20,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 @font-face {
-    font-family: 'dinregular';
+    font-family: 'Din';
     src: url('../fonts/din/dinregular-webfont.eot');
     src: url('../fonts/din/dinregular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/din/dinregular-webfont.woff2') format('woff2'),
@@ -29,28 +29,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
          url('../fonts/din/dinregular-webfont.svg#dinregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-
-
-
 @font-face {
-    font-family: 'dinregular';
-    src: url('../fonts/din/dinmedium-webfont.eot');
-    src: url('../fonts/din/dinmedium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/din/dinmedium-webfont.woff2') format('woff2'),
-         url('../fonts/din/dinmedium-webfont.woff') format('woff'),
-         url('../fonts/din/dinmedium-webfont.ttf') format('truetype'),
-         url('../fonts/din/dinmedium-webfont.svg#dinregular') format('svg');
-    font-weight: 500;
-    font-style: 500;
-
-}
-
-
-@font-face {
-    font-family: 'dinregular';
+    font-family: 'Din';
     src: url('../fonts/din/dinbold-webfont.eot');
     src: url('../fonts/din/dinbold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/din/dinbold-webfont.woff2') format('woff2'),
@@ -59,7 +41,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
          url('../fonts/din/dinbold-webfont.svg#dinregular') format('svg');
     font-weight: bold;
     font-style: bold;
-
 }
 
 

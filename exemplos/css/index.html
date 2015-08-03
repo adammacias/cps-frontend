@@ -6,23 +6,20 @@ css: basico.css
 ---
 <header id="header" role="banner">
   <div class="container">
-    <div class="logos">
-      <div class="logo-site">
-        <a href="http://fatecrl.edu.br/site/" title="Página Inicial">
-          <h1 class="hidden">Fatec Rubens Lara - Baixada Santista</h1>
-          <img class="svg" src="{{ "brand/fatecrl/logo.svg" | prepend: site.baseurl_content }}" alt="Logo Site" width="165" height="80">
+    <div class="logo-group">
+      <div class="logo-group-item">
+        <a class="logo logo-fatec" href="http://fatecrl.edu.br/site/" title="Página Inicial" data-title="Baixada Santista" data-sub-title="Rubens Lara">
+          <h1 class="sr-only">Fatec Rubens Lara - Baixada Santista</h1>
         </a>
       </div>
-      <div class="logo-cps">
-        <a href="http://www.centropaulasouza.sp.gov.br/" title="Link externo Portal Centro Paula Souza" target="_blank">
-          <h2 class="hidden">Centro Paula Souza</h2>
-          <img class="img" src="http://fatecrl.edu.br/site/assets/img/apoiadores/logo-centropaulasouza-corfatec.png" alt="Logo Centro Paula Souza" width="260" height="50">
+      <div class="logo-group-item">
+        <a class="logo logo-cps" href="http://www.centropaulasouza.sp.gov.br/" title="Portal Centro Paula Souza" target="_blank">
+          <h2 class="sr-only">Centro Paula Souza</h2>
         </a>
       </div>
-      <div class="logo-sp">
-        <a href="http://www.saopaulo.sp.gov.br/" title="Link externo Portal Gorverno do Estado de São Paulo" target="_blank">
-          <h2 class="hidden">Governo do Estado de São Paulo</h2>
-          <img class="img" src="http://fatecrl.edu.br/site/assets/img/apoiadores/logo-governoestadosp-corfatec.png" alt="Logo Governo do Estado de São Paulo" width="150" height="100">
+      <div class="logo-group-item">
+        <a class="logo logo-sp" href="http://www.saopaulo.sp.gov.br/" title="Gorverno do Estado de São Paulo" target="_blank">
+          <h2 class="sr-only">Governo do Estado de São Paulo</h2>
         </a>
       </div>
     </div>

@@ -24,7 +24,7 @@ $default-color: #69868e;
 
 // Site CPS
 $cps-name: cps;
-$cps-color: rgb(176,17,22); // lighten(rgb(148,22,17), 10%); // #e05444
+$cps-color: rgb(176,17,22); // B01116 ----------- lighten(rgb(148,22,17), 10%); // #e05444
 
 // Site Fatec
 $fatec-name: fatec;
@@ -134,7 +134,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
 //** By default, this inherits from the `<body>`.
 //$headings-font-family:    "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; //inherit;
-$headings-font-family:    "dinregular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headings-font-family:    Din, "Helvetica Neue", Helvetica, Arial, sans-serif;
 //$headings-font-weight:    500;
 $headings-font-weight:    bold;
 $headings-line-height:    1.1;
