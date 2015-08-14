@@ -2,11 +2,11 @@
 
 > NÚMERO DO GRUPO: 09
 
-### Aula 01 
+### Aula 01
 
 - Ficha de atendimento
 	+ No mínimo 6 fichas
-	+ Obrigatório para orientador. Também, para todas as entrevistas que tenham como objetivo o tcc, ex. entrevista com usuário, 
+	+ Obrigatório para orientador. Também, para todas as entrevistas que tenham como objetivo o tcc, ex. entrevista com usuário,
 
 - Regras
     + Arquivos de referência
@@ -28,7 +28,7 @@
 - Capítulo 5 (Resultados)
 
 - Capítulo 6 - conclusão (discussão)
-    + Dizer o porque é interessante. Contrapor/comparar com o nosso e dizer o porque é melhor. 
+    + Dizer o porque é interessante. Contrapor/comparar com o nosso e dizer o porque é melhor.
     + Caso o objetivo não seja atingido, justificar o porque foi por outro caminho e porque é bom.
 
 - Referencia bibliográfica
