@@ -27,13 +27,13 @@ layout: home
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
   </div>
   <div class="row">
-    {% for fatec in site.data.showcases.fatecs %}
+    {% for case in site.data.showcases %}
       <div class="col-xs-12 col-sm-8 col-md-offset-2">
-        <a class="thumbnail" href="{{ fatec.url }}" target="_blank" title="{{ fatec.title }}">
-          <img src="{{ fatec.screenshot | prepend: site.baseurl_content }}" alt="{{ fatec.title }}" class="img-responsive">
+        <a class="thumbnail" href="{{ case.url }}" target="_blank" title="{{ case.title }}">
+          <img src="{{ site.baseurl_content }}showcases/{{ case.screenshot }}" alt="{{ case.title }}" class="img-responsive">
           <div class="caption">
-            <h5>{{ fatec.title }}</h5>
-            <p><small>{{ fatec.city }}</small></p>
+            <h5>{{ case.title }}</h5>
+            <p><small>{{ case.city }}</small></p>
           </div>
         </a>
       </div>

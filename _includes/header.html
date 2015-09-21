@@ -11,6 +11,7 @@
     </div>
     <nav id="navbar" class="collapse navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
+        <!--
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Todas as Páginas <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -24,8 +25,13 @@
             {% endfor %}
         </ul>
         </li>
+        -->
+
+        {% include nav-docs.html %}
+
+        <!--
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Todas os Exemplos <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Templates</a>
           <ul class="dropdown-menu">
             {% assign pages = site.pages %}
             {% for link in pages %}
@@ -37,6 +43,9 @@
             {% endfor %}
         </ul>
         </li>
+        -->
+
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="{{ site.repo_url }}" target="_blank">GitHub</a></li>

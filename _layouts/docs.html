@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    {% include head.html %}
+
+    <style type="text/css">
+    #markdown-toc-contents,
+    ul#markdown-toc li:first-child { display: none; }
+
+    .entry-content h2 {
+      border-top: 1px solid #3C0E66;
+      margin-top: 40px;
+      padding-top: 30px;
+    }
+
+    /* BRANDING */
+
+
+
+.docs-logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.docs-logo p {
+  margin: 0;
+}
+
+.docs-logo .logo {
+  zoom: 110%;
+  -moz-transform: scale(1.1);
+}
+
+
+
+
+
+.docs-logo-img {
+  padding: 30px;
+}
+.docs-logo-img img {
+  max-width: 300px;
+}
+.docs-logo-img figcaption {
+    margin-top: 15px;
+}
+.label-success {
+  background: lime;
+}
+.label-danger {
+  background: red;
+}
+.docs-palette {
+  padding: 10px 15px 0;
+  font-size: 12px;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#main"><div class="container"><span class="skiplink-text">Pular para conteúdo</span></div></a>
+
+    {% include header.html %}
+
+    <header id="page-header">
+      <div class="container">
+        {% include page-headers.html %}
+      </div>
+    </header>
+
+    <div id="wrapper" class="container">
+      <div class="row">
+
+        {% if page.group %}
+        <aside class="col-md-2" role="complementary" role="navigation">
+          <br>
+          <span class="sr-only">Índice</span>
+          {% for group in site.data.nav %}
+            {% if group.slug == page.group %}
+            <ul class="nav nav-pills nav-stacked">
+              {% for doc in group.pages %}
+                {% assign slug = doc.title | downcase | replace: ' ', '-' | replace:'-&-','-' %}
+                {% assign active = nil %}
+
+                {% if page.url contains doc.slug %}
+                {% assign active = 'active bd-sidenav-active' %}
+                {% endif %}
+
+                <li class="{{ active }}">
+                  <a href="{{ site.baseurl | prepend: site.url }}/{{ group.slug | downcase | replace: ' ', '-' }}/{{ doc.slug | downcase | replace: ' ', '-' | replace:'-&-','-' }}">{{ doc.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          {% endfor %}
+        </aside>
+        {% endif %}
+
+        <main id="content" class="col-md-9 col-md-offset-1" role="main"  tabindex="-1">
+          <div class="entry-content">
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+          </div>
+        </main>
+
+      </div>
+    </div><!-- /#wrapper  -->
+
+    {% include footer.html %}
+
+  </body>
+</html>

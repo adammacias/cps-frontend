@@ -1,18 +1,22 @@
+permalink:        pretty
+
 # Build settings
 exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components, src, tcc/*.docx ]
 timezone: America/Sao_Paulo # e.g. America/New_York or America/Sao_Paulo
 markdown: kramdown # rdiscount
-highlighter: pygments
+highlighter: rouge
+kramdown:
+  auto_ids: true
 sass:
     sass_dir: _sass
     style: :expanded # :nested ? :compact ? :expanded :compressed | Different Sass Output Styles: http://bit.ly/1K5wPnC
 
 # Site settings
-permalink: /posts/:title
-title: Centro Paula Souza Guia de Estilos
+#permalink: /posts/:title
+title: CPS Front-end
 description: Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
 baseurl: "/" # the subpath of your site, e.g. /blog/
-baseurl_content: "http://localhost:4000/content/" # put path absolute
+baseurl_content: "http://localhost:4000/assets/" # put path absolute
 url: "http://localhost:4000" # the base hostname & protocol for your site
 
 # Custom variables
@@ -39,3 +43,9 @@ mode: dev
 # url 4 page:       {{ "index.html" | prepend: site.baseurl | prepend: site.url }} - or - {{ site.baseurl | prepend: site.url | append: "index.html" }}
 # url 4 css:        {{ "css/main.css" | prepend: site.baseurl | prepend: site.url }}
 # url 4 content:    {{ "favicon.png" | prepend: site.baseurl_content }}
+# Dependencies
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
