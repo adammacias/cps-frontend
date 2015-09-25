@@ -1,0 +1,45 @@
+---
+layout: home
+---
+
+<section class="section">
+  <div class="row">
+    <article class="col-md-4">
+      <h2>Identidade Visual</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </article>
+    <article class="col-md-4">
+      <h2>Bootstrap</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </article>
+    <article class="col-md-4">
+      <h2>Alguma coisa</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+    </article>
+  </div>
+</section>
+
+<hr>
+
+<section class="section">
+  <div class="text-center">
+    <h2>Criado com Centro Paula Souza Guia de Estilos</h2>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+  </div>
+  <div class="row">
+    {% for case in site.data.showcases %}
+      <div class="col-xs-12 col-sm-8 col-md-offset-2">
+        <a class="thumbnail" href="{{ case.url }}" target="_blank" title="{{ case.title }}">
+          <img src="{{ site.baseurl_content }}showcases/{{ case.screenshot }}" alt="{{ case.title }}" class="img-responsive">
+          <div class="caption">
+            <h5>{{ case.title }}</h5>
+            <p><small>{{ case.city }}</small></p>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+
+

@@ -1,0 +1,20 @@
+# Showcases de Fatecs, Etecs e outros
+#
+# Screenshoot deve ter obrigatóriamente 1000x800 e 90%
+#
+
+- title: Fatec Rubens Lara - Baixada Santista
+  screenshot: fatecrl.png
+  url: http://fatecrl.edu.br
+  city: Santos-SP
+  group: fatec
+
+# - title: Fatec X
+#   screenshot: screenshot-X.png
+#   url: http://X.edu.br
+#   city: X-XX
+
+# - title: Etec X
+#   screenshot: screenshot-X.png
+#   url: http://X.edu.br
+#   city: X-XX

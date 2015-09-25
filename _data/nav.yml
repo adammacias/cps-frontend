@@ -1,0 +1,125 @@
+- title: Ponto de partida
+  slug: getting-started
+  pages:
+    - title: Introdução
+      slug: introduction
+    - title: Instalação
+      slug: install
+    - title: Template Base
+      slug: template-base
+    - title: Boas práticas
+      slug: best-practices
+
+- title: Layout
+  slug: layout
+  pages:
+    - title: Introdução
+      slug: introduction
+    - title: Cabeçalho
+      slug: header
+    - title: Conteúdo da página
+      slug: main
+    - title: Rodapé
+      slug: footer
+
+- title: Estilos
+  slug: content
+  pages:
+    - title: Introdução
+      slug: introduction
+    - title: Tipografia
+      slug: typography
+    - title: Código
+      slug: code
+    - title: Imagens
+      slug: images
+    - title: Tabelas
+      slug: tables
+    - title: Figuras
+      slug: figures
+
+- title: Componentes
+  slug: components
+  pages:
+    - title: Sistema de grids
+      slug: grid
+    - title: Utilitários Responsivo
+      slug: responsive-utilities
+    - title: Media object
+      slug: media-object
+    - title: Ícones
+      slug: icons
+    - title: Botões
+      slug: buttons
+    - title: Botões Dropdowns
+      slug: button-dropdown
+    - title: Formulários
+      slug: forms
+    - title: Dropdowns
+      slug: dropdowns
+    - title: Etiquetas
+      slug: label
+    - title: Alertas
+      slug: alerts
+    - title: Cards
+      slug: card
+    - title: Navegações
+      slug: navs
+    - title: Barra de navegação
+      slug: navbar
+    - title: Paginação
+      slug: pagination
+    - title: Grupos de listas
+      slug: list-group
+    - title: Modal
+      slug: modal
+    - title: Sanfona
+      slug: collapse
+    - title: Abas
+      slug: tabs
+    - title: Carrossel
+      slug: carousel
+    - title: Utilitários
+      slug: utilities
+    - title: Lightbox
+      slug: lightbox
+    - title: Avatares
+      slug: avatars
+
+- title: Identidade
+  slug: branding
+  pages:
+    - title: Visão geral
+      slug: overview
+    - title: Centro Paula Souza
+      slug: cps
+    - title: Fatecs
+      slug: fatecs
+    - title: Etecs
+      slug: etecs
+
+- title: Templates
+  slug: templates
+  pages:
+    - title: Todos
+      slug: ""
+    - title: Template Básico
+      slug: basico
+    - title: Template Tema
+      slug: tema
+    - title: Template com Barra Lateral (Sidebar)
+      slug: barra-lateral
+    - title: CSS
+      slug: css
+
+- title: Sobre
+  slug: about
+  pages:
+    - title: História
+      slug: history
+    - title: Equipe
+      slug: team
+    - title: Licença
+      slug: license
+    - title: Showcases
+      slug: showcases
