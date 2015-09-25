@@ -4,13 +4,31 @@
     {% include head.html %}
 
     <style type="text/css">
-    #markdown-toc-contents,
-    ul#markdown-toc li:first-child { display: none; }
+    ul#markdown-toc > li:first-child {
+      display: none;
+    }
 
     .entry-content h2 {
       border-top: 1px solid #3C0E66;
       margin-top: 40px;
       padding-top: 30px;
+    }
+
+      /* EXAMPLE */
+    .bd-example {
+      background: #E5E5E5;
+      padding: 10px 20px;
+      border: 1px solid #CCC;
+      border-bottom: 0px;
+      border-radius: 10px 10px 0 0;
+    }
+    .bd-example h2 {
+      border-top: none;
+      margin-top: 20px;
+      padding-top: 0px;
+    }
+    .highlight pre {
+      border-radius: 0 0 10px 10px;
     }
 
     /* BRANDING */

@@ -1,9 +1,7 @@
-permalink:        pretty
-
 # Build settings
 exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components, src, tcc/*.docx ]
 timezone: America/Sao_Paulo # e.g. America/New_York or America/Sao_Paulo
-markdown: kramdown # rdiscount
+markdown: kramdown
 highlighter: rouge
 kramdown:
   auto_ids: true
@@ -12,7 +10,7 @@ sass:
     style: :expanded # :nested ? :compact ? :expanded :compressed | Different Sass Output Styles: http://bit.ly/1K5wPnC
 
 # Site settings
-#permalink: /posts/:title
+permalink: pretty
 title: CPS Front-end
 description: Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
 baseurl: "/" # the subpath of your site, e.g. /blog/

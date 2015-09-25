@@ -1,18 +1,20 @@
 # Build settings
 exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components, src, tcc/*.docx ]
 timezone: America/Sao_Paulo # e.g. America/New_York or America/Sao_Paulo
-markdown: kramdown # rdiscount
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  auto_ids: true
 sass:
     sass_dir: _sass
     style: :compressed # :nested ? :compact ? :expanded :compressed | Different Sass Output Styles: http://bit.ly/1K5wPnC
 
 # Site settings
-permalink: /posts/:title
-title: Centro Paula Souza Styleguide
+permalink: pretty
+title: CPS Front-end
 description: Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
 baseurl: "/cps-bootstrap/" # the subpath of your site, e.g. /blog/
-baseurl_content: "http://adammacias.github.io/cps-bootstrap/content/" # put path absolute
+baseurl_content: "http://adammacias.github.io/cps-bootstrap/assets/" # put path absolute
 url: "http://adammacias.github.io" # the base hostname & protocol for your site
 
 # Custom variables
@@ -29,3 +31,8 @@ author:
   email: eu@adammacias.com
 
 repo_url: https://github.com/adammacias/cps-bootstrap
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+

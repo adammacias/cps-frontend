@@ -25,7 +25,9 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<div class="alert alert-danger">Por favor, não edite, altere, distorça, altere a cor ou reconfigure o logo.</div>
+Por favor, não edite, altere, distorça, altere a cor ou reconfigure o logo.
+{: .alert .alert-danger}
+
 <div class="thumbnail docs-logo">
     <span class="logo logo-fatec">
         <h2 class="sr-only">Fatec</h2>
@@ -46,7 +48,9 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<div class="alert alert-danger">Por favor, não tente embelezar nosso logotipo com sombras, padrões, fundos complexos ou joias de ouro elaboradas.</div>
+Por favor, não tente embelezar nosso logotipo com sombras, padrões, fundos complexos ou joias de ouro elaboradas.
+{: .alert .alert-danger}
+
 <div class="row">
     <div class="col-sm-4">
         <div class="thumbnail docs-logo">
@@ -95,7 +99,7 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-#### Logo Padrão
+#### Versão principal
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -131,7 +135,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
 </div>
 
-#### Logo Escuro
+#### Versão positiva
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -167,7 +171,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
 </div>
 
-#### Logo Claro
+#### Versão negativa
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -221,17 +225,12 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<div class="bs-example docs-logo">
-    <span class="logo logo-fatec" data-title="São Paulo">
-      <h2 class="sr-only">Fatec São Paulo</h2>
-    </span>
-    <p>Logo Fatec São Paulo</p>
-</div>
-{% highlight html %}
+{% example html %}
 <span class="logo logo-fatec" data-title="São Paulo">
   <!-- Para leitores de telas -->
   <h2 class="sr-only">Fatec São Paulo</h2>
-</span> {% endhighlight %}
+</span>
+{% endexample %}
 
 #### Sub-Título
 
@@ -242,93 +241,17 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<div class="bs-example docs-logo">
-    <span class="logo logo-fatec" data-title="Baixada Santista" data-sub-title="Rubens Lara">
-      <h2 class="sr-only">Fatec Rubens Lara - Baixada Santista</h2>
-    </span>
-    <p>Logo Fatec Rubens Lara - Baixada Santista</p>
-</div>
-{% highlight html %}
+{% example html %}
 <span class="logo logo-fatec" data-title="Baixada Santista" data-sub-title="Rubens Lara">
   <!-- Para leitores de telas -->
   <h2 class="sr-only">Fatec Rubens Lara - Baixada Santista</h2>
-</span> {% endhighlight %}
-
-## Cores
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<p><a href="http://colorpeek.com/#C21D16,ffffff,dde4e7,94a9b1,688590,4d6269,283337" class="btn btn-sm btn-default">Consulta colorpeek</a></p>
-<div class="row">
-    <div class="col-sm-12">
-        <div class="thumbnail docs-palette palette-fatec-principal-bg" style="color:#fff">
-            <p>Principal Fatec (Vermelho)
-                <br>
-                <br>
-                <br>#C21D16</p>
-        </div>
-    </div>
-</div>
-<p><b>Tons cinza</b></p>
-<div class="row">
-    <div class="col-sm-2">
-        <div class="thumbnail docs-palette palette-branco-bg" style="color:#000" style="color:#fff">
-            <p>Branco
-                <br>
-                <br>
-                <br>#FFFFFF</p>
-        </div>
-    </div>
-    <div class="col-sm-2">
-        <div class="thumbnail docs-palette palette-cinza-claro-extra-bg" style="color:#000">
-            <p>Cinza Claro Extra
-                <br>
-                <br>
-                <br>#DDE4E7</p>
-        </div>
-    </div>
-    <div class="col-sm-2">
-        <div class="thumbnail docs-palette palette-cinza-claro-bg" style="color:#000">
-            <p>Cinza Claro
-                <br>
-                <br>
-                <br>#94A9B1</p>
-        </div>
-    </div>
-    <div class="col-sm-2">
-        <div class="thumbnail docs-palette palette-cinza-bg" style="color:#fff">
-            <p>Cinza
-                <br>
-                <br>
-                <br>#688590</p>
-        </div>
-    </div>
-    <div class="col-sm-2">
-        <div class="thumbnail docs-palette palette-cinza-escuro-bg" style="color:#fff">
-            <p>Cinza Escuro
-                <br>
-                <br>
-                <br>#4D6269</p>
-        </div>
-    </div>
-    <div class="col-sm-2">
-        <div class="thumbnail docs-palette palette-cinza-escuro-extra-bg" style="color:#fff">
-            <p>Cinza Escuro Extra
-                <br>
-                <br>
-                <br>#283337</p>
-        </div>
-    </div>
-</div>
+</span>
+{% endexample %}
 
 ## Texto
 
-<p class="lead">Escreva "Fatec" em texto simples em vez de incorporar o logotipo no texto.</p>
+Escreva "Fatec" em texto simples em vez de incorporar o logotipo no texto.
+{: .lead}
 
 <ul class="list-group">
     <li class="list-group-item">
@@ -351,18 +274,17 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 **Abreviação**
 
-<p class="lead">Quando possível, ao usar o nome "Fatec", procure incluir junto com <code>&lt;abbr&gt;</code>.</p>
-<div class="bs-example" data-example-id="basic-forms">
-    <abbr title="Faculdade de Tecnologia">Fatec</abbr>
-</div>
-<!-- /example -->
-{% highlight html %}
+Quando possível, ao usar o nome "Fatec", procure incluir junto com `<abbr>`.
+{: .lead}
+
+{% example html %}
 <abbr title="Faculdade de Tecnologia">Fatec</abbr>
-{% endhighlight %}
+{% endexample %}
 
 ### Uso específico
 
-<p class="lead">Escreva "Fatec-XX", substituindo pela sigla da unidade em questão.</p>
+Escreva "Fatec-XX", substituindo pela sigla da unidade em questão.
+{: .lead}
 
 <ul class="list-group">
     <li class="list-group-item">
@@ -381,13 +303,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 **Abreviação**
 
-<p class="lead">Quando possível, ao usar o nome da unidade "Fatec-XX", procure incluir junto com <code>&lt;abbr&gt;</code>.</p>
+uando possível, ao usar o nome da unidade "Fatec-XX", procure incluir junto com `<abbr>`.
+{: .lead}
 
-<div class="bs-example" data-example-id="basic-forms">
-    <abbr title="Faculdade de Tecnologia de São Paulo">Fatec-SP</abbr>
-</div>
-<!-- /example -->
-{% highlight html %}
+{% example html %}
 <abbr title="Faculdade de Tecnologia de São Paulo">Fatec-SP</abbr>
-{% endhighlight %}
+{% endexample %}
 

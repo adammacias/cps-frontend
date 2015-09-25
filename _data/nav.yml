@@ -89,10 +89,8 @@
 - title: Identidade
   slug: branding
   pages:
-    - title: Introdução
-      slug: introduction
-    - title: Download
-      slug: download
+    - title: Visão geral
+      slug: overview
     - title: Centro Paula Souza
       slug: cps
     - title: Fatecs
