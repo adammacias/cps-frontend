@@ -1,9 +1,6 @@
----
----
-
 # www.robotstxt.org/
 
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: {{ "sitemap.xml" | prepend: site.baseurl | prepend: site.url }}
+Sitemap: http://adammacias.github.io/cps-bootstrap/sitemap.xml
