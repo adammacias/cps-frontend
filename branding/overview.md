@@ -5,12 +5,10 @@ group: branding
 redirect_from: "/branding/"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Procedimentos e diretrizes que ajudarão a determinar a melhor maneira de usar os logotipos de Etecs e Fatecs associado ao do Centro Paula Souza e Governo do Estado e traz exemplos de aplicação da marca em páginas web.
+{: .lead}
+
+É importante seguir os procedimentos descritos, a fim de alcançarmos os objetivos propostos.
 
 ## Contents
 
@@ -19,6 +17,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Download
 
+É possível baixar o manual completo é através da [página de identidade visual](http://www.centropaulasouza.sp.gov.br/quem-somos/manual-de-identidade-logo-novo/default.asp) do Centro Paula Souza.
+Tambem disponibilizamos para download arquivos de mídia para designers.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
