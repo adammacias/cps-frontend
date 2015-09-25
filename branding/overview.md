@@ -5,10 +5,8 @@ group: branding
 redirect_from: "/branding/"
 ---
 
-Procedimentos e diretrizes que ajudarão a determinar a melhor maneira de usar os logotipos de Etecs e Fatecs associado ao do Centro Paula Souza e Governo do Estado e traz exemplos de aplicação da marca em páginas web.
+Manual de uso das cores e tipografia do {{ site.title }} e download de arquivos para designers, tais como fonts de texto ou logotipos de Etecs, Fatecs, Centro Paula Souza e Governo do Estado de São Paulo.
 {: .lead}
-
-É importante seguir os procedimentos descritos, a fim de alcançarmos os objetivos propostos.
 
 ## Contents
 
@@ -17,6 +15,7 @@ Procedimentos e diretrizes que ajudarão a determinar a melhor maneira de usar o
 
 ## Download
 
+font DIN
 É possível baixar o manual completo é através da [página de identidade visual](http://www.centropaulasouza.sp.gov.br/quem-somos/manual-de-identidade-logo-novo/default.asp) do Centro Paula Souza.
 Tambem disponibilizamos para download arquivos de mídia para designers.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

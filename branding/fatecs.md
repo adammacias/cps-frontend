@@ -4,12 +4,10 @@ title: Fatecs
 group: branding
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Diretrizes que ajudarão a determinar a melhor maneira de usar o logotipo de Fatecs.
+{: .lead}
+
+É importante seguir os procedimentos descritos, a fim de alcançarmos os objetivos propostos.
 
 ## Conteúdo
 
@@ -18,15 +16,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Logo
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 Por favor, não edite, altere, distorça, altere a cor ou reconfigure o logo.
-{: .alert .alert-danger}
 
 <div class="thumbnail docs-logo">
     <span class="logo logo-fatec">
@@ -41,15 +31,7 @@ Por favor, não edite, altere, distorça, altere a cor ou reconfigure o logo.
 
 ### Elenco de cores
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 Por favor, não tente embelezar nosso logotipo com sombras, padrões, fundos complexos ou joias de ouro elaboradas.
-{: .alert .alert-danger}
 
 <div class="row">
     <div class="col-sm-4">

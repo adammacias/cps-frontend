@@ -4,11 +4,10 @@ title: Centro Paula Souza
 group: branding
 ---
 
-<p class="lead">Autarquia do Governo do Estado de São Paulo vinculada à Secretaria de Desenvolvimento Econômico, Ciência e Tecnologia, é responsável pelas Faculdades de Tecnologia (Fatecs) e Escolas Técnicas (Etecs) estaduais.</p>
+Diretrizes que ajudarão a determinar a melhor maneira de usar o logotipo do Centro Paula Souza e Governo do Estado de São Paulo.
+{: .lead}
 
-A seguir você encontra os aspectos relacionados à aplicação do logotipo da instituição na web. É importante seguir os procedimentos descritos, a fim de alcançarmos os objetivos propostos.
-
-Dentre eles, fazer do logotipo do Centro Paula Souza uma ferramenta de uso comum, decorrente de uma padronização visual consistente, agregando valores de modernidade, confiança e qualidade.
+É importante seguir os procedimentos descritos, a fim de alcançarmos os objetivos propostos.
 
 ## Conteúdo
 
@@ -17,14 +16,8 @@ Dentre eles, fazer do logotipo do Centro Paula Souza uma ferramenta de uso comum
 
 ## Logo
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Por favor, não edite, altere, distorça, altere a cor ou reconfigure o logo.
 
-<div class="alert alert-danger">Por favor, não edite, altere, distorça, altere a cor ou reconfigure o logo.</div>
 <div class="thumbnail docs-logo">
   <span class="logo logo-cps">
     <h2 class="sr-only">Centro Paula Souza</h2>
@@ -39,14 +32,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Elenco de cores
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Por favor, não tente embelezar nosso logotipo com sombras, padrões, fundos complexos ou joias de ouro elaboradas.
 
-<div class="alert alert-danger">Por favor, não tente embelezar nosso logotipo com sombras, padrões, fundos complexos ou joias de ouro elaboradas.</div>
 <div class="row">
   <div class="col-sm-4">
     <div class="thumbnail docs-logo">
