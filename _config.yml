@@ -10,6 +10,7 @@ sass:
     style: :compressed # :nested ? :compact ? :expanded :compressed | Different Sass Output Styles: http://bit.ly/1K5wPnC
 
 # Site settings
+destination: ../gh-pages
 permalink: pretty
 title: CPS Front-end
 description: Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
