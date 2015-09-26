@@ -390,6 +390,7 @@ $fill-logo-sp-s4: black;
     &:hover {
         text-decoration: none;
     }
+    h1, h2, p, abbr, span { width: 110%; }
     &.logo-fatec {
         //zoom: 100%; -moz-transform: scale(1);
         //background: url(../brand/logo-fatec.svg) no-repeat top left;
@@ -399,13 +400,14 @@ $fill-logo-sp-s4: black;
         background-position: top left;
         background-size: 100% !important;
         // 160px!important;
-        max-width: 160px;
+        max-width: 170px;
+
         &::before, &::after, .title, .sub-title {
             position: relative;
             background: transparent;
             text-align: right;
             display: block;
-            max-width: 160px;
+            max-width: 170px;
             /*margin-right: auto;
             margin-left: auto;*/
             /*white-space: nowrap;*/
@@ -416,14 +418,14 @@ $fill-logo-sp-s4: black;
         &::before, .title {
             @extend .h1;
             color: $fill-logo-fatec-s1;
-            font-size: 1.2em;
+            font-size: 1.45em;
             margin-top: 55px;
             content: attr(data-title);
         }
         &::after, .sub-title {
             @extend .h2;
             color: $fill-logo-fatec-s2;
-            font-size: 1em;
+            font-size: 1.20em;
             margin-top: -5px;
             content: attr(data-sub-title);
         }
@@ -433,6 +435,7 @@ $fill-logo-sp-s4: black;
             &::after {
                 color: #{$fill-logo-dark};
             }
+            h1, h2, p, abbr, span { color: #{$fill-logo-dark} }
         }
         &.logo-light {
             background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="190.7" height="98.6" viewBox="0 0 190.7 98.6" xml:space="preserve"><rect x="-0.1" y="65" width="191.4" height="22.5" fill="none"/><path d="M10.2 33v23.3H0V0h36.6v8.9H10.2v15.1h24.2v8.9H10.2zM190.7 41.8c0 10-6.9 15.2-17.3 15.2 -10.3 0-17.2-5.7-17.2-15.6v-9.9c0-9.9 6.9-15.7 17.2-15.7 10.4 0 17.3 5.3 17.3 15.3v0.7h-8.9c0-5.7-3.1-8-8.4-8 -5.2 0-8.3 2.7-8.3 8.5v8.3c0 5.8 3 8.5 8.3 8.5 5.3 0 8.4-2.3 8.4-8h8.9V41.8zM67.4 56.4v-4.6l-4.2 2.3c-3.7 2-6.6 2.9-10.5 2.9 -7.1 0-11.9-4.6-11.9-11.4 0-8.3 6.5-12.2 14.8-12.2h11.9v-2.3c0-5.2-3-7.7-8.2-7.7 -5.5 0-8.6 2.3-8.6 7h-8.9v-0.5c0-9 7.1-14.1 17.5-14.1 10.9 0 17.2 5.5 17.2 15v25.7H67.4zM67.4 39.9H56.8c-5.5 0-6.8 2.6-6.8 5.2 0 2.8 1.7 4.5 4.8 4.5 2.5 0 4.6-0.8 6.9-2l5.8-3.1V39.9zM102.8 56.4c-9.2 0-15.2-4.6-15.2-13.7V24.2H81.5v-7.8h6.1V5.6h9.4v10.8h11.1v7.8H97v17.9c0 4.7 2.1 6.3 6.6 6.3h4.7v8H102.8zM148.3 43.8c0 8.1-7 13.3-17.5 13.3 -10.3 0-17.6-5.6-17.6-15.4v-9.5c0-10.1 7.3-16.4 17.6-16.4 10.4 0 17.6 6 17.6 16.5V39.4H121.8v2c0 5.7 3.8 8.2 9 8.2 5.2 0 8.6-1.8 8.6-6.1h8.8V43.8zM139.7 32.2c0-5.7-3.3-8.8-8.9-8.8 -5.6 0-9 3.1-9 8.9v1h17.9V32.2z" fill="#{$fill-logo-white}" class="s0"/></svg>');
@@ -440,6 +443,7 @@ $fill-logo-sp-s4: black;
             &::after {
                 color: #{$fill-logo-white};
             }
+            h1, h2, p, abbr, span { color: #{$fill-logo-white} }
         }
     }
     &.logo-etec {
@@ -450,14 +454,14 @@ $fill-logo-sp-s4: black;
         background-position: top left;
         background-size: 100% !important;
         // 160px!important;
-        max-width: 160px;
+        max-width: 170px;
         height: 65px;
         &::before, &::after, .title, .sub-title {
             position: relative;
             background: transparent;
             text-align: right;
             display: block;
-            max-width: 160px;
+            max-width: 170px;
             /*margin-right: auto;
             margin-left: auto;*/
             /*white-space: nowrap;*/
@@ -468,14 +472,14 @@ $fill-logo-sp-s4: black;
         &::before, .title {
             @extend .h1;
             color: $fill-logo-etec-s1;
-            font-size: 1.2em;
+            font-size: 1.45em;
             margin-top: 70px;
             content: attr(data-title);
         }
         &::after, .sub-title {
             @extend .h2;
             color: $fill-logo-etec-s2;
-            font-size: 1em;
+            font-size: 1.20em;
             margin-top: -5px;
             content: attr(data-sub-title);
         }

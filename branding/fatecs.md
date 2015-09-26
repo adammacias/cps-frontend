@@ -4,229 +4,161 @@ title: Fatecs
 group: branding
 ---
 
-Diretrizes que ajudarão a determinar a melhor maneira de usar o logotipo de Fatecs.
+Diretrizes que ajudarão a determinar a melhor maneira de usar o logotipo da Fatec.
 {: .lead}
-
-É importante seguir os procedimentos descritos, a fim de alcançarmos os objetivos propostos.
 
 ## Conteúdo
 
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
+## Uso geral
+
+É importante seguir os procedimentos descritos, a fim de alcançarmos os objetivos propostos.
+{: .lead}
+
+- Por favor, não edite, altere, distorça, altere a cor ou reconfigure o logo.
+- Por favor, não tente embelezar nosso logotipo com sombras, padrões, fundos complexos ou joias de ouro elaboradas.
+
 ## Logo
 
-Por favor, não edite, altere, distorça, altere a cor ou reconfigure o logo.
-
-<div class="thumbnail docs-logo">
-    <span class="logo logo-fatec">
-        <h2 class="sr-only">Fatec</h2>
-      </span>
-    <p>Logo principal Fatec.</p>
-</div>
-<figure class="thumbnail docs-logo hidden">
-    <img src="{{ " assets/brand/logo-fatec.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-    <figcaption>Logo principal Fatec.</figcaption>
-</figure>
+Confira recomendações de como utilizar o logotipo.
+{: .lead}
 
 ### Elenco de cores
 
-Por favor, não tente embelezar nosso logotipo com sombras, padrões, fundos complexos ou joias de ouro elaboradas.
-
-<div class="row">
-    <div class="col-sm-4">
-        <div class="thumbnail docs-logo">
-            <span class="logo logo-fatec">
-                <h2 class="sr-only"><abbr title="Faculdade de Tecnologia">Fatec</abbr></h2>
-              </span>
-            <p>Padrão</p>
-        </div>
-        <figure class="thumbnail docs-logo hidden">
-            <img src="{{ " assets/brand/logo-fatec.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-            <figcaption>Padrão</figcaption>
-        </figure>
-    </div>
-    <div class="col-sm-4">
-        <div class="thumbnail docs-logo" style="background:black">
-            <span class="logo logo-fatec logo-light">
-                <h2 class="sr-only"><abbr title="Faculdade de Tecnologia">Fatec</abbr></h2>
-              </span>
-            <p>Claro</p>
-        </div>
-        <figure class="thumbnail docs-logo hidden" style="background:black">
-            <img src="{{ " assets/brand/logo-fatec-light.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-            <figcaption>Claro</figcaption>
-        </figure>
-    </div>
-    <div class="col-sm-4">
-        <div class="thumbnail docs-logo">
-            <span class="logo logo-fatec logo-dark">
-                <h2 class="sr-only"><abbr title="Faculdade de Tecnologia">Fatec</abbr></h2>
-              </span>
-            <p>Escuro</p>
-        </div>
-        <figure class="thumbnail docs-logo hidden">
-            <img src="{{ " assets/brand/logo-fatec-dark.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-            <figcaption>Escuro</figcaption>
-        </figure>
-    </div>
-</div>
-
-### Aplicação em Fundos
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Cores variadas do logotipo para determinadas situações.
 
 #### Versão principal
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Usado sempre que possível e em fundos mais claros. Use as classes `logo logo-fatec`.
+
+{% example html %}
+<span class="logo logo-fatec">
+  <span class="sr-only">Fatec</span>
+  <p>Faculdade de Tecnologia</p>
+</span>
+{% endexample %}
+
+#### Versão escura
+
+Usado em fundos mais claros. Basta acrescente a classe `logo-dark`.
+
+{% example html %}
+<span class="logo logo-fatec logo-dark">
+  <span class="sr-only">Fatec</span>
+  <p>Faculdade de Tecnologia</p>
+</span>
+{% endexample %}
+
+#### Versão clara
+
+Usado em fundos mais escuros. Basta acrescente a classe `logo-light`.
+
+{% example html %}
+<span class="logo logo-fatec logo-light" style="background-color: #283337">
+  <span class="sr-only">Fatec</span>
+  <p>Faculdade de Tecnologia</p>
+</span>
+{% endexample %}
+
+### Aplicação em Fundos
+
+Procure aplicar nosso logotipo em fundos com cores do {{ site.title }}. Confira nossa [tabela de cores]({{ "branding/overview/#cores" | prepend: site.baseurl | prepend: site.url }}).
+{: .lead}
+
+#### Versão principal
 
 <div class="row">
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-branco-bg">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-branco-bg">
             <span class="logo logo-fatec">
-                <h2 class="sr-only"><abbr title="Faculdade de Tecnologia">Fatec</abbr></h2>
-              </span>
-            <p>Fundo Branco</p>
+              <span class="sr-only">Fatec</span>
+              <p>Faculdade de Tecnologia</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-branco-bg hidden">
-            <img src="{{ " assets/brand/logo-fatec.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-            <figcaption>Fundo Branco</figcaption>
-        </figure>
+        <p>Fundo Branco</p>
     </div>
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-cinza-claro-extra-bg">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-cinza-claro-extra-bg">
             <span class="logo logo-fatec">
-                <h2 class="sr-only"><abbr title="Faculdade de Tecnologia">Fatec</abbr></h2>
-              </span>
-            <p>Fundo Cinza Claro Extra</p>
+              <span class="sr-only">Fatec</span>
+              <p>Faculdade de Tecnologia</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-cinza-claro-extra-bg hidden">
-            <img src="{{ " assets/brand/logo-fatec.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-            <figcaption>Fundo Cinza Claro Extra</figcaption>
-        </figure>
+        <p>Fundo Cinza Claro Extra</p>
     </div>
 </div>
 
-#### Versão positiva
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Versão escura
 
 <div class="row">
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-branco-bg" style="color:#000">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-branco-bg">
             <span class="logo logo-fatec logo-dark">
-                <h2 class="sr-only"><abbr title="Faculdade de Tecnologia">Fatec</abbr></h2>
-              </span>
-            <p>Fundo Branco</p>
+              <span class="sr-only">Fatec</span>
+              <p>Faculdade de Tecnologia</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-branco-bg hidden" style="color:#000">
-            <img src="{{ " assets/brand/logo-fatec-dark.png " | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="300">
-            <figcaption>Fundo Branco</figcaption>
-        </figure>
+        <p>Fundo Branco</p>
     </div>
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-cinza-claro-extra-bg" style="color:#000">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-cinza-claro-extra-bg">
             <span class="logo logo-fatec logo-dark">
-                <h2 class="sr-only"><abbr title="Faculdade de Tecnologia">Fatec</abbr></h2>
-              </span>
-            <p>Fundo Cinza Claro Extra</p>
+              <span class="sr-only">Fatec</span>
+              <p>Faculdade de Tecnologia</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-cinza-claro-extra-bg hidden" style="color:#000">
-            <img src="{{ " assets/brand/logo-fatec-dark.png " | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="300">
-            <figcaption>Fundo Cinza Claro Extra</figcaption>
-        </figure>
+        <p>Fundo Cinza Claro Extra</p>
     </div>
 </div>
 
-#### Versão negativa
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Versão clara
 
 <div class="row">
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-cinza-escuro-bg" style="color:#fff">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-cinza-escuro-bg">
             <span class="logo logo-fatec logo-light">
-                <h2 class="sr-only"><abbr title="Faculdade de Tecnologia">Fatec</abbr></h2>
-              </span>
-            <p>Fundo Cinza Escuro</p>
+              <span class="sr-only">Fatec</span>
+              <p>Faculdade de Tecnologia</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-cinza-escuro-bg hidden" style="color:#fff">
-            <img src="{{ " assets/brand/logo-fatec-light.png " | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="300">
-            <figcaption>Fundo Cinza Escuro</figcaption>
-        </figure>
+        <p>Fundo Cinza Escuro</p>
     </div>
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-cinza-escuro-extra-bg" style="color:#fff">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-cinza-escuro-extra-bg">
             <span class="logo logo-fatec logo-light">
-                <h2 class="sr-only"><abbr title="Faculdade de Tecnologia">Fatec</abbr></h2>
-              </span>
-            <p>Fundo Cinza Escuro Extra</p>
+              <span class="sr-only">Fatec</span>
+              <p>Faculdade de Tecnologia</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-cinza-escuro-extra-bg hidden" style="color:#fff">
-            <img src="{{ " assets/brand/logo-fatec-light.png " | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="300">
-            <figcaption>Fundo Cinza Escuro Extra</figcaption>
-        </figure>
+        <p>Fundo Cinza Escuro Extra</p>
     </div>
 </div>
 
 ### Uso específico
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Versão do logotipo usada para unidades específicas.
 
 #### Título
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Use o atributo `data-title` para exibir o título da unidade.
 
 {% example html %}
 <span class="logo logo-fatec" data-title="São Paulo">
   <!-- Para leitores de telas -->
-  <h2 class="sr-only">Fatec São Paulo</h2>
+  <h1 class="sr-only">Fatec São Paulo</h1>
 </span>
 {% endexample %}
 
 #### Sub-Título
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Use o atributo `data-sub-title` para exibir o sub-título da unidade.
 
 {% example html %}
 <span class="logo logo-fatec" data-title="Baixada Santista" data-sub-title="Rubens Lara">
   <!-- Para leitores de telas -->
-  <h2 class="sr-only">Fatec Rubens Lara - Baixada Santista</h2>
+  <h1 class="sr-only">Fatec Baixada Santista - Rubens Lara</h1>
 </span>
 {% endexample %}
 
@@ -285,7 +217,7 @@ Escreva "Fatec-XX", substituindo pela sigla da unidade em questão.
 
 **Abreviação**
 
-uando possível, ao usar o nome da unidade "Fatec-XX", procure incluir junto com `<abbr>`.
+Quando possível, ao usar o nome da unidade "Fatec-XX", procure incluir junto com `<abbr>`.
 {: .lead}
 
 {% example html %}

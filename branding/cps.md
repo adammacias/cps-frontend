@@ -4,7 +4,7 @@ title: Centro Paula Souza
 group: branding
 ---
 
-Diretrizes que ajudarão a determinar a melhor maneira de usar o logotipo do Centro Paula Souza e Governo do Estado de São Paulo.
+Diretrizes que ajudarão a determinar a melhor maneira de usar os logotipos do Centro Paula Souza e Governo do Estado de São Paulo.
 {: .lead}
 
 É importante seguir os procedimentos descritos, a fim de alcançarmos os objetivos propostos.

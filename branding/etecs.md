@@ -4,256 +4,170 @@ title: Etecs
 group: branding
 ---
 
-Diretrizes que ajudarão a determinar a melhor maneira de usar o logotipo de Etecs.
-{: .lead}
 
-É importante seguir os procedimentos descritos, a fim de alcançarmos os objetivos propostos.
+Diretrizes que ajudarão a determinar a melhor maneira de usar o logotipo da Etec.
+{: .lead}
 
 ## Conteúdo
 
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
+## Uso geral
+
+É importante seguir os procedimentos descritos, a fim de alcançarmos os objetivos propostos.
+{: .lead}
+
+- Por favor, não edite, altere, distorça, altere a cor ou reconfigure o logo.
+- Por favor, não tente embelezar nosso logotipo com sombras, padrões, fundos complexos ou joias de ouro elaboradas.
+
 ## Logo
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-<div class="alert alert-danger">Por favor, não edite, altere, distorça, altere a cor ou reconfigure o logo.</div>
-<div class="thumbnail docs-logo">
-    <span class="logo logo-etec">
-        <h2 class="sr-only">Etec</h2>
-      </span>
-    <p>Logo principal Etec.</p>
-</div>
-<figure class="thumbnail docs-logo hidden">
-    <img src="{{ " assets/brand/logo-etec.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-    <figcaption>Logo principal Etec.</figcaption>
-</figure>
+Confira recomendações de como utilizar o logotipo.
+{: .lead}
 
 ### Elenco de cores
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Cores variadas do logotipo para determinadas situações.
 
-<div class="alert alert-danger">Por favor, não tente embelezar nosso logotipo com sombras, padrões, fundos complexos ou joias de ouro elaboradas.</div>
-<div class="row">
-    <div class="col-sm-4">
-        <div class="thumbnail docs-logo">
-            <span class="logo logo-etec">
-                <h2 class="sr-only"><abbr title="Escola Técnica">Etec</abbr></h2>
-              </span>
-            <p>Padrão</p>
-        </div>
-        <figure class="thumbnail docs-logo hidden">
-            <img src="{{ " assets/brand/logo-etec.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-            <figcaption>Padrão</figcaption>
-        </figure>
-    </div>
-    <div class="col-sm-4">
-        <div class="thumbnail docs-logo" style="background:black">
-            <span class="logo logo-etec logo-light">
-                <h2 class="sr-only"><abbr title="Escola Técnica">Etec</abbr></h2>
-              </span>
-            <p>Claro</p>
-        </div>
-        <figure class="thumbnail docs-logo hidden" style="background:black">
-            <img src="{{ " assets/brand/logo-etec-light.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-            <figcaption>Claro</figcaption>
-        </figure>
-    </div>
-    <div class="col-sm-4">
-        <div class="thumbnail docs-logo">
-            <span class="logo logo-etec logo-dark">
-                <h2 class="sr-only"><abbr title="Escola Técnica">Etec</abbr></h2>
-              </span>
-            <p>Escuro</p>
-        </div>
-        <figure class="thumbnail docs-logo hidden">
-            <img src="{{ " assets/brand/logo-etec-dark.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-            <figcaption>Escuro</figcaption>
-        </figure>
-    </div>
-</div>
+#### Versão principal
+
+Usado sempre que possível e em fundos mais claros. Use as classes `logo logo-etec`.
+
+{% example html %}
+<span class="logo logo-etec">
+  <span class="sr-only">Etec</span>
+  <p>Escola Técnica Estadual</p>
+</span>
+{% endexample %}
+
+#### Versão escura
+
+Usado em fundos mais claros. Basta acrescente a classe `logo-dark`.
+
+{% example html %}
+<span class="logo logo-etec logo-dark">
+  <span class="sr-only">Etec</span>
+  <p>Escola Técnica Estadual</p>
+</span>
+{% endexample %}
+
+#### Versão clara
+
+Usado em fundos mais escuros. Basta acrescente a classe `logo-light`.
+
+{% example html %}
+<span class="logo logo-etec logo-light" style="background-color: #283337">
+  <span class="sr-only">Etec</span>
+  <p>Escola Técnica Estadual</p>
+</span>
+{% endexample %}
 
 ### Aplicação em Fundos
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Procure aplicar nosso logotipo em fundos com cores do {{ site.title }}. Confira nossa [tabela de cores]({{ "branding/overview/#cores" | prepend: site.baseurl | prepend: site.url }}).
+{: .lead}
 
-#### Logo Padrão
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Versão principal
 
 <div class="row">
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-branco-bg">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-branco-bg">
             <span class="logo logo-etec">
-                <h2 class="sr-only"><abbr title="Escola Técnica">Etec</abbr></h2>
-              </span>
-            <p>Fundo Branco</p>
+              <span class="sr-only">Etec</span>
+              <p>Escola Técnica Estadual</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-branco-bg hidden">
-            <img src="{{ " assets/brand/logo-etec.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-            <figcaption>Fundo Branco</figcaption>
-        </figure>
+        <p>Fundo Branco</p>
     </div>
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-cinza-claro-extra-bg">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-cinza-claro-extra-bg">
             <span class="logo logo-etec">
-                <h2 class="sr-only"><abbr title="Escola Técnica">Etec</abbr></h2>
-              </span>
-            <p>Fundo Cinza Claro Extra</p>
+              <span class="sr-only">Etec</span>
+              <p>Escola Técnica Estadual</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-cinza-claro-extra-bg hidden">
-            <img src="{{ " assets/brand/logo-etec.png " | prepend: site.baseurl | prepend: site.url }}" width="300">
-            <figcaption>Fundo Cinza Claro Extra</figcaption>
-        </figure>
+        <p>Fundo Cinza Claro Extra</p>
     </div>
 </div>
 
-#### Logo Escuro
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Versão escura
 
 <div class="row">
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-branco-bg" style="color:#000">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-branco-bg">
             <span class="logo logo-etec logo-dark">
-                <h2 class="sr-only"><abbr title="Escola Técnica">Etec</abbr></h2>
-              </span>
-            <p>Fundo Branco</p>
+              <span class="sr-only">Etec</span>
+              <p>Escola Técnica Estadual</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-branco-bg hidden" style="color:#000">
-            <img src="{{ " assets/brand/logo-etec-dark.png " | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="300">
-            <figcaption>Fundo Branco</figcaption>
-        </figure>
+        <p>Fundo Branco</p>
     </div>
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-cinza-claro-extra-bg" style="color:#000">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-cinza-claro-extra-bg">
             <span class="logo logo-etec logo-dark">
-                <h2 class="sr-only"><abbr title="Escola Técnica">Etec</abbr></h2>
-              </span>
-            <p>Fundo Cinza Claro Extra</p>
+              <span class="sr-only">Etec</span>
+              <p>Escola Técnica Estadual</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-cinza-claro-extra-bg hidden" style="color:#000">
-            <img src="{{ " assets/brand/logo-etec-dark.png " | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="300">
-            <figcaption>Fundo Cinza Claro Extra</figcaption>
-        </figure>
+        <p>Fundo Cinza Claro Extra</p>
     </div>
 </div>
 
-#### Logo Claro
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Versão clara
 
 <div class="row">
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-cinza-escuro-bg" style="color:#fff">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-cinza-escuro-bg">
             <span class="logo logo-etec logo-light">
-                <h2 class="sr-only"><abbr title="Escola Técnica">Etec</abbr></h2>
-              </span>
-            <p>Fundo Cinza Escuro</p>
+              <span class="sr-only">Etec</span>
+              <p>Escola Técnica Estadual</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-cinza-escuro-bg hidden" style="color:#fff">
-            <img src="{{ " assets/brand/logo-etec-light.png " | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="300">
-            <figcaption>Fundo Cinza Escuro</figcaption>
-        </figure>
+        <p>Fundo Cinza Escuro</p>
     </div>
-    <div class="col-sm-6">
-        <div class="thumbnail docs-logo palette-cinza-escuro-extra-bg" style="color:#fff">
+    <div class="col-sm-6 text-center">
+        <div class="thumbnail palette-cinza-escuro-extra-bg">
             <span class="logo logo-etec logo-light">
-                <h2 class="sr-only"><abbr title="Escola Técnica">Etec</abbr></h2>
-              </span>
-            <p>Fundo Cinza Escuro Extra</p>
+              <span class="sr-only">Etec</span>
+              <p>Escola Técnica Estadual</p>
+            </span>
         </div>
-        <figure class="thumbnail docs-logo palette-cinza-escuro-extra-bg hidden" style="color:#fff">
-            <img src="{{ " assets/brand/logo-etec-light.png " | prepend: site.baseurl | prepend: site.url }}" class="logo-cps" width="300">
-            <figcaption>Fundo Cinza Escuro Extra</figcaption>
-        </figure>
+        <p>Fundo Cinza Escuro Extra</p>
     </div>
 </div>
 
 ### Uso específico
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Versão do logotipo usada para unidades específicas.
 
 #### Título
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Use o atributo `data-title` para exibir o título da unidade.
 
-<div class="bs-example docs-logo">
-    <span class="logo logo-etec" data-title="São Paulo">
-      <h2 class="sr-only">Etec São Paulo</h2>
-    </span>
-    <p>Logo Etec São Paulo</p>
-</div>
-{% highlight html %}
+{% example html %}
 <span class="logo logo-etec" data-title="São Paulo">
   <!-- Para leitores de telas -->
-  <h2 class="sr-only">Etec São Paulo</h2>
-</span> {% endhighlight %}
+  <h1 class="sr-only">Etec São Paulo</h1>
+</span>
+{% endexample %}
 
 #### Sub-Título
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Use o atributo `data-sub-title` para exibir o sub-título da unidade.
 
-<div class="bs-example docs-logo">
-    <span class="logo logo-etec" data-title="Santa Ifigênia" data-sub-title="São Paulo">
-      <h2 class="sr-only">Etec Santa Ifigênia - São Paulo</h2>
-    </span>
-    <p>Logo Etec Santa Ifigênia - São Paulo</p>
-</div>
-{% highlight html %}
+{% example html %}
 <span class="logo logo-etec" data-title="Santa Ifigênia" data-sub-title="São Paulo">
   <!-- Para leitores de telas -->
-  <h2 class="sr-only">Etec Santa Ifigênia - São Paulo</h2>
-</span> {% endhighlight %}
+  <h1 class="sr-only">Etec Santa Ifigênia - São Paulo</h1>
+</span>
+{% endexample %}
 
 ## Texto
-<p class="lead">Escreva "Etec" em texto simples em vez de incorporar o logotipo no texto.</p>
+
+Escreva "Etec" em texto simples em vez de incorporar o logotipo no texto.
+{: .lead}
+
 <ul class="list-group">
     <li class="list-group-item">
         <span class="label label-success"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>
@@ -275,16 +189,14 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 **Abreviação**
 
-<p class="lead">Quando possível, ao usar o nome "Etec", procure incluir junto com <code>&lt;abbr&gt;</code>.</p>
-<div class="bs-example" data-example-id="basic-forms">
-    <abbr title="Escola Técnica">Etec</abbr>
-</div>
-<!-- /example -->
-{% highlight html %}
-<abbr title="Escola Técnica">Etec</abbr>
-{% endhighlight %}
+Quando possível, ao usar o nome "Etec", procure incluir junto com `<abbr>`.
+{: .lead}
 
-### Texto específico
+{% example html %}
+<abbr title="Escola Técnica Estadual">Etec</abbr>
+{% endexample %}
+
+### Uso específico
 
 <p class="lead">Escreva "Etec-XX", substituindo pela sigla da unidade em questão.</p>
 <ul class="list-group">
@@ -304,11 +216,9 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 **Abreviação**
 
-<p class="lead">Quando possível, ao usar o nome da unidade "Etec-XX", procure incluir junto com <code>&lt;abbr&gt;</code>.</p>
-<div class="bs-example" data-example-id="basic-forms">
-    <abbr title="Escola Técnica de São Paulo">Etec-SP</abbr>
-</div>
-<!-- /example -->
-{% highlight html %}
+Quando possível, ao usar o nome da unidade "Etec-XX", procure incluir junto com `<abbr>`.
+{: .lead}
+
+{% example html %}
 <abbr title="Escola Técnica de São Paulo">Etec-SP</abbr>
-{% endhighlight %}
+{% endexample %}
