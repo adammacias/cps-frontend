@@ -8,7 +8,7 @@ redirect_from: "/branding/"
 Manual de uso das cores e tipografia do {{ site.title }} e download de arquivos para designers, tais como fonts de texto ou logotipos de Etecs, Fatecs, Centro Paula Souza e Governo do Estado de São Paulo.
 {: .lead}
 
-## Contents
+## Conteúdo
 
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}

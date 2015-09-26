@@ -56,7 +56,7 @@ Usado em fundos mais claros. Basta acrescente a classe `logo-dark`.
 Usado em fundos mais escuros. Basta acrescente a classe `logo-light`.
 
 {% example html %}
-<span class="logo logo-fatec logo-light" style="background-color: #283337">
+<span class="logo logo-fatec logo-light">
   <span class="sr-only">Fatec</span>
   <p>Faculdade de Tecnologia</p>
 </span>

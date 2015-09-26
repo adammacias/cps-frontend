@@ -12,7 +12,7 @@ sass:
 # Site settings
 permalink: pretty
 title: CPS Front-end
-description: Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
+description: Guia de estilos do Centro Paula Souza para desenvolvedores web.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 baseurl_content: "http://localhost:4000/assets/" # put path absolute
 url: "http://localhost:4000" # the base hostname & protocol for your site

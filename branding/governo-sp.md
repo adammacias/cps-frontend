@@ -1,10 +1,10 @@
 ---
 layout: docs
-title: Centro Paula Souza
+title: Governo do estado de São Paulo
 group: branding
 ---
 
-Diretrizes que ajudarão a determinar a melhor maneira de usar o logotipo do Centro Paula Souza.
+Diretrizes que ajudarão a determinar a melhor maneira de usar o logotipo do Governo do estado de São Paulo.
 {: .lead}
 
 ## Conteúdo
@@ -31,11 +31,11 @@ Cores variadas do logotipo para determinadas situações.
 
 #### Versão principal
 
-Usado sempre que possível e em fundos mais claros. Use as classes `logo logo-cps`.
+Usado sempre que possível e em fundos mais claros. Use as classes `logo logo-governo-sp`.
 
 {% example html %}
-<span class="logo logo-cps">
-  <span class="sr-only">Centro Paula Souza</span>
+<span class="logo logo-governo-sp">
+  <span class="sr-only">Governo do estado de São Paulo</span>
 </span>
 {% endexample %}
 
@@ -44,8 +44,8 @@ Usado sempre que possível e em fundos mais claros. Use as classes `logo logo-cp
 Usado em fundos mais claros. Basta acrescente a classe `logo-dark`.
 
 {% example html %}
-<span class="logo logo-cps logo-dark">
-  <span class="sr-only">Centro Paula Souza</span>
+<span class="logo logo-governo-sp logo-dark">
+  <span class="sr-only">Governo do estado de São Paulo</span>
 </span>
 {% endexample %}
 
@@ -54,8 +54,8 @@ Usado em fundos mais claros. Basta acrescente a classe `logo-dark`.
 Usado em fundos mais escuros. Basta acrescente a classe `logo-light`.
 
 {% example html %}
-<span class="logo logo-cps logo-light">
-  <span class="sr-only">Centro Paula Souza</span>
+<span class="logo logo-governo-sp logo-light">
+  <span class="sr-only">Governo do estado de São Paulo</span>
 </span>
 {% endexample %}
 
@@ -69,16 +69,16 @@ Procure aplicar nosso logotipo em fundos com cores do {{ site.title }}. Confira 
 <div class="row">
     <div class="col-sm-6 text-center">
         <div class="thumbnail palette-branco-bg">
-            <span class="logo logo-cps">
-              <span class="sr-only">Centro Paula Souza</span>
+            <span class="logo logo-governo-sp">
+              <span class="sr-only">Governo do estado de São Paulo</span>
             </span>
         </div>
         <p>Fundo Branco</p>
     </div>
     <div class="col-sm-6 text-center">
         <div class="thumbnail palette-cinza-claro-extra-bg">
-            <span class="logo logo-cps">
-              <span class="sr-only">Centro Paula Souza</span>
+            <span class="logo logo-governo-sp">
+              <span class="sr-only">Governo do estado de São Paulo</span>
             </span>
         </div>
         <p>Fundo Cinza Claro Extra</p>
@@ -90,16 +90,16 @@ Procure aplicar nosso logotipo em fundos com cores do {{ site.title }}. Confira 
 <div class="row">
     <div class="col-sm-6 text-center">
         <div class="thumbnail palette-branco-bg">
-            <span class="logo logo-cps logo-dark">
-              <span class="sr-only">Centro Paula Souza</span>
+            <span class="logo logo-governo-sp logo-dark">
+              <span class="sr-only">Governo do estado de São Paulo</span>
             </span>
         </div>
         <p>Fundo Branco</p>
     </div>
     <div class="col-sm-6 text-center">
         <div class="thumbnail palette-cinza-claro-extra-bg">
-            <span class="logo logo-cps logo-dark">
-              <span class="sr-only">Centro Paula Souza</span>
+            <span class="logo logo-governo-sp logo-dark">
+              <span class="sr-only">Governo do estado de São Paulo</span>
             </span>
         </div>
         <p>Fundo Cinza Claro Extra</p>
@@ -111,16 +111,16 @@ Procure aplicar nosso logotipo em fundos com cores do {{ site.title }}. Confira 
 <div class="row">
     <div class="col-sm-6 text-center">
         <div class="thumbnail palette-cinza-escuro-bg">
-            <span class="logo logo-cps logo-light">
-              <span class="sr-only">Centro Paula Souza</span>
+            <span class="logo logo-governo-sp logo-light">
+              <span class="sr-only">Governo do estado de São Paulo</span>
             </span>
         </div>
         <p>Fundo Cinza Escuro</p>
     </div>
     <div class="col-sm-6 text-center">
         <div class="thumbnail palette-cinza-escuro-extra-bg">
-            <span class="logo logo-cps logo-light">
-              <span class="sr-only">Centro Paula Souza</span>
+            <span class="logo logo-governo-sp logo-light">
+              <span class="sr-only">Governo do estado de São Paulo</span>
             </span>
         </div>
         <p>Fundo Cinza Escuro Extra</p>
@@ -129,29 +129,29 @@ Procure aplicar nosso logotipo em fundos com cores do {{ site.title }}. Confira 
 
 ## Texto
 
-Escreva "Centro Paula Souza" em texto simples em vez de incorporar o logotipo no texto.
+Escreva "Governo do estado de São Paulo" em texto simples em vez de incorporar o logotipo no texto.
 {: .lead}
 
 <ul class="list-group">
   <li class="list-group-item">
     <span class="label label-success"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>
-    <span class="sr-only">(Correto)</span> Centro Paula Souza
+    <span class="sr-only">(Correto)</span> Governo do estado de São Paulo
   </li>
   <li class="list-group-item">
     <span class="label label-danger"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></span>
-    <span class="sr-only">(Errado)</span> centro paula souza
+    <span class="sr-only">(Errado)</span> Governo Do Estado De são paulo
   </li>
   <li class="list-group-item">
     <span class="label label-danger"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></span>
-    <span class="sr-only">(Errado)</span> CentroPaulaSouza
+    <span class="sr-only">(Errado)</span> governo do estado de são Paulo
   </li>
 </ul>
 
 **Abreviação**
 
-Caso necessite usar sigla "CPS", não deixe de incluir junto com `<abbr>`.
+Caso necessite usar sigla "SP", não deixe de incluir junto com `<abbr>`.
 {: .lead}
 
 {% example html %}
-<abbr title="Centro Paula Souza">CPS</abbr>
+Governo do estado de <abbr title="São Paulo">SP</abbr>
 {% endexample %}
