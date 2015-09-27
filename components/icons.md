@@ -4,14 +4,21 @@ title: Ícones
 group: components
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Incluimos a biblioteca [Font Awesome](https://fortawesome.github.io/Font-Awesome/) no {{ site.title }}, com isso, você pode usar mais de +585 ícones sem nenhum esforço.
+{: .lead}
 
-## Contents
+## Exemplo
 
-* Will be replaced with the ToC, excluding the "Contents" header
-{:toc}
+Veja um exemplo básico de utilização.
+
+{% example html %}
+<i class="fa fa-graduation-cap fa-lg"></i> fa-lg
+<i class="fa fa-graduation-cap fa-2x"></i> fa-2x
+<i class="fa fa-graduation-cap fa-3x"></i> fa-3x
+<i class="fa fa-graduation-cap fa-4x"></i> fa-4x
+<i class="fa fa-graduation-cap fa-5x"></i> fa-5x
+{% endexample %}
+
+## Documentação
+
+Visualize outros ícones disponíveis e exemplos na **[documentação do Font Awesome](https://fortawesome.github.io/Font-Awesome/)**.
