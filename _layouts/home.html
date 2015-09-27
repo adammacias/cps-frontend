@@ -4,7 +4,11 @@
     {% include head.html %}
   </head>
   <body class="home">
-    <a id="skippy" class="sr-only sr-only-focusable" href="#main"><div class="container"><span class="skiplink-text">Pular para conteúdo</span></div></a>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#main">
+      <div class="container">
+        <span class="skiplink-text">Pular para conteúdo</span>
+      </div>
+    </a>
 
     {% include header.html %}
 
@@ -12,7 +16,7 @@
       <div class="container">
         <h1 class="entry-title">{{ site.title }}</h1>
         <p class="lead">{{ site.description }}</p>
-        <p><a href="" class="btn btn-primary btn-lg">Ponto de partida</a></p>
+        <p><a href="{{ "getting-started/introduction/" | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary btn-lg">Ponto de partida</a> — ou — <a href="{{ "getting-started/install/#via-download" | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary btn-lg">Download</a></p>
       </div>
     </header>
 

@@ -2,20 +2,26 @@
 layout: home
 ---
 
+<p class="lead">Desenhado com base nas normas do manual de identidade visual oficial do Centro Paula Souza.</p>
+
+<hr>
+
 <section class="section">
   <div class="row">
     <article class="col-md-4">
-      <i class="fa fa-github-alt"></i>
-      <h2>Identidade Visual</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+      <i class="fa fa-code fa-5x"></i>
+      <h3>Front-end</h3>
+      <p>O {{ site.title }} foi construído a partir do framework Bootstrap, isto significa que, provavelmente ao usar-lo você se familiarizará.</p>
     </article>
     <article class="col-md-4">
-      <h2>Bootstrap</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+      <i class="fa fa-file-text-o fa-5x"></i>
+      <h3>Templates</h3>
+      <p>Muitos modelos de templates para você se basear ao desenhar suas páginas e aplicativos web.</p>
     </article>
     <article class="col-md-4">
-      <h2>Alguma coisa</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+      <i class="fa fa-file-code-o fa-5x"></i>
+      <h3>Boas práticas</h3>
+      <p>Dicas práticas para organizar e desenvolver código mais limpo, flexível e reaproveitável.</p>
     </article>
   </div>
 </section>
@@ -23,17 +29,15 @@ layout: home
 <hr>
 
 <section class="section">
-  <div class="text-center">
-    <h2>Criado com Centro Paula Souza Guia de Estilos</h2>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-  </div>
+  <h2>Criado com Centro Paula Souza Guia de Estilos</h2>
+  <p class="lead">Páginas e aplicativos web de Fatecs e Etecs.</p>
   <div class="row">
     {% for case in site.data.showcases %}
-      <div class="col-xs-12 col-sm-8 col-md-offset-2">
+      <div class="col-md-3">
         <a class="thumbnail" href="{{ case.url }}" target="_blank" title="{{ case.title }}">
           <img src="{{ site.baseurl_content }}showcases/{{ case.screenshot }}" alt="{{ case.title }}" class="img-responsive">
           <div class="caption">
-            <h5>{{ case.title }}</h5>
+            <p><strong>{{ case.title }}</strong></p>
             <p><small>{{ case.city }}</small></p>
           </div>
         </a>
