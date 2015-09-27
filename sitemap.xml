@@ -52,6 +52,9 @@
     <loc>http://adammacias.github.io/cps-bootstrap//components/forms/</loc>
   </url>
   <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//branding/governo-sp/</loc>
+  </url>
+  <url>
     <loc>http://adammacias.github.io/cps-bootstrap//components/grid/</loc>
   </url>
   <url>
@@ -67,19 +70,19 @@
     <loc>http://adammacias.github.io/cps-bootstrap//content/images/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/calendario/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/barra-lateral/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/curso/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/blog/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/basico/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/barra-lateral/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/institucional/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/basico/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/home/</loc>
@@ -88,7 +91,7 @@
     <loc>http://adammacias.github.io/cps-bootstrap//templates/contato/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/calendario/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/projeto/</loc>
@@ -103,7 +106,7 @@
     <loc>http://adammacias.github.io/cps-bootstrap//templates/tema/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/curso/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/vestibular/</loc>
@@ -175,10 +178,10 @@
     <loc>http://adammacias.github.io/cps-bootstrap//getting-started/template-base/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//content/typography/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//branding/typography/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//branding/typography/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//content/typography/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//components/utilities/</loc>
