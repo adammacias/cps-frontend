@@ -89,23 +89,18 @@ indent_size = 4
 
 ## HTML
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Dicas de formatação para deixar seu código HTML mais organizado, legível e semântico. Procure sempre usar a [ferramenta de validação da W3C](http://validator.w3.org/), eles sabem o que fazem.
+{: .lead}
 
 ### Formatação geral
 
-- http://primercss.io/guidelines/#general-formatting
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- Use tabulação com dois espaço de identação.
+- Parágrafos de texto devem ser sempre colocados dentro da tag `<p>`. Nunca use várias vezes a tag `<br>`.
+- Itens em formato de lista devem estar sempre em `<ul>`, `<ol>` ou `<dl>`. Nunca use um conjunto de `<div>` ou `<p>`.
+- Cada campo do formulário que tem o texto anexado deve utilizar a tag `<label>`. Especialmente os tipo `radio` ou elementos `checkbox`.
+- Apesar das aspas em torno do atributos ser opcional, sempre coloque aspas em torno dos atributos para facilitar a leitura.
+- Evite escrever comentários de fechamento da tag, como `<!-- /.element -->`. Isso só acrescenta mais tempo de carregamento da página..
+- Evite adicionar barra em elementos de fecho automático. Por exemplo, `<br>`, `<hr>`, `<img>`, e `<input>`.
 
 ### Atributos booleanos
 
