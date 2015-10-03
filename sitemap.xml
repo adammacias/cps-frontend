@@ -46,9 +46,6 @@
     <loc>http://adammacias.github.io/cps-bootstrap//content/figures/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//layout/footer/</loc>
-  </url>
-  <url>
     <loc>http://adammacias.github.io/cps-bootstrap//components/forms/</loc>
   </url>
   <url>
@@ -56,9 +53,6 @@
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//components/grid/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//layout/header/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//about/history/</loc>
@@ -118,13 +112,10 @@
     <loc>http://adammacias.github.io/cps-bootstrap//getting-started/install/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//layout/introduction/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//content/introduction/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//getting-started/introduction/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//content/introduction/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//components/label/</loc>
@@ -137,9 +128,6 @@
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//components/list-group/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//layout/main/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//components/media-object/</loc>
@@ -178,10 +166,10 @@
     <loc>http://adammacias.github.io/cps-bootstrap//getting-started/template-base/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//branding/typography/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//content/typography/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//content/typography/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//branding/typography/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//components/utilities/</loc>
