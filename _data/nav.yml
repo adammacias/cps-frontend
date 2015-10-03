@@ -10,18 +10,6 @@
     - title: Boas práticas
       slug: best-practices
 
-- title: Layout
-  slug: layout
-  pages:
-    - title: Introdução
-      slug: introduction
-    - title: Cabeçalho
-      slug: header
-    - title: Conteúdo da página
-      slug: main
-    - title: Rodapé
-      slug: footer
-
 - title: Estilos
   slug: content
   pages:
