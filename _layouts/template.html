@@ -17,7 +17,11 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <body{% if page.body_class %} class="{{ page.body_class }}"{% endif  %}>
-      <a id="skippy" class="sr-only sr-only-focusable" href="#content"><div class="container"><span class="skiplink-text">Pular para o conteúdo</span></div></a>
+      <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+        <div class="container">
+          <span class="skiplink-text">Pular para o conteúdo</span>
+        </div>
+      </a>
 
 {{ content }}
 

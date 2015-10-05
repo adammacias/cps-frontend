@@ -103,7 +103,8 @@ a.thumbnail-opacity {
         //
         // Navbar
         //
-        #header .navbar {
+        .cps-navbar {
+            //@extend .navbar;
             border-bottom: 5px solid $color !important;
         }
         //
@@ -238,7 +239,7 @@ body {
 .container {
     max-width: 960px;
     .navbar {
-        @extend .row;
+        //@extend .row;
     }
 }
 
@@ -528,7 +529,7 @@ $fill-logo-sp-s4: black;
     }
 }
 
-#header {
+.cps-header {
     .logo-group {
         @extend .row;
         @extend .hidden-xs;
@@ -567,11 +568,18 @@ $fill-logo-sp-s4: black;
 //
 // Navbar main in #header, with affix effect
 //
-#header .navbar {
-    //@extend .navbar;
+.cps-navbar {
+    @extend .navbar;
     @extend .navbar-inverse;
     width: 100%;
     max-width: 1400px;
+
+    @media (min-width: $screen-md-min){
+      .navbar-nav > li:first-child {
+        margin-left: -15px !important;
+      }
+    }
+
     .navbar-brand {
         font-size: 16px;
         img, svg {
