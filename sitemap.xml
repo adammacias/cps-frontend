@@ -64,46 +64,37 @@
     <loc>http://adammacias.github.io/cps-bootstrap//content/images/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/curso/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/blog/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/barra-lateral/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/institucional/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/basico/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/home/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/contato/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/example-cps/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/calendario/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/projeto/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/css/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/setor/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/tema/</loc>
-  </url>
-  <url>
     <loc>http://adammacias.github.io/cps-bootstrap//</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/vestibular/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/institucional/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/page/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/contato/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/page-sidebar/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/estilos/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/blog/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/page-course/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/home/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/</loc>
@@ -112,10 +103,10 @@
     <loc>http://adammacias.github.io/cps-bootstrap//getting-started/install/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//content/introduction/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//getting-started/introduction/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//getting-started/introduction/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//content/introduction/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//components/label/</loc>
