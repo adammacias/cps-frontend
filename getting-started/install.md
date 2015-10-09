@@ -4,7 +4,7 @@ title: Instalação
 group: getting-started
 ---
 
-É possivel fazer a instalação do {{ site.title }} (Atualmente na v) de duas maneiras, escolha a que for mais adequada às suas necessidades.
+É possivel fazer a instalação do {{ site.title }} (Atualmente na v{{ site.current_version }}) de duas maneiras, escolha a que for mais adequada às suas necessidades.
 {: .lead}
 
 ## Conteúdo

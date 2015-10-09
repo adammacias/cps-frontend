@@ -1,19 +1,258 @@
 # Unidades de Fatecs
 # http://www.centropaulasouza.sp.gov.br/fatec/escolas/
 
+- name: Araçatuba — Fatec Araçatuba - Prof. Fernando Amaral de Almeida Prado
+  url: http://www.fatecaracatuba.edu.br/site/
+  city: Araçatuba
+
+- name: Bebedouro — Fatec Bebedouro - Jorge Caram Sabbag
+  url:
+  city: Bebedouro
+
 - name: Fatec Baixada Santista - Rubens Lara
   url: http://fatecrl.edu.br
   city: Santos
 
-- name: Fatec Americana
-  url: http://www.fatec.edu.br
+- name: Praia Grande — Fatec Praia Grande
+  url: http://www.fatecpg.com.br/
+  city: Praia Grande
+
+- name: Bauru — Fatec Bauru
+  url: http://www.fatecbauru.edu.br/
+  city: Bauru
+  
+- name: Jahu — Fatec Jahu
+  url: http://www.fatecjahu.edu.br/
+  city: Jaú
+
+- name: Lins — Fatec Lins - Prof. Antonio Seabra
+  url: http://www.fateclins.edu.br/site/
+  city: Lins
+  
+- name: Americana — Fatec Americana
+  url: http://www.fatec.edu.br/
   city: Americana
 
-- name: Fatec Araçatuba - Prof. Fernando Amaral de Almeida Prado
-  url: http://www.fatecaracatuba.edu.br
-  city: Araçatuba
+- name: Bragança Paulista — Fatec Bragança Paulista - Jornalista Omair Fagundes de Oliveira
+  url: http://www.fatecbpaulista.edu.br/
+  city: Bragança Paulista
+  
+- name: Campinas — Fatec Campinas
+  url: http://www.fateccampinas.com.br/
+  city: Campinas
 
-- name: Fatec Assis
-  url: http://www.fatecassis.edu.br
+- name: Indaiatuba — Fatec Indaiatuba - Dr. Archimedes Lammoglia
+  url: http://www.fatecid.com.br/
+  city: Indaiatuba
+  
+- name: Itapira — Fatec Itapira - Ogari de Castro Pacheco
+  url:
+  city: Itapira
+
+- name: Jundiaí — Fatec Jundiaí - Deputado Ary Fossen
+  url: http://www.fatecjd.edu.br/site/
+  city: Jundiaí
+  
+- name: Mococa — Fatec Mococa
+  url: http://www.fatecmococa.com.br/
+  city: Mococa
+
+- name: Mogi Mirim — Fatec Mogi Mirim - Arthur de Azevedo
+  url: http://www.fatecmm.edu.br/
+  city: Mogi Mirim
+  
+- name: Piracicaba — Fatec Piracicaba - Deputado Roque Trevisan
+  url: http://fatecpiracicaba.edu.br/
+  city: Piracicaba
+
+- name: Taquaritinga — Fatec Taquaritinga
+  url: http://www.fatectq.edu.br/
+  city: Taquaritinga
+  
+- name: São Carlos — Fatec São Carlos
+  url: http://www.fatecsaocarlos.edu.br/
+  city: São Carlos
+
+- name: Franca — Fatec Franca - Dr. Thomaz Novelino
+  url: http://fatecfranca.edu.br/
+  city: Franca
+  
+- name: Capão Bonito — Fatec Capão Bonito
+  url: http://www.fateccb.edu.br/
+  city: Capão Bonito
+
+- name: Assis — Fatec Assis
+  url: http://www.fatecassis.edu.br/
   city: Assis
+  
+- name: Garça — Fatec Garça - Deputado Julio Julinho Marcondes de Moura
+  url: http://www.fatecgarca.edu.br/
+  city: Garça
 
+- name: Marília — Fatec Marília - Estudante Rafael Almeida Camarinha
+  url: http://novosite.fatecmarilia.edu.br/
+  city: Marília
+  
+- name: Ourinhos — Fatec Ourinhos
+  url: https://www.fatecourinhos.edu.br/
+  city: Ourinhos
+
+- name: Pompeia — Fatec Pompeia - Shunji Nishimura
+  url: http://www.fatecpompeia.edu.br/
+  city: Pompeia
+  
+- name: Barueri — Fatec Barueri - Padre Danilo José de Oliveira Ohl
+  url: http://www.fatecbarueri.edu.br/
+  city: Barueri
+
+- name: Carapicuíba — Fatec Carapicuíba
+  url: http://www.fateccarapicuiba.edu.br/
+  city: Carapicuíba
+
+- name: Cotia — Fatec Cotia
+  url: http://www.fateccotia.com.br/
+  city: Cotia
+
+- name: Diadema — Fatec Diadema - Luigi Papaiz
+  url: http://fateccosmeticos.blogspot.com.br/
+  city: Diadema
+  
+- name: Guarulhos — Fatec Guarulhos
+  url: http://www.fatecguarulhos.edu.br/
+  city: Guarulhos
+
+- name: Itaquaquecetuba — Fatec Itaquaquecetuba
+  url: http://www.fatecitaqua.edu.br/home/
+  city: Itaquaquecetuba
+
+- name: Mauá — Fatec Mauá
+  url: http://www.fatecmaua.com.br/
+  city: Mauá
+
+- name: Mogi das Cruzes — Fatec Mogi das Cruzes
+  url: http://www.fatecmogidascruzes.com.br/
+  city: Mogi das Cruzes
+  
+- name: Osasco — Fatec Osasco - Prefeito Hirant Sanazar
+  url: http://www.fatecosasco.edu.br/
+  city: Osasco
+
+- name: Santana de Parnaíba — Fatec Santana de Parnaíba
+  url: http://www.fatecsdp.edu.br/
+  city: Santana de Parnaíba
+
+- name: Santo André — Fatec Santo André
+  url: http://fatecsantoandre.edu.br/
+  city: Santo André
+
+- name: São Bernardo do Campo — Fatec São Bernardo do Campo - Adib Moisés Dib
+  url: 
+  city: São Bernardo do Campo
+
+- name: São Caetano do Sul — Fatec São Caetano do Sul - Antonio Russo
+  url: http://www.fatecsaocaetano.edu.br/
+  city: São Caetano do Sul
+
+- name: Ipiranga — Fatec Ipiranga
+  url: http://www.fatecipiranga.edu.br/
+  city: Ipiranga
+  
+- name: Itaquera — Fatec Itaquera – Prof. Miguel Reale
+  url: http://www.fatecitaquera.edu.br/
+  city: Itaquera
+
+- name: São Paulo — Fatec São Paulo
+  url: http://www.fatecsp.br/
+  city: São Paulo
+
+- name: São Paulo — Fatec Sebrae
+  url: http://www.fatecsebrae.edu.br/
+  city: São Paulo
+
+- name: Tatuapé — Fatec Tatuapé - Victor Civita
+  url: http://www.fatectatuape.edu.br/
+  city: Tatuapé
+  
+- name: São Paulo — Fatec Zona Leste
+  url: http://www.fateczl.edu.br/
+  city: São Paulo
+
+- name: São Paulo — Fatec Zona Sul
+  url: http://www.fateczonasul.edu.br/
+  city: São Paulo
+
+- name: Presidente Prudente — Fatec Presidente Prudente
+  url: http://www.fatecpp.edu.br/
+  city: Presidente Prudente
+
+- name: Jaboticabal — Fatec Jaboticabal - Nilo de Stéfani
+  url: http://www.fatecjab.edu.br/
+  city: Jaboticabal
+  
+- name: Sertãozinho — Fatec Sertãozinho - Deputado Waldyr Alceu Trigo
+  url: http://www.fatecsertaozinho.edu.br/
+  city: Sertãozinho
+
+- name: Catanduva — Fatec Catanduva
+  url: http://www.fateccatanduva.edu.br/
+  city: Catanduva
+
+- name: Jales — Fatec Jales
+  url: http://www.fatecjales.edu.br/
+  city: Jales
+
+- name: São José do Rio Preto — Fatec São José do Rio Preto
+  url: http://www.fatecriopreto.edu.br/
+  city: São José do Rio Preto
+  
+- name: Cruzeiro — Fatec Cruzeiro - Prof. Waldomiro May
+  url: http://www.fateccruzeiro.edu.br/
+  city: Cruzeiro
+
+- name: Guaratinguetá — Fatec Guaratinguetá - Prof. João Mod
+  url: http://www.fatecguaratingueta.edu.br/
+  city: Guaratinguetá
+
+- name: Jacareí — Fatec Jacareí
+  url: http://www.fatecjacarei.com.br/
+  city: Jacareí
+
+- name: Pindamonhangaba — Fatec Pindamonhangaba
+  url: http://www.fatecpindamonhangaba.edu.br/
+  city: Pindamonhangaba
+  
+- name: São José dos Campos — Fatec São José dos Campos - Prof. Jessen Vidal
+  url: http://www.fatecsjc.edu.br/
+  city: São José dos Campos
+
+- name: São Sebastião — Fatec São Sebastião - São Sebastião
+  url: http://www.fatecsaosebastiao.edu.br/
+  city: São Sebastião
+
+- name: Taubaté — Fatec Taubaté
+  url: http://www.fatectaubate.edu.br/
+  city: Taubaté
+
+- name: Botucatu — Fatec Botucatu
+  url: http://www.fatecbt.edu.br/site/
+  city: Botucatu
+  
+- name: Itapetininga — Fatec Itapetininga - Prof. Antonio Belizandro Barbosa Rezende
+  url: http://fatecitapetininga.edu.br/
+  city: Itapetininga
+
+- name: Itu — Fatec Itu - Dom Amaury Castanho
+  url: http://www.fatecitu.edu.br/
+  city: Itu
+
+- name: São Roque — Fatec de São Roque
+  url: http://www.fatecsaoroque.edu.br/
+  city: São Roque
+
+- name: Sorocaba — Fatec Sorocaba - José Crespo Gonzales
+  url: http://www.fatecsorocaba.edu.br/
+  city: Sorocaba
+  
+- name: Tatuí — Fatec Tatuí - Prof. Wilson Roberto Ribeiro de Camargo
+  url: http://www.fatectatui.edu.br/
+  city: Tatuí

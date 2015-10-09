@@ -110,7 +110,7 @@ a.thumbnail-opacity {
         //
         // Page Header
         //
-        #header .page-header {
+        .cps-page-header {
             //
             // Background and color
             //
@@ -399,7 +399,10 @@ $fill-logo-sp-s4: black;
         background-size: 100% !important;
         width: 170px;
 
+         p {font-size:14px!important;}
+
         &::before, &::after, .title, .sub-title {
+            font-weight: 700!important;
             position: relative;
             background: transparent;
             text-align: right;
@@ -453,6 +456,7 @@ $fill-logo-sp-s4: black;
         width: 170px;
         height: 65px;
         &::before, &::after, .title, .sub-title {
+            font-weight: 700!important;
             position: relative;
             background: transparent;
             text-align: right;
@@ -465,6 +469,7 @@ $fill-logo-sp-s4: black;
             //float: right;
 
         }
+        p {font-size:14px!important;}
         &::before, .title {
             @extend .h1;
             color: $fill-logo-etec-s1;
@@ -619,7 +624,8 @@ $fill-logo-sp-s4: black;
 //
 // Page Header in #header
 //
-#header .page-header {
+.cps-page-header {
+    @extend .page-header;
     @extend .text-center;
     padding: 30px 30px 140px;
     margin-top: 0;
@@ -652,13 +658,20 @@ $fill-logo-sp-s4: black;
 }
 
 //
-// Wrapper
+// Main
 //
-// Contain the content main and sidebar
+// Contain the content sections, articles and sidebar
 //
-#wrapper {
+
+//#main,#wrapper
+.cps-main {
+    @extend .container;
     background: #fff;
     padding: 0 30px 30px;
+
+    &.cps-main-fluid {
+      @extend .container-fluid;
+    }
 }
 
 // Customize Theme

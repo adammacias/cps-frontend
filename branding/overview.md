@@ -49,9 +49,9 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 A [identidade](http://www.centropaulasouza.sp.gov.br/quem-somos/manual-de-identidade-logo-novo/manual/manual-centro-paula-souza-2015-set.pdf) do Centro Paula Souza possui uma família de letras que forma uma linguagem específica. Nenhum outro tipo de letra deve ser usada fora as tipografias principal ou secundária.
 
-### Fonte principal
+### Fonte corpo
 
-Para textos em geral é utilizada a tipografia **Verdana**.
+A fonte **Verdana** foi utilizada para texto em geral da página.
 
 <blockquote>
 <p>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>
@@ -60,15 +60,26 @@ a b c d e f g h i j k l m n o p q r s t u v w x y z<br>
 0 1 2 3 4 5 6 7 8 9</p>
 </blockquote>
 
-### Fonte secundária
+### Fonte cabeçalhos
 
-Para cabeçalhos é utilizada a tipografia **Din**.
+A fonte **Roboto** foi utilizada para cabeçalhos de `<h1>` a `<h6>`. Optamos por essa família de fonte pela performace e ser idêntica a família **Din**, sugerida no manual de identidade visual do Centro Paula Souza.
+
+### Regular (500)
 
 <blockquote>
 <h3>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>
 a b c d e f g h i j k l m n o p q r s t u v w x y z<br>
 ! ? @ # $ % ^ & * () [] {} ; < > / _ - + = ~ , .<br>
 0 1 2 3 4 5 6 7 8 9</h3>
+</blockquote>
+
+### Negrito (700)
+
+<blockquote>
+<h3><b>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>
+a b c d e f g h i j k l m n o p q r s t u v w x y z<br>
+! ? @ # $ % ^ & * () [] {} ; < > / _ - + = ~ , .<br>
+0 1 2 3 4 5 6 7 8 9</b></h3>
 </blockquote>
 
 ## Cores

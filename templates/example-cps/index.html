@@ -1,0 +1,185 @@
+---
+layout: template
+title: Template Padrão
+description: "..."
+css: page.css
+news:
+  - title: "Centro Paula Souza forma primeira turma de mestres em Gestão e Tecnologia em Sistemas Produtivos"
+    description: "Titulação credencia 19 alunos a aplicarem cultura de pesquisa e inovação em sua atividade profissional, além de dar aulas em cursos de tecnologia..."
+    image: "http://www.centropaulasouza.sp.gov.br/imagens/home/noticias/2015/outubro/20151008.jpg"
+  - title: "Centro Paula Souza comemora 46 anos"
+    description: "Instituição referência em ensino profissional investe em parcerias, inovação e empreendedorismo..."
+    image: "http://www.centropaulasouza.sp.gov.br/imagens/home/noticias/2015/outubro/20151006a.jpg"
+  - title: "Fatecs divulgam resultado de isenção e redução da taxa do Vestibular"
+    description: "Além das seis mil isenções ofertadas, as Fatecs concederam redução de 50% na taxa de inscrição, aos candidatos que atenderam aos requisitos determinados..."
+    image: null
+  - title: "Estão abertas as inscrições para o Vestibulinho das Etecs"
+    description: "Entre as novidades deste processo seletivo estão os cursos de Cozinha e Logística na modalidade Educação de Jovens e Adultos (EJA)..."
+    image: null
+---
+{% include templates/header.html %}
+<main class="cps-main">
+<div class="row">
+  <div id="content" class="col-md-9" tabindex="-1">
+    <section class="caroussel">
+      <article class="row">
+        <div class="col-md-6 caroussel-item-image">
+          <img src="http://www.centropaulasouza.sp.gov.br/imagens/fotos-home/2015/outubro/20151007.jpg" class="img-responsive img-rounded" alt="">
+        </div>
+        <div class="col-md-6 caroussel-item-caption">
+          <a href="#">
+            <h3>Fatecs abrem inscrição para o Vestibular 2016</h3>
+            <p class="small">Candidatos têm até as 15 horas do dia 11 de novembro para se inscrever pela internet. São oferecidas 15.565 vagas para 72 cursos de graduação tecnológica, 2 mil das quais para a modalidade a distância. O exame será realizado no dia 6 de dezembro...</p>
+          </a>
+        </div>
+      </article>
+    </section>
+    <div class="row">
+      <section class="col-md-6">
+        <article>
+          <h2 class="h3"><i class="fa fa-calendar-check-o"></i> Agenda</h2>
+          <p class="calendario"><iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=centropaulasouzasp%40gmail.com&amp;color=%23000000&amp;ctz=America%2FSao_Paulo&amp;hl=pt-BR"></iframe></p>
+        </article>
+        <hr>
+        <article>
+          <!--
+          <h2 class="h3">Etec</h2>
+          <img src="http://www.centropaulasouza.sp.gov.br/imagens/home/destaques/logo-etec-2016.jpg" class="img-responsive img-rounded hidden" alt="">
+          -->
+          <div class="list-group small">
+            <a href="#" class="list-group-item text-center" style="background: #DDE4E7;">
+              <span class="logo logo-etec">
+                <span class="sr-only">Etec</span>
+                <p>Escola Técnica Estadual</p>
+              </span>
+            </a>
+            <a href="#" class="list-group-item">Vestibulinho</a>
+            <a href="#" class="list-group-item">Escolas</a>
+            <a href="#" class="list-group-item">Cursos</a>
+          </div>
+        </article>
+        <hr>
+        <article>
+          <!--
+          <h2 class="h3">Fatec</h2>
+          <img src="http://www.centropaulasouza.sp.gov.br/imagens/home/destaques/logo-fatec-2016.jpg" class="img-responsive img-rounded" alt="">
+          -->
+          <div class="list-group small">
+            <a href="#" class="list-group-item text-center" style="background: #DDE4E7;">
+              <span class="logo logo-fatec">
+                <span class="sr-only">Fatec</span>
+                <p>Faculdade de Tecnologia</p>
+              </span>
+            </a>
+            <a href="#" class="list-group-item">Vestibular</a>
+            <a href="#" class="list-group-item">Faculdade</a>
+            <a href="#" class="list-group-item">Cursos</a>
+          </div>
+        </article>
+        <hr>
+        <article>
+          <!--
+          <h2 class="h3">Feteps</h2>
+          <img src="http://www.centropaulasouza.sp.gov.br/imagens/home/destaques/feteps-2015.jpg" class="img-responsive img-rounded" alt="">
+          -->
+          <div class="list-group small">
+            <a href="#" class="list-group-item">
+              <img src="https://cloud.githubusercontent.com/assets/1139893/10384547/2edaf75a-6e13-11e5-8d17-ffeb849b01f0.png" class="img-responsive img-rounded center-block" alt="">
+            </a>
+            <a href="#" class="list-group-item">Portal Feteps</a>
+            <a href="#" class="list-group-item">Calendário</a>
+            <a href="#" class="list-group-item">Regulamento</a>
+          </div>
+        </article>
+        <hr>
+        <article>
+          <!--
+          <h2 class="h3">Web Sai</h2>
+          <img src="http://www.centropaulasouza.sp.gov.br/imagens/home/destaques/2014_web_sai.jpg" class="img-responsive img-rounded" alt="">
+          -->
+          <div class="list-group small">
+            <a href="#" class="list-group-item">
+              <img src="https://cloud.githubusercontent.com/assets/1139893/10384546/2ed8a2de-6e13-11e5-9334-0cf8ff5ac6a6.jpg" class="img-responsive img-rounded center-block" alt="">
+            </a>
+            <a href="#" class="list-group-item">Portal WebSAI</a>
+          </div>
+        </article>
+      </section>
+      <section class="col-md-6">
+        <h2 class="h3"><i class="fa fa-bullhorn"></i> Notícias</h2>
+        {% for new in page.news %}
+          <article>
+            <a href="#" class="thumbnail">
+              {% if new.image %}<img src="{{ new.image }}" class="img-responsive img-rounded" alt="">{% endif %}
+              <div class="caption">
+                <h3 class="h6">{{ new.title }}</h3>
+                <p class="text-muted">09/09/2015</p>
+                <p class="small">{{ new.description }}</p>
+              </div>
+            </a>
+          </article>
+        {% endfor %}
+        <p class="text-center"><a href="#" class="btn btn-default btn-block">Ver mais notícias</a></p>
+      </section>
+    </div>
+  </div>
+  <aside class="col-md-3">
+    <br>
+    <div class="widget">
+    <div class="input-group">
+      <input type="text" class="form-control">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button">Buscar</button>
+      </span>
+    </div>
+    </div>
+    <hr>
+    <div class="widget">
+      <h4>Siga-nos</h4>
+      <div class="list-group">
+        <a href="#" class="list-group-item"><i class="fa fa-twitter fa-fw"></i>&nbsp; Twitter</a>
+        <a href="#" class="list-group-item"><i class="fa fa-facebook-official fa-fw"></i>&nbsp; Facebook</a>
+        <a href="#" class="list-group-item"><i class="fa fa-youtube fa-fw"></i>&nbsp; Youtube</a>
+        <a href="#" class="list-group-item"><i class="fa fa-tumblr fa-fw"></i>&nbsp; Tumblr</a>
+        <a href="#" class="list-group-item"><i class="fa fa-google-plus fa-fw"></i>&nbsp; Google+</a>
+        <a href="#" class="list-group-item"><i class="fa fa-whatsapp fa-fw"></i>&nbsp; WhatsApp</a>
+        <a href="#" class="list-group-item"><i class="fa fa-instagram fa-fw"></i>&nbsp; Instagram</a>
+        <a href="#" class="list-group-item"><i class="fa fa-linkedin fa-fw"></i>&nbsp; LinkedIn</a>
+        <a href="#" class="list-group-item"><i class="fa fa-flickr fa-fw"></i>&nbsp; Flickr</a>
+      </div>
+    </div>
+    <hr>
+    <div class="widget">
+      <h4>Destaques</h4>
+      <div class="list-group">
+        <a href="#" class="list-group-item">Concursos públicos</a>
+        <a href="#" class="list-group-item">Intercâmbio cultural</a>
+        <a href="#" class="list-group-item">Pós graduação</a>
+        <a href="#" class="list-group-item">Educação a distância</a>
+        <a href="#" class="list-group-item">Identidade visual</a>
+        <a href="#" class="list-group-item">Visitas monitoradas</a>
+        <a href="#" class="list-group-item">Fale conosco</a>
+      </div>
+    </div>
+    <hr>
+    <div class="widget">
+      <article>
+        <div class="list-group small">
+            <a href="#" class="list-group-item">
+              <img src="https://cloud.githubusercontent.com/assets/1139893/10384546/2ed8a2de-6e13-11e5-9334-0cf8ff5ac6a6.jpg" class="img-responsive img-rounded center-block" alt="">
+            </a>
+            <a href="#" class="list-group-item">Portal WebSAI</a>
+          </div>
+      </article>
+    </div>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </aside>
+</div>
+</main>
+{% include templates/footer.html %}

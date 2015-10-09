@@ -1,5 +1,5 @@
 # Unidades de Etecs
-# http://www.centropaulasouza.sp.gov.br/etec/escolas/
+# http://www.centropaulasouza.sp.gov.bretec/escolas/
 
 - name: Etec Sebastiana Augusta de Moraes
   url: www.etecandradina.com.br
@@ -20,3 +20,851 @@
 - name: Etec João Jorge Geraissate
   url: http://www.colegioagricola.com.br
   city: Penápolis
+
+- name: Etec de Cubatão
+  url: http://www.etecubatao.com.br
+  city: Cubatão
+
+- name: Etec Alberto Santos Dumont
+  url: http://www.etecsantosdumont.com.br
+  city: Guarujá
+
+- name: "Etec de Itanhaém"
+  url: www.eteitanhaem.com.br
+  city: Itanhaem
+
+- name: Etec Adolpho Berezin
+  url: www.eteab.com.br
+  city: Mongaguá
+
+- name: Etec de Peruíbe
+  url:
+  city: Peruíbe
+
+- name: Etec Praia Grande
+  url:
+  city: Praia Grande
+
+- name: Etec Aristóteles Ferreira
+  url: http://etecaf.com.br
+  city: Santos
+
+- name: Etec Dona Escolástica Rosa
+  url: http://www.etecescolasticarosa.com.br
+  city: Santos
+
+- name: Etec Drª Ruth Cardoso
+  url: http://etecdrc.com.br
+  city: São Vicente
+
+- name: Etec Barretos - Cel. Raphael Brandão
+  url: http://www.etecbarretos.com.br
+  city: Barretos
+
+- name: Etec Bebedouro - Professor Ídio Zucchi
+  url: www.etecbebedouro.com.br
+  city: Bebedouro
+
+- name: Etec de Olímpia
+  url:
+  city: Olímpia
+
+- name: Etec Comendador João Rays
+  url: www.etecbarrabonita.com.br
+  city: Barra Bonita
+
+- name: Etec Rodrigues de Abreu
+  url: www.etecbauru.com.br
+  city: Bauru
+
+- name: Etec Astor de Mattos Carvalho (Agrícola)
+  url: www.etecabralia.com.br
+  city: Cabrália Paulista
+
+- name: Etec Profª Helcy Moreira Martins Aguiar
+  url: www.etecafelandia.com.br
+  city: Cafelândia
+
+- name: Etec Joaquim Ferreira do Amaral
+  url: www.etejau.com.br
+  city: Jaú
+
+- name: Etec Prof. Urias Ferreira (agrícola)
+  url: www.escolaagricoladejau.com.br
+  city: Jaú
+
+- name: Etec Cidade do Livro
+  url: http://www.eteclencois.com.br
+  city: Lençóis Paulista
+
+- name: Etec de Lins
+  url: www.eteclins.com.br
+  city: Lins
+
+- name: Etec Arnaldo Pereira Cheregatti
+  url: http://www.etecaguai.com.br
+  city: Aguaí
+
+- name: Etec Polivalente de Americana
+  url: www.etepa.com.br
+  city: Americana
+
+- name: Etec João Belarmino
+  url: www.etecjoaobelarmino.com.br
+  city: Amparo
+
+- name: Etec Pref. Alberto Feres
+  url: www.albertoferes.com.br
+  city: Araras
+
+- name: Etec Prof. Carmine Biagio Tundisi
+  url: www.etecarmine.com.br
+  city: Atibaia
+
+- name: Etec Bento Quirino
+  url: www.etecbentoquirino.com.br
+  city: Campinas
+
+- name: Etec Conselheiro Antonio Prado
+  url: www.etecap.com.br
+  city: Campinas
+
+- name: Etec de Campo Limpo Paulista
+  url: http://www.etecamp.com.brtcc/wordpress/nossa-historia
+  city: Campo Limpo Paulista
+
+- name: Etec Dr. Francisco Nogueira de Lima
+  url: www.industrialcb.com.br
+  city: Casa Branca
+
+- name: Etec Dr. Carolino da Motta e Silva (Agrícola)
+  url: www.tecpinhal.com.br
+  city: Espirito Santo do Pinhal
+
+- name: Etec de Hortolândia
+  url: www.etechortolandia.com.br
+  city: Hortolândia
+
+- name: Etec João Maria Stevanatto
+  url: http://etecitapira.com.br
+  city: Itapira
+
+- name: Etec Rosa Perrone Scavone
+  url: http://www.rosaperrone.com.br
+  city: Itatiba
+
+- name: Etec Benedito Storani (agrícola)
+  url: www.etecbest.com.br
+  city: Jundiaí
+
+- name: Etec Vasco Antônio Venchiarutti
+  url: www.etevava.com.br
+  city: Jundiaí
+
+- name: Etec Deputado Salim Sedeh
+  url: www.eteleme.com.br
+  city: Leme
+
+- name: Etec Trajano Camargo
+  url: www.trajanocamargo.com.br
+  city: Limeira
+
+- name: Etec Francisco Garcia
+  url: www.etefgarcia.com.br
+  city: Mococa
+
+- name: Etec João Baptista de Lima Figueiredo
+  url: www.eletro.g12.br
+  city: Mococa
+
+- name: Etec Euro Albino de Souza
+  url: http://www.etecmogiguacu.com
+  city: Mogi Guaçú
+
+- name: Etec Pedro Ferreira Alves
+  url: www.pfalves.com.br
+  city: Mogi Mirim
+
+- name: Etec Monte Mor
+  url: www.etecmontemor.com.br
+  city: Monte Mor
+
+- name: Etec de Nova Odessa
+  url:
+  city: Nova Odessa
+
+- name: Etec Cel. Fernando Febeliano da Costa
+  url: www.etepiracicaba.org.br
+  city: Piracicaba
+
+- name: Etec Deputado Ary de Camargo Pedroso
+  url: www.etecdepiracicaba.com.br
+  city: Piracicaba
+
+- name: Etec Tenente Aviador Gustavo Klug
+  url: www.etecpirassununga.com.br
+  city: Pirassununga
+
+- name: Etec Prof. Armando Bayeux da Silva
+  url: www.etebayeux.com.br
+  city: Rio Claro
+
+- name: Etec Dr. José Coury (agrícola)
+  url:
+  city: Rio das Pedras
+
+- name: Etec Prof. Dr. José Dagnoni
+  url: www.etecjosedagnoni.com.br
+  city: Santa Bárbara do Oeste
+
+- name: Etec de São José do Rio Pardo
+  url: www.etecriopardo.com.br
+  city: São José do Rio Pardo
+
+- name: Etec Gustavo Teixeira
+  url: http://www.etecsaopedro.com.br
+  city: São Pedro
+
+- name: Etec de Vargem Grande do Sul
+  url: www.etecvgs.com.br
+  city: Vargem Grande do Sul
+
+- name: Etec Profª Anna de Oliveira Ferraz
+  url: http://industrialararaquara.com.br
+  city: Araraquara
+
+- name: Etec de Ibaté
+  url:
+  city: Ibaté
+
+- name: Etec de Ibitinga
+  url: www.etecdeibitinga.com.br
+  city: Ibitinga
+
+- name: Etec Sylvio de Mattos Carvalho
+  url:
+  city: Matão
+
+- name: Etec Profº Jadyr Salles
+  url: www.jadyrsallessecretaria.blogspot.com.br
+  city: Porto Ferreira
+
+- name: Etec Manoel dos Reis Araújo (Agrícola)
+  url:
+  city: Santa Rita do Passa Quatro
+
+- name: Etec Paulino Botelho
+  url: www.etpb.com.br
+  city: São Carlos
+
+- name: Etec Dr. Adail Nunes da Silva
+  url: www.etedans.com.br
+  city: Taquaritinga
+
+- name: Etec Antônio de Pádua Cardoso
+  url: http://www.eteapc.com.br
+  city: Batatais
+
+- name: Etec Dr. Júlio Cardoso
+  url: http://escolaindustrial.com.brescolaindustrial.com.br
+  city: Franca
+
+- name: Etec Prof. Carmelino Correa Júnior (agrícola)
+  url: http://escolaagricoladefranca.com.br
+  city: Franca
+
+- name: Etec Antonio Junqueira da Veiga (agrícola)
+  url: http://etecantoniojunqueiradaveiga.blogspot.com
+  city: Igarapava
+
+- name: Etec Prof. José Ignácio Azevedo Filho
+  url: http://etecituverava.com.brv3/
+  city: Ituverava
+
+- name: Etec Laurindo Alves de Queiroz (agrícola)
+  url: http://www.etecmiguelopolis.com.br
+  city: Miguelópolis
+
+- name: Etec Prof. Alcídio de Souza Prado
+  url: http://home.etecalcidio.com.br
+  city: Orlandia
+
+- name: Etec Pedro Badran
+  url: http://www.etecpedrobadran.com.br
+  city: São Joaquim da Barra
+
+- name: Etec de Apiaí
+  url:
+  city: Apiaí
+
+- name: Etec Dr. Celso Charuri
+  url: http://www.etecdrcelsocharuri.com.br
+  city: Capão Bonito
+
+- name: Etec Dr. Demétrio Azevedo Jr.
+  url: http://www.etecitapeva.com.br
+  city: Itapeva
+
+- name: Etec de Itararé
+  url: http://etecdeitarare.webnode.com.br
+  city: Itararé
+
+- name: Etec Waldyr Duron Junior
+  url: http://www.etecpiraju.com.br
+  city: Piraju
+
+- name: Etec Profª Terezinha Monteiro dos Santos
+  url:
+  city: Taquarituba
+
+- name: Etec Dr. Dário Pacheco Pedroso (agrícola)
+  url: http://etectaquarivai.webnode.com
+  city: Taquarivai
+
+- name: Etec Pedro D'Arcádia Neto
+  url: http://www.etecassis.net
+  city: Assis
+
+- name: Etec Prof. Luiz Pires Barbosa (Agrícola)
+  url:
+  city: Candido Mota
+
+- name: Etec Dep. Paulo Ornellas Carvalho de Barros (agrícola)
+  url: http://www.escolaagricoladegarca.com.br
+  city: Garça
+
+- name: Etec Monsenhor Antônio Magliano
+  url: http://www.etecmam.com.br
+  city: Garça
+
+- name: Etec Prof. Pedro Leme Brisolla Sobrinho
+  url: http://www.etecipaussu.com.br
+  city: Ipaussu
+
+- name: Etec Antônio Devisate
+  url: http://devisate.com.br
+  city: Marília
+
+- name: Etec Jacinto Ferreira de Sá
+  url: http://www.eteourinhos.com.br
+  city: Ourinhos
+
+- name: Etec Prof. Mário Antônio Verza
+  url: http://www.etecpalmital.com.br
+  city: Palmital
+
+- name: Etec Augusto Tortolero Araújo (Agrícola)
+  url: http://etecparaguacupaulista.com.br
+  city: Paraguaçu Paulista
+
+- name: Etec Dr. Luiz César Couto (Agrícola)
+  url:
+  city: Quatá
+
+- name: Etec Orlando Quagliato (Agrícola)
+  url: http://www.etecsantacruz.com.br
+  city: Santa Cruz do Rio Pardo
+
+- name: Etec Prof. Massuyuki Kawano
+  url: http://www.etectupa.com.br
+  city: Tupã
+
+- name: Etec Paulo Guerreiro Franco (Agrícola)
+  url: http://www.eteveracruz.com.br
+  city: Vera Cruz
+
+- name: Etec Professora Luzia Maria Machado
+  url: http://etecaruja.blogspot.com
+  city: Arujá
+
+- name: Etec de Barueri
+  url: http://www.etecdebarueri.blogspot.com
+  city: Barueri
+
+- name: Etec de Caieiras
+  url: http://www.eteccaieiras.com.br
+  city: Caieiras
+
+- name: Etec Gino Rezaghi
+  url: http://eteccajamar.webnode.com.br
+  city: Cajamar
+
+- name: Etec de Carapicuíba
+  url: http://www.eteccarapicuiba.com.br
+  city: Carapicuíba
+
+- name: Etec de Cotia
+  url: http://www.etecdecotia.com.br
+  city: Cotia
+
+- name: Etec Juscelino Kubitschek de Oliveira
+  url: http://www.etecjk.com
+  city: Diadema
+
+- name: Etec de Embu
+  url: http://etecembu.blogspot.com
+  city: Embu
+
+- name: Etec de Ferraz de Vasconcelos
+  url:
+  city: Ferraz de Vasconcelos
+
+- name: Etec de Francisco Morato
+  url: http://www.etecmorato.com.br
+  city: Francisco Morato
+
+- name: Etec Dr. Emilio Hernandez Aguilar
+  url: http://www.etecfran.com.br
+  city: Franco da Rocha
+
+- name: Etec Itaquaquecetuba
+  url:
+  city: Itaquaquecetuba
+
+- name: Etec Prefeito Braz Paschoalin
+  url:
+  city: Jandira
+
+- name: Etec de Mairiporã
+  url: http://www.etecmairipora.com
+  city: Mairiporã
+
+- name: Etec de Mauá
+  url: http://www.etecdemaua.com.br
+  city: Mauá
+
+- name: Etec Presidente Vargas
+  url:
+  city: Mogi das Cruzes
+
+- name: Etec Prof. André Bogasian
+  url:
+  city: Osasco
+
+- name: Etec Osasco II
+  url: http://etecosasco2.wix.cometec
+  city: Osasco
+
+- name: Etec de Poá
+  url: http://www.etecpoa.com.br
+  city: Poá
+
+- name: Etec de Ribeirão Pires
+  url: http://etecribeiraopires.com.br
+  city: Ribeirão Pires
+
+- name: Etec Rio Grande da Serra
+  url:
+  city: Rio Grande da Serra
+
+- name: Etec de Santa Isabel
+  url: http://www.etecsantaisabel.com.br
+  city: Santa Isabel
+
+- name: Etec Bartolomeu Bueno da Silva – Anhanguera
+  url: http://www.etecanhanguera.com.br
+  city: Santana de Parnaíba
+
+- name: Etec Professora Ermelinda Giannini Teixeira
+  url: http://www.etecermelinda.com.br
+  city: Santana de Parnaíba
+
+- name: Etec Júlio de Mesquita
+  url: http://www.etecjuliodemesquita.com.br
+  city: Santo André
+
+- name: Etec Lauro Gomes
+  url: http://www.etelg.com.br
+  city: São Bernardo do Campo
+
+- name: Etec Jorge Street
+  url: http://www.jorgestreet.com.br
+  city: São Caetano do Sul
+
+- name: Etec de Suzano
+  url: http://www.etecsuzano.com.br
+  city: Suzano
+
+- name: Etec Prof. Aprígio Gonzaga (Penha)
+  url: http://etecaprigio.lwsite.com.br
+  city: São Paulo
+
+- name: Etec Abdias do Nascimento (Paraisópolis)
+  url:
+  city: Paraisópolis
+
+- name: Etec Prof. Adhemar Batista Heméritas (Vila Formosa)
+  url: http://www.etecpsa.com.br
+  city: São Paulo
+
+- name: Etec Albert Einstein (Casa Verde)
+  url: http://www.etealberteinstein.com
+  city: São Paulo
+
+- name: Etec de Artes (Santana)
+  url: http://www.etecdeartes.com.br
+  city: São Paulo
+
+- name: Etec Prof. Basílides de Godoy (Vila Leopoldina)
+  url: http://basilides.com.br
+  city: São Paulo
+
+- name: Etec Prof. Camargo Aranha (Mooca)
+  url: http://www.eteccamargoaranha.com.br
+  city: São Paulo
+
+- name: Etec Carlos de Campos (Brás)
+  url: http://www.eteccarlosdecampos.com.br
+  city: São Paulo
+
+- name: Etec Cepam (Butantã)
+  url: www.eteccepam.com.br
+  city: São Paulo
+
+- name: Etec Cidade Tiradentes (Cidade Tiradentes)
+  url: http://www.etecct.com.br
+  city: São Paulo
+
+- name: Etec Prof.ª Dr.ª Doroti Quiomi Kanashiro Toyohara (Pirituba)
+  url: http://www.etecpirituba.com.br
+  city: São Paulo
+
+- name: Etec de Esportes – Curt Walter Otto Baumgart (Vila Maria)
+  url: http://www.etecdeesportes.com.br
+  city: São Paulo
+
+- name: Etec Getúlio Vargas (Ipiranga)
+  url: http://www.etegv.com
+  city: São Paulo
+
+- name: Etec de Guaianazes (Guaianazes)
+  url: http://www.etecdeguaianazes.com.br
+  city: São Paulo
+
+- name: Etec Guaracy Silveira (Pinheiros)
+  url: http://www.etecguaracy.com.br
+  city: São Paulo
+
+- name: Etec de Heliópolis (Heliópolis)
+  url: http://www.etecheliopolis.com.brcontato.php
+  city: Heliópolis - São Paulo
+
+- name: Etec Prof. Horácio Augusto da Silveira (Vila Guilherme)
+  url: http://etechoracio.com.bretec/
+  city: São Paulo
+
+- name: Etec Irmã Agostina (Capela do Socorro)
+  url: http://etecia.com.brportaletecia/
+  city: São Paulo
+
+- name: Etec Jaraguá (Jaraguá)
+  url: http://www.etecjaragua.com
+  city: São Paulo
+
+- name: Etec de Itaquera (Itaquera)
+  url: http://www.etecitaquera.com.br
+  city: São Paulo
+
+- name: Etec Jardim Ângela (Jardim Ângela)
+  url: http://www.etecjardimangela.com.br
+  city: São Paulo
+
+- name: Etec José Rocha Mendes (Vila Prudente)
+  url: http://etecjoserochamendes.com.br
+  city: São Paulo
+
+- name: Etec Jornalista Roberto Marinho (Brooklin Paulista)
+  url: http://www.etecjrm.com.br
+  city: São Paulo
+
+- name: Etec Mandaqui (Mandaqui)
+  url: http://direcaomandaqui.wix.cometecmandaqui
+  city: São Paulo
+
+- name: Etec Martin Luther King (Tatuapé)
+  url: http://www.etecmlk.com.br
+  city: São Paulo
+
+- name: Etec Parque Belém (Parque Belém)
+  url: http://www.etecpqbelem.com.br
+  city: São Paulo
+
+- name: Etec Drª Maria Augusta Saraiva (Campos Elíseos)
+  url: http://www.etecdramariaaugustasaraiva.com.br
+  city: São Paulo
+
+- name: Etec Parque da Juventude (Santana)
+  url: http://www.etecparquedajuventude.com.br
+  city: São Paulo
+
+- name: Etec Paulistano (Freguesia do Ó)
+  url: http://www.etecpaulistano.com.br
+  city: São Paulo
+
+- name: Etec Raposo Tavares (Raposo Tavares)
+  url: http://etecraposotavares.com.br
+  city: São Paulo
+
+- name: Etec São Mateus (São Mateus)
+  url: http://www.etecsaomateus.com.br
+  city: São Paulo
+
+- name: Etec Santa Ifigênia (Santa Ifigênia)
+  url: http://www.etecsantaifigenia.com.br
+  city: São Paulo
+
+- name: Etec São Paulo (Bom Retiro)
+  url: http://www.etesaopaulo.com.br
+  city: São Paulo
+
+- name: Etec de Sapopemba (Sapopemba)
+  url: http://www.etecdesapopemba.com.br
+  city: São Paulo
+
+- name: Etec Sebrae (Campos Elíseos)
+  url: http://www.etecsebrae.com
+  city: São Paulo
+
+- name: Etec Takashi Morita (Santo Amaro)
+  url: http://etecsta.com.brportal/
+  city: São Paulo
+
+- name: Etec Tereza Aparecida Cardoso Nunes de Oliveira (Arthur Alvim)
+  url: http://www.etecterezanunes.com.br
+  city: São Paulo
+
+- name: Etec de Tiquatira (Penha)
+  url: http://www.etectiquatira.com.br
+  city: São Paulo
+
+- name: Etec Uirapuru (Uirapuru)
+  url: http://www.etecuirapuru.com.br
+  city: São Paulo
+
+- name: Etec de Vila Formosa (Vila Formosa)
+  url: http://www.etecdevilaformosa.com.br
+  city: São Paulo
+
+- name: Etec Zona Leste (Cidade A. E. Carvalho)
+  url: http://www.eteczonaleste.com.br
+  city: São Paulo
+
+- name: Etec Zona Sul (Jd. São Luís)
+  url:
+  city: São Paulo
+
+- name: Etec Eng. Herval Bellusci (agrícola)
+  url: http://www.escolaagricolaadamantina.com.br
+  city: Adamantina
+
+- name: Etec Prof. Eudécio Luiz Vicente
+  url:
+  city: Adamantina
+
+- name: Etec Profª. Carmelina Barbosa (agrícola)
+  url: http://www.etecdracena.com.br
+  city: Dracena
+
+- name: Etec Amim Jundi
+  url: http://www.etecamimjundi.com.br
+  city: Osvaldo Cruz
+
+- name: Etec Professor Adolpho Arruda Mello
+  url: http://www.etecarrudamello.com
+  city: Presidente Prudente
+
+- name: Etec Prof. Dr. Antônio Eufrásio de Toledo (agrícola)
+  url: http://www.etecpresidenteprudente.com.br
+  city: Presidente Prudente
+
+- name: Etec Prof. Milton Gazzetti (agrícola)
+  url:
+  city: "Presidente Venceslau"
+
+- name: "Etec Dep. Francisco Franco (Chiquito) - Agrícola"
+  url: http://www.etec-rancharia.com.br
+  city: Rancharia
+
+- name: Etec Professora Nair Luccas Ribeiro
+  url: http://www.etecteodorosampaio.com.br
+  city: Teodoro Sampaio
+
+- name: "Etec Engº Agr. Narciso de Medeiros (agrícola)"
+  url: http://www.etecagricoladeiguape.com.br
+  city: Iguape
+
+- name: Etec de Registro
+  url: http://etecregistro.edu.br
+  city: Iguape
+
+- name: Etec Ângelo Cavalheiro
+  url: http://etecserrana.xpg.uol.com.br
+  city: Serrana
+
+- name: Etec Bento Carlos Botelho do Amaral
+  url: http://etecguariba.com.br
+  city: Guariba
+
+- name: Etec Alcides Cestari
+  url: http://www.etecalcidescestari.com.br
+  city: Monte Alto
+
+- name: Etec José Martimiano da Silva
+  url: http://www.industrialrp.com.br
+  city: Ribeirão Preto
+
+- name: Etec Santa Rosa de Viterbo
+  url:
+  city: Santa Rosa de Viterbo
+
+- name: "Etec Prof. Francisco dos Santos (agrícola)"
+  url:
+  city: São Simão
+
+- name: Etec Elias Nechar
+  url: http://www.eliasnechar.com.br
+  city: Catanduva
+
+- name: Etec de Fernandópolis
+  url: http://www.etecfernandopolis.com.br
+  city: Fernandópolis
+
+- name: Etec José Luiz Viana Coutinho (Agrícola)
+  url: http://www.etejales.com.br
+  city: Jales
+
+- name: Etec Prof. Mateus Leite de Abreu (agrícola)
+  url:
+  city: Mirassol
+
+- name: Etec Padre José Nunes Dias (agrícola)
+  url: http://etecmonteaprazivel.com.br
+  city: Monte Aprazível
+
+- name: Etec Profª Marines Teodoro de Freitas Almeida
+  url: http://www.etec-novohorizonte.com.br
+  city: Novo Horizonte
+
+- name: Etec de Santa Fé do Sul
+  url:
+  city: Santa Fé do Sul
+
+- name: Etec Philadelpho Gouvêa Netto
+  url: http://www.philadelpho.com.br
+  city: São José do Rio Preto
+
+- name: Etec Frei Arnaldo Maria de Itaporanga
+  url: http://www.etecvotuporanga.com.br
+  city: Votuporanga
+
+- name: Etec Machado de Assis
+  url: http://www.etecmachadodeassis.com
+  city: Caçapava
+
+- name: Etec Prof. Marcos Uchôas dos Santos Penchel
+  url: http://www.etecmarcosuchoas.com.br
+  city: Cachoeira Paulista
+
+- name: Etec de Caraguatatuba
+  url: http://www.eteccaragua.com.br
+  city: Caraguatatuba
+
+- name: Etec Prof. José Sant'Ana de Castro
+  url: http://www.eteccruzeiro.com
+  city: Cruzeiro
+
+- name: Etec Prof. Alfredo de Barros Santos
+  url: http://www.eteabs.com.br
+  city: Guaratinguetá
+
+- name: "Etec Cônego José Bento (agrícola)"
+  url: http://www.etecjbento.com.br
+  city: Jacareí
+
+- name: Etec Padre Carlos Leôncio da Silva
+  url: http://www.etecpadreleoncio.com.br
+  city: Lorena
+
+- name: Etec João Gomes de Araújo
+  url: http://www.etejga.com.br
+  city: Pindamonhangaba
+
+- name: Etec de São José dos Campos
+  url: http://www.etecsjc.com
+  city: São José dos Campos
+
+- name: Etec de São Sebastião
+  url: http://www.etecss.com.br
+  city: São Sebastião
+
+- name: Etec Dr. Geraldo José Rodrigues Alckmin
+  url: http://etectaubate.com.br
+  city: Taubaté
+
+- name: Etec Prof. Fausto Mazzola
+  url: http://www.eteavare.com.br
+  city: Avaré
+
+- name: Etec Dr. Domingos Minicucci Filho
+  url:
+  city: Botucatu
+
+- name: Etec Pref. José Esteves (agrícola)
+  url: http://www.etecerqueira.com.br
+  city: Cerqueira César
+
+- name: Etec de Cerquilho
+  url: http://etecdecerquilho.blogspot.com.br
+  city: Cerquilho
+
+- name: Etec Darcy Pereira Moraes
+  url: http://www.etecdpm.com.br
+  city: Itapetininga
+
+- name: Etec Prof. Edson Galvão (agrícola)
+  url: http://www.etecedsongalvao.com.br
+  city: Itapetininga
+
+- name: Etec Martinho Di Ciero
+  url: http://www.etecitu.com.br
+  city: Itu
+
+- name: Etec de Mairinque
+  url: http://etecdemairinque.com.br
+  city: Mairinque
+
+- name: Etec Sorocaba
+  url:
+  city: Sorocaba
+
+- name: Etec Fernando Prestes
+  url: http://www.etefernandoprestes.com.br
+  city: Sorocaba
+
+- name: Etec Rubens de Faria e Souza
+  url: http://www.eterfs.com.br
+  city: Sorocaba
+
+- name: Etec Salles Gomes
+  url: http://www.etecsalesgomes.com.br
+  city: Tatuí
+
+- name: Etec de Dr. Nelson Alves Vianna
+  url:
+  city: Tietê
+
+- name: Etec Prof. Elias Miguel Júnior
+  url: http://www.etecvotorantim.com.br
+  city: Votorantim
+
+- name: Etec de Piedade
+  url: Etec de Piedade
+  city: Piedade
+
+- name: Etec Dona Sebastiana de Barros (agrícola)
+  url: http://etecsm.com.br
+  city: São Manuel
+
+- name: Etec de São Roque
+  url: www.etecpiedade.com.br
+  city: São Roque

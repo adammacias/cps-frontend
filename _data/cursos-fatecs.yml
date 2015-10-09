@@ -3,285 +3,284 @@
 
 - id: 01
   title: "Agroindústria"
-  color: #000000
+  color: "#000000"
 
 - id: 02
   title: "Agronegócio"
-  color: #000000
+  color: "#000000"
 
 - id: 03
   title: "Alimentos"
-  color: #000000
+  color: "#000000"
 
 - id: 04
-  title: "Análise e Desenvolvimento de Sistemas "
-  color: #000000
+  title: "Análise e Desenvolvimento de Sistemas"
+  color: "#000000"
 
 - id: 05
   title: "Automação de Escritórios e Secretariado"
-  color: #000000
+  color: "#000000"
 
 - id: 06
   title: "Automação Industrial"
-  color: #000000
+  color: "#000000"
 
 - id: 07
   title: "Automação e Manufatura Digital"
-  color: #000000
+  color: "#000000"
 
 - id: 08
   title: "Banco de Dados"
-  color: #000000
+  color: "#000000"
 
 - id: 09
   title: "Biocombustíveis"
-  color: #000000
+  color: "#000000"
 
 - id: 10
-  title: "Comércio Exterior "
-  color: #000000
+  title: "Comércio Exterior"
+  color: "#000000"
 
 - id: 11
   title: "Construção Civil - Modalidade Edifícios"
-  color: #000000
+  color: "#000000"
 
 - id: 12
   title: "Construção Civil - Movimento de Terra e Pavimentação"
-  color: #000000
+  color: "#000000"
 
 - id: 13
   title: "Construção de Edifícios"
-  color: #000000
+  color: "#000000"
 
 - id: 14
   title: "Construção Naval"
-  color: #000000
+  color: "#000000"
 
 - id: 15
   title: "Controle de Obras"
-  color: #000000
+  color: "#000000"
 
 - id: 16
   title: "Cosméticos"
-  color: #000000
+  color: "#000000"
 
 - id: 17
   title: "Eletrônica Automotiva"
-  color: #000000
+  color: "#000000"
 
 - id: 18
   title: "Eletrônica Industrial"
-  color: #000000
+  color: "#000000"
 
 - id: 19
   title: "Eventos"
-  color: #000000
+  color: "#000000"
 
 - id: 20
   title: "Fabricação Mecânica"
-  color: #000000
+  color: "#000000"
 
 - id: 21
   title: "Gestão Ambiental"
-  color: #000000
+  color: "#000000"
 
 - id: 22
   title: "Gestão Comercial"
-  color: #000000
+  color: "#000000"
 
 - id: 23
   title: "Gestão Empresarial"
-  color: #000000
+  color: "#000000"
 
 - id: 24
   title: "Gestão Financeira"
-  color: #000000
+  color: "#000000"
 
 - id: 25
   title: "Gestão de Negócios e Inovação"
-  color: #000000
+  color: "#000000"
 
 - id: 26
   title: "Gestão Portuária"
-  color: #000000
+  color: "#000000"
 
 - id: 27
-  title: "Gestão da Produção Industrial "
-  color: #000000
+  title: "Gestão da Produção Industrial"
+  color: "#000000"
 
 - id: 28
   title: "Gestão de Recursos Humanos"
-  color: #000000
+  color: "#000000"
 
 - id: 29
   title: "Gestão de Serviços"
-  color: #000000
+  color: "#000000"
 
 - id: 30
   title: "Gestão da Tecnologia da Informação"
-  color: #000000
+  color: "#000000"
 
 - id: 31
   title: "Gestão de Turismo"
-  color: #000000
+  color: "#000000"
 
 - id: 32
   title: "Geoprocessamento"
-  color: #000000
+  color: "#000000"
 
 - id: 33
   title: "Hidráulica e Saneamento Ambiental"
-  color: #000000
+  color: "#000000"
 
 - id: 34
   title: "Informática para Negócios"
-  color: #000000
+  color: "#000000"
 
 - id: 35
   title: "Instalações Elétricas"
-  color: #000000
+  color: "#000000"
 
 - id: 36
   title: "Jogos Digitais"
-  color: #000000
+  color: "#000000"
 
 - id: 37
   title: "Logística"
-  color: #000000
+  color: "#000000"
 
 - id: 38
   title: "Logística Aeroportuária"
-  color: #000000
+  color: "#000000"
 
 - id: 39
   title: "Manutenção de Aeronaves"
-  color: #000000
+  color: "#000000"
 
 - id: 40
   title: "Manutenção Industrial"
-  color: #000000
+  color: "#000000"
 
 - id: 41
   title: "Marketing"
-  color: #000000
+  color: "#000000"
 
 - id: 42
   title: "Materiais (Poliméricos, Cerâmicos ou Metálicos)"
-  color: #000000
+  color: "#000000"
 
 - id: 43
-  title: "Materiais, Processos e Componentes Eletrônicos "
-  color: #000000
+  title: "Materiais, Processos e Componentes Eletrônicos"
+  color: "#000000"
 
 - id: 44
   title: "Mecânica - Modalidade Processos de Produção"
-  color: #000000
+  color: "#000000"
 
 - id: 45
   title: "Mecânica - Modalidade Projetos"
-  color: #000000
+  color: "#000000"
 
 - id: 46
   title: "Mecânica Automobilística"
-  color: #000000
+  color: "#000000"
 
 - id: 47
   title: "Mecânica de Precisão"
-  color: #000000
+  color: "#000000"
 
 - id: 48
   title: "Mecânica: processos de soldagem"
-  color: #000000
+  color: "#000000"
 
 - id: 49
   title: "Mecanização em Agricultura de Precisão"
-  color: #000000
+  color: "#000000"
 
 - id: 50
   title: "Mecatrônica Industrial"
-  color: #000000
+  color: "#000000"
 
 - id: 51
   title: "Meio Ambiente e Recursos Hídricos"
-  color: #000000
+  color: "#000000"
 
 - id: 52
   title: "Polímeros"
-  color: #000000
+  color: "#000000"
 
 - id: 53
   title: "Processos Metalúrgicos"
-  color: #000000
+  color: "#000000"
 
 - id: 54
   title: "Processos Químicos"
-  color: #000000
+  color: "#000000"
 
 - id: 55
   title: "Produção Fonográfica"
-  color: #000000
+  color: "#000000"
 
 - id: 56
   title: "Produção Industrial"
-  color: #000000
+  color: "#000000"
 
 - id: 57
   title: "Produção Têxtil"
-  color: #000000
+  color: "#000000"
 
 - id: 58
   title: "Projetos de Estruturas Aeronáuticas"
-  color: #000000
+  color: "#000000"
 
 - id: 59
   title: "Projetos Mecânicos"
-  color: #000000
+  color: "#000000"
 
 - id: 60
   title: "Radiologia"
-  color: #000000
+  color: "#000000"
 
 - id: 61
-  title: "Redes de Computadores "
-  color: #000000
+  title: "Redes de Computadores"
+  color: "#000000"
 
 - id: 62
-  title: "Refrigeração, ventilação e ar condicionado  "
-  color: #000000
+  title: "Refrigeração, ventilação e ar condicionado "
+  color: "#000000"
 
 - id: 63
   title: "Secretariado"
-  color: #000000
+  color: "#000000"
 
 - id: 64
   title: "Segurança da Informação"
-  color: #000000
+  color: "#000000"
 
 - id: 65
   title: "Silvicultura"
-  color: #000000
+  color: "#000000"
 
 - id: 66
   title: "Sistemas Navais"
-  color: #000000
+  color: "#000000"
 
 - id: 67
   title: "Sistemas Biomédicos"
-  color: #000000
+  color: "#000000"
 
 - id: 68
   title: "Sistemas para Internet"
-  color: #000000
+  color: "#000000"
 
 - id: 69
   title: "Soldagem"
-  color: #000000
+  color: "#000000"
 
 - id: 70
-  title: "Têxtil e Moda "
-  color: #000000
+  title: "Têxtil e Moda"
+  color: "#000000"
 
 - id: 71
-  title: "Transporte Terrestre "
-  color: #000000
-
+  title: "Transporte Terrestre"
+  color: "#000000"
