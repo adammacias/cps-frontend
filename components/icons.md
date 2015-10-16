@@ -4,10 +4,25 @@ title: Ícones
 group: components
 ---
 
-Incluimos a biblioteca [Font Awesome](https://fortawesome.github.io/Font-Awesome/) no {{ site.title }}, com isso, você pode usar mais de +585 ícones sem nenhum esforço.
+É possível incluir a biblioteca [Font Awesome](https://fortawesome.github.io/Font-Awesome/) no {{ site.title }}, com isso, você pode usar mais de +585 ícones sem nenhum esforço.
 {: .lead}
 
-## Exemplo
+## Conteúdo
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
+## Instalação
+
+Como nem todo projeto irá necessitar do uso de ícones, preferidos deixar como **opcional** este recurso, por tanto, para usar os ícones é necessário importar os a folha de estilos do *Font Awesome*, inclua a linha abaixo dentro da tag `<head>`.
+
+{% highlight html %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+{% endhighlight %}
+
+Você tambem pode optar por fazer o download, [veja mais detalhes](http://fortawesome.github.io/Font-Awesome/get-started/).
+
+## Uso dos ícones
 
 Veja um exemplo básico de utilização.
 

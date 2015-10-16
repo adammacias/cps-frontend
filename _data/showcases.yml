@@ -9,6 +9,12 @@
   city: Santos
   group: fatec
 
+- title: Centro Paula Souza
+  screenshot: cps.png
+  url: http://localhost:4000/templates/example-cps/
+  city: São Paulo
+  group: cps
+
 # - title: Fatec X
 #   screenshot: screenshot-X.png
 #   url: http://X.edu.br
@@ -20,12 +26,6 @@
 #   city: X-XX
 
 # TESTES
-
-- title: Fatec Baixada Santista - Rubens Lara
-  screenshot: fatecrl.png
-  url: http://fatecrl.edu.br
-  city: Santos
-  group: fatec
 
 - title: Fatec Baixada Santista - Rubens Lara
   screenshot: fatecrl.png
