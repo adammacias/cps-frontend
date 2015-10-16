@@ -1,0 +1,120 @@
+//
+// navbar-secundary
+//
+//
+.navbar {
+    //max-width: 960px;
+    margin: 0 auto;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #dde4e7;
+    .nav a {
+        font-size: 12px;
+        //font-weight: bold;
+
+    }
+}
+
+//
+// Navbar
+//
+// Navbar main in #header, with affix effect
+//
+.cps-navbar {
+    @extend .navbar;
+    @extend .navbar-inverse;
+    width: 100%;
+    max-width: 1400px;
+    @media (min-width: $screen-md-min) {
+        .navbar-nav > li:first-child {
+            margin-left: -15px !important;
+        }
+    }
+    .navbar-brand {
+        font-size: 16px;
+        img, svg {
+            height: 30px;
+            margin-top: -3px;
+        }
+    }
+    &.affix-top {
+        .navbar-brand {
+            img, svg {
+                @include opacity(0);
+                @include transition(all 0.1s linear);
+                margin-left: -50px;
+            }
+        }
+    }
+    &.affix {
+        position: fixed;
+        z-index: $zindex-navbar;
+        top: 0;
+        .navbar-brand {
+            img, svg {
+                margin-left: 15px;
+                @include opacity(1);
+                @include transition(all 0.1s linear);
+            }
+        }
+    }
+    .dropdown-menu {
+        .glyphicon {
+            margin-right: 5px;
+            font-size: 14px;
+        }
+    }
+}
+
+//
+// Page Header in #header
+//
+.cps-page-header {
+    @extend .page-header;
+    @extend .text-center;
+    padding: 30px 30px 140px;
+    margin-top: 0;
+    margin-bottom: -100px;
+    color: set-color-based-background(white);
+    a:link {
+        font-weight: bold;
+    }
+    a.btn {
+        font-weight: normal;
+    }
+    // Background image, testar
+    &:before {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: '';
+        opacity: 1;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        opacity: 0.25;
+        @include grayscale;
+        background-image: none;
+    }
+}
+
+// Components
+// ==========================================================================
+
+//
+// Modifier class for 21:9 aspect ratio
+//
+.embed-responsive-21by9 {
+    padding-bottom: 42.19%;
+}
+
+//
+// Modifier class for 1:1 aspect ratio
+//
+.embed-responsive-1by1 {
+    padding-bottom: 100%;
+}

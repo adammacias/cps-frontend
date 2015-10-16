@@ -41,11 +41,6 @@ Quando criamos uma hierarquia de cabeçalho (`<h1>` - `<h6>`), em seu documento,
 
 Leia mais sobre [Cabeçalhos nível 1, sections e acessibilidade](http://tableless.com.br/cabecalhos-nivel-1-e-sections/) e [Entendendo o Outline do HTML](http://tableless.com.br/entendendo-o-outline-html/).
 
-### Contrastes de Cores
-
-Atualmente, algumas cores padrão disponíveis no Bootstrap (tais como várias usadas em <a href="../css/#buttons">classes de botões</a>, parte da cor do código destacado em <a href="../css/#code-block">blocos de código básico</a>, a classe <code>.bg-primary</code> em <a href="../css/#helper-classes-backgrounds">background contextual</a> nas classes de ajuda, e a cor do link padrão quando usado em um fundo branco) têm uma relação de baixo contraste (abaixo da <a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast">proporção recomendada de 4.5:1</a>). Isso pode causar problemas para usuários com baixa visão ou que são daltônicos. Estas cores padrão podem precisar ser modificadas para aumentar seu contraste e legibilidade.</p>
-{: style="color:red; font-weight: bold"}
-
 ### Recursos adicionais
 
 - [Boas práticas de Acessibilidade](http://tableless.com.br/boas-praticas-de-acessibilidade/)
@@ -128,12 +123,11 @@ Muitos atributos não necessitam de um valor para ser usado. Como `disabled` ou 
 
 ## CSS
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Escreva código CSS de forma consciente.
+
+### Prefixos de Nomenclatura
+
+Usamos o prefixo `cps-` para todas as classes do {{ site.title }}. Isso nos ajuda a evitar conflitos com o CSS do produto de terceiros ou com outros frameworks.
 
 ### Utilização (classes vs. ids)
 
@@ -141,3 +135,17 @@ Devemos usar IDs para elementos que aparecem exatamente uma única vez em uma p�
 
 - **Bons** candidatos para IDs são: cabeçalho, rodapé, janela modal.
 - **Ruins** candidatos para IDs são: navegações, lista de itens, títulos.
+
+### Aspas
+
+Utilize **aspas duplas**.
+
+{% highlight css %}
+/* Ruim */
+input[type='text'] { ... }
+div:after { content: '...'; }
+
+/* Bom */
+input[type="text"] { ... }
+div:after { content: "..."; }
+{% endhighlight %}

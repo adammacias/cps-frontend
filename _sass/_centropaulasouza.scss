@@ -21,8 +21,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 // Bootstrap Styles Core
 @import "bootstrap/bootstrap";
 
-// Brand Styles Core
-@import "brand";
+// Centro Paula Souza Styles Core
+@import "centropaulasouza/functions";
+@import "centropaulasouza/mixins";
+@import "centropaulasouza/brand";
+@import "centropaulasouza/scaffolding";
+@import "centropaulasouza/components";
 
 // Pygments Manni Styles
 @import "pygments-manni";

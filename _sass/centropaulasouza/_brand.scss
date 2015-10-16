@@ -1,0 +1,290 @@
+// Logos
+// ==========================================================================
+// https://css-tricks.com/using-svg/
+// https://css-tricks.com/almanac/properties/b/background-size/
+// http://petercollingridge.appspot.com/svg-editor
+// http://www.mobilefish.com/services/base64/base64.php
+
+//
+// Header Site
+//
+// Show all logos, site, centro paula souza and governo do estado de sao paulo
+//
+$brand-header-logo-color: $gray-base;
+$brand-header-logo-color-hover: lighten($brand-header-logo-color, 10%);
+
+$fill-logo-fatec-s0: #3A5461;
+
+//#3A5461;     FATEC
+$fill-logo-fatec-s1: #B01116;
+
+// #B01116;   Baixada Santista
+$fill-logo-fatec-s2: #3A5461;
+
+// #3A5461;     Rubens Lara
+
+$fill-logo-etec-s0: #3A5461;
+
+//#3A5461;     FATEC
+$fill-logo-etec-s1: #B01116;
+
+// #B01116;   Baixada Santista
+$fill-logo-etec-s2: #3A5461;
+
+// #3A5461;     Rubens Lara
+
+$fill-logo-dark: #283337;
+
+//#000;
+$fill-logo-white: #fff;
+
+$fill-logo-cps-s0: #B01116;
+
+// B01116 CENTRO PAULA SOUZA
+
+$fill-logo-sp-s0: white;
+
+//#3A5461     FATEC
+$fill-logo-sp-s1: #FFD400;
+
+//#B01116   Baixada Santista
+$fill-logo-sp-s2: #034EA2;
+
+//#3A5461    Rubens Lara
+$fill-logo-sp-s3: #ED1C24;
+
+//#3A5461    Rubens Lara
+$fill-logo-sp-s4: black;
+
+.logo {
+    display: inline-block;
+    width: 100%;
+    &.logo-2x {
+        zoom: 150%;
+        -moz-transform: scale(1.5);
+    }
+    &.logo-3x {
+        zoom: 200%;
+        -moz-transform: scale(2);
+    }
+    &.logo-4x {
+        zoom: 250%;
+        -moz-transform: scale(2.5);
+    }
+    &:hover {
+        text-decoration: none;
+    }
+    h1, h2, p, abbr, span {
+        width: 110%;
+    }
+    &.logo-fatec {
+        //zoom: 100%; -moz-transform: scale(1);
+        background-image: url(../brand/fatec/logo.svg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 100% !important;
+        width: 170px;
+        p {
+            font-size: 14px !important;
+        }
+        &::before, &::after, .title, .sub-title {
+            font-weight: 700 !important;
+            position: relative;
+            background: transparent;
+            text-align: right;
+            display: block;
+            max-width: 170px;
+            /*margin-right: auto;
+            margin-left: auto;*/
+            /*white-space: nowrap;*/
+            width: 100%;
+        }
+        &::before, .title {
+            @extend .h1;
+            color: $fill-logo-fatec-s1;
+            font-size: 1.45em;
+            margin-top: 55px;
+            content: attr(data-title);
+        }
+        &::after, .sub-title {
+            @extend .h2;
+            color: $fill-logo-fatec-s2;
+            font-size: 1.20em;
+            margin-top: -10px;
+            content: attr(data-sub-title);
+        }
+        &.logo-dark {
+            background-image: url(../brand/fatec/logo-dark.svg);
+            &::before,
+            &::after {
+                color: #{$fill-logo-dark};
+            }
+            h1, h2, p, abbr, span {
+                color: #{$fill-logo-dark};
+            }
+        }
+        &.logo-light {
+            background-image: url(../brand/fatec/logo-light.svg);
+            &::before,
+            &::after {
+                color: #{$fill-logo-white};
+            }
+            h1, h2, p, abbr, span {
+                color: #{$fill-logo-white};
+            }
+        }
+    }
+    &.logo-etec {
+        background-image: url(../brand/etec/logo.svg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 100% !important;
+        width: 170px;
+        height: 65px;
+        &::before, &::after, .title, .sub-title {
+            font-weight: 700 !important;
+            position: relative;
+            background: transparent;
+            text-align: right;
+            display: block;
+            max-width: 170px;
+            /*margin-right: auto;
+            margin-left: auto;*/
+            /*white-space: nowrap;*/
+            width: 100%;
+            //float: right;
+
+        }
+        p {
+            font-size: 14px !important;
+        }
+        &::before, .title {
+            @extend .h1;
+            color: $fill-logo-etec-s1;
+            font-size: 1.45em;
+            margin-top: 70px;
+            content: attr(data-title);
+        }
+        &::after, .sub-title {
+            @extend .h2;
+            color: $fill-logo-etec-s2;
+            font-size: 1.20em;
+            margin-top: -5px;
+            content: attr(data-sub-title);
+        }
+        &.logo-dark {
+            background-image: url(../brand/etec/logo-dark.svg);
+            &::before,
+            &::after {
+                color: #{$fill-logo-dark};
+            }
+        }
+        &.logo-light {
+            background-image: url(../brand/etec/logo-light.svg);
+            &::before,
+            &::after {
+                color: #{$fill-logo-white};
+            }
+        }
+    }
+    &.logo-cps {
+        zoom: 90%;
+        -moz-transform: scale(0.9);
+        background-image: url(../brand/cps/logo.svg);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 125px;
+        height: 80px;
+        &.logo-dark {
+            background-image: url(../brand/cps/logo-dark.svg);
+        }
+        &.logo-light {
+            background-image: url(../brand/cps/logo-light.svg);
+        }
+        &.logo-gray {
+            background-image: url(../brand/cps/logo-gray.svg);
+            // 808183
+
+        }
+    }
+    &.logo-governo-sp {
+        zoom: 90%;
+        -moz-transform: scale(0.9);
+        background-image: url(../brand/governo-sp/logo.svg);
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 290px;
+        height: 60px;
+        &.logo-dark {
+            background-image: url(../brand/governo-sp/logo-dark.svg);
+        }
+        &.logo-light {
+            background-image: url(../brand/governo-sp/logo-light.svg);
+        }
+    }
+}
+
+.cps-header {
+    .logo-group {
+        @extend .row;
+        @extend .hidden-xs;
+        height: 125px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        // Todos os logos
+        .logo-group-item {
+            @extend .col-sm-4;
+            height: 100px;
+            //background: yellow;
+            .logo {
+                @extend .center-block;
+                min-height: 100px;
+            }
+            &:first-child {
+                @extend .col-sm-4;
+                //background: lime;
+                .logo {
+                    @extend .pull-left;
+                }
+            }
+            &:last-child {
+                @extend .col-sm-4;
+                //background: aqua;
+                .logo {
+                    @extend .pull-right;
+                }
+            }
+        }
+    }
+}
+
+// Customize Theme
+// ==========================================================================
+//
+// Generate theme for default Centro Paula Souza
+//
+@include create-theme($cps-name, $cps-color, false);
+
+@include create-theme($fatec-name, $fatec-color, true);
+
+@include create-theme($etec-name, $etec-color, true);
+
+//
+// Generate theme for all courses
+//
+@each $site, $color in ($default-name, $default-color), ($ads-name, $ads-color), ($ge-name, $ge-color), ($gp-name, $gp-color), ($si-name, $si-color), ($log-name, $log-color) {
+    @include create-theme($site, $color);
+}
+
+//@include create-palette($site, $color);
+
+//
+// Generate palletes
+//
+@each $site, $color in ("branco", #fff), ("cps-principal", $cps-color), ("fatec-principal", $fatec-color), ("etec-principal", $etec-color), ("cinza-escuro-extra", $gray-base), ("cinza-escuro", $gray-dark), ("cinza", $gray), ("cinza-claro", $gray-light), ("cinza-claro-extra", $gray-lighter) {
+    @include create-palette($site, $color);
+}
+
+//$default-color: #69868e;

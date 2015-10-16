@@ -1,0 +1,14 @@
+//
+// Set color based background
+//
+// To dynamically change text color based on a background color
+// more detais http://thesassway.com/intermediate/dynamically-change-text-color-based-on-its-background-with-sass
+//
+@function set-color-based-background($color) {
+    @if lightness($color) > 54 {
+        @return $gray-base;
+    }
+    @else {
+        @return #ffffff;
+    }
+}

@@ -1,0 +1,179 @@
+// https://github.com/twbs/bootstrap-sass/tree/37ea51e9ac2ea1e0f475f998f6df70fabf0996b7/assets/stylesheets/bootstrap/mixins
+// https://github.com/twbs/bootstrap-sass/blob/37ea51e9ac2ea1e0f475f998f6df70fabf0996b7/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss
+
+@mixin grayscale {
+    -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+    -o-filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+}
+
+@mixin hover-img-zoom {
+    img {
+        @include transition(all 0.1s linear);
+    }
+    &:hover img {
+        @include scale(1.15);
+    }
+}
+
+//
+// Create Palete color and background
+//
+@mixin create-palette($site, $color) {
+    //
+    // Palete color and background
+    //
+    .palette-#{$site}-color {
+        color: $color !important;
+    }
+    .palette-#{$site}-bg {
+        background: $color !important;
+    }
+}
+
+//
+// Create theme
+//
+@mixin create-theme($site, $color, $bodyclass: true) {
+    //
+    // Palete color and background
+    //
+    @include create-palette($site, $color);
+    //
+    // Choose if will be for body with class or without
+    //
+    // @bodyclass true
+    // Add name site as class
+    //
+    $element: body;
+    @if $bodyclass {
+        $element: "body." + $site;
+    }
+    #{$element} {
+        @include text-emphasis-variant(".text-primary", $color);
+        @include bg-variant(".bg-primary", $color);
+        //
+        // Header
+        // =======================
+        //
+        // Navbar
+        //
+        .cps-navbar {
+            //@extend .navbar;
+            border-bottom: 5px solid $color !important;
+        }
+        //
+        // Page Header
+        //
+        .cps-page-header {
+            //
+            // Background and color
+            //
+            background: $color;
+            @include gradient-directional($color, darken($color, 5%), $deg: 45deg);
+            color: set-color-based-background($color);
+            a {
+                color: set-color-based-background($color);
+            }
+            //
+            // Botao default
+            //
+            .btn-default,
+            a.btn-default,
+            button.btn-default {
+                @include button-variant(set-color-based-background($color), $color, set-color-based-background($color));
+            }
+            //
+            // Botao Principal
+            //
+            .btn-primary,
+            a.btn-primary,
+            button.btn-primary {
+                @include button-variant($color, set-color-based-background($color), $color);
+            }
+        }
+        //
+        // Content and Sidebar
+        // =======================
+        //
+        #content, #sidebar {
+            //
+            // Paineis
+            //
+            .panel.panel-primary {
+                border-color: $color;
+                .panel-heading {
+                    background: $color;
+                    color: set-color-based-background($color);
+                    border-color: $color;
+                }
+            }
+            //
+            // Botao Principal
+            //
+            .btn-primary,
+            a.btn-primary,
+            button.btn-primary {
+                @include button-variant($color, set-color-based-background($color), $color);
+            }
+            //
+            // Label Principal
+            //
+            .label-primary {
+                background: $color !important;
+                color: set-color-based-background($color);
+            }
+            //
+            // List group
+            //
+            .list-group-item.active {
+                background: $color;
+                color: set-color-based-background($color);
+                border-color: lighten($color, 10%);
+            }
+            .btn-group-vertical .active {
+                border-left: 5px solid $color !important;
+                box-shadow: none;
+            }
+        }
+        //
+        // Components
+        // =======================
+        //
+        // Carousel Banner
+        .carousel-control:hover {
+            color: $color !important;
+        }
+        .carousel-indicators .active {
+            background: $color !important;
+        }
+        //
+        // Footer
+        // =======================
+        //
+        /*
+        #footer {
+            border-top: 5px solid $color !important;
+            h4 {
+                color: lighten($color, 15%) !important;
+            }
+            .btn-primary.show-map {
+                color: lighten($color, 15%);
+                border: 1px solid lighten($color, 15%);
+                &:hover {
+                    color: #fff;
+                    border: 1px solid #fff;
+                    background: none;
+                }
+            }
+            .list-unstyled li {
+                &:hover {
+                    border-left-color: lighten($color, 15%);
+                }
+            }
+        }
+        */
+    }
+}
