@@ -37,6 +37,40 @@ Faça o download dos arquivos CSS, JavaScript e fonts compilados e minificados, 
 
 [Baixar {{ site.title }}]({{ site.download.dist }}){: .btn .btn-lg .btn-outline}
 
+### O que está incluso
+
+Feito o [download]({{ "install/#via-download" | prepend: site.baseurl | prepend: site.url }}), descompacte a pasta compactada para ver a estrutura do {{ site.title }} (o compilado). Você verá algo parecido com isto:
+
+{% highlight md %}
+cps-bootstrap/
+├── css/
+│   ├── cps.css
+│   └── cps.min.css
+├── js/
+│   ├── cps.js
+│   └── cps.min.js
+└── brand/
+    ├── cps/
+    │   ├── logo.svg
+    │   ├── logo-dark.svg
+    │   ├── logo-gray.svg
+    │   └── logo-light.svg
+    ├── etec/
+    │   ├── logo.svg
+    │   ├── logo-dark.svg
+    │   └── logo-light.svg
+    ├── fatec/
+    │   ├── logo.svg
+    │   ├── logo-dark.svg
+    │   └── logo-light.svg
+    └── governo-sp/
+        ├── logo.svg
+        ├── logo-dark.svg
+        └── logo-light.svg
+{% endhighlight %}
+
+Fornecemos os arquivos CSS e JS compilados (`cps.*`), tanto como  compilados e minificados (`cps.min.*`). Juntamente com os logos CPS, Etec, Fatec e Governo SP no formato `.svg`.
+
 ## Fatos importantes
 
 Para usar de maneira correta o {{ site.title }}, é importante que saiba algumas coisas, como:
