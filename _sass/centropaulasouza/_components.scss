@@ -1,4 +1,96 @@
 //
+// Avatars
+//
+//
+
+.avatar {
+
+  &.avatar-default,
+  &.avatar-horizontal {
+    // Default
+    border: 0;
+    @extend .media;
+
+    .avatar-foto {
+      @extend .media-left;
+      img {
+        @extend .media-object;
+        @extend .img-rounded;
+        margin-top: 3px;
+        width: 35px;
+        height: 35px;
+      }
+    }
+
+    .avatar-details {
+      @extend .media-body;
+      @extend .text-muted;
+      font-size: 12px;
+      .fa {font-size: 14px;}
+      p {
+        margin: 0;
+      }
+
+      .avatar-name {
+        @extend .media-heading;
+        color: $gray-dark;
+        font-size: 16px;
+      }
+    }
+
+    // Large
+    &.avatar-lg {
+      .avatar-foto {
+        img {
+          margin-top: 3px;
+          width: 120px;
+          height: 120px;
+        }
+      }
+      .avatar-details {
+        @extend .text-muted;
+        font-size: 14px;
+        .avatar-name {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  &.avatar-vertical {
+    border: 0;
+    @extend .thumbnail;
+
+    .avatar-foto {
+      img {
+        @extend .img-rounded;
+        @extend .img-responsive;
+        @extend .center-block;
+        min-width: 100%;
+      }
+    }
+
+    .avatar-details {
+      @extend .caption;
+      @extend .text-muted;
+      font-size: 12px;
+      .fa {font-size: 14px;}
+      .avatar-name {
+        @extend .media-heading;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+//
 // navbar-secundary
 //
 //

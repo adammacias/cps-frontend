@@ -4,21 +4,31 @@ title: Equipe
 group: about
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+O {{site.title}} é mantido pelo criados com ajuda de outros colaboradores.
+{: .lead}
 
-<div class="list-group bd-team">
-  {% for member in site.data.core-team %}
-    <div class="list-group-item">
-      <iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user={{ member.user }}&amp;type=follow"></iframe>
-      <a class="team-member" href="https://github.com/{{ member.user }}">
-        <img src="{{ member.gravatar }}" alt="@{{ member.user }}" width="32" height="32">
-        <strong>{{ member.name }}</strong> <small>@{{ member.user }}</small>
-      </a>
+## Criadores
+
+<div class="list-group">
+{% for member in site.data.core-team %}
+<div class="list-group-item">
+  <div class="avatar avatar-default">
+    <div class="avatar-foto">
+    <a href="https://github.com/{{ member.user }}">
+      <img src="{{ member.gravatar }}" alt="@{{ member.user }}">
+    </a>
     </div>
-  {% endfor %}
+    <div class="avatar-details">
+      <h4 class="avatar-name">{{ member.name }}</h4>
+      <p><a href="https://github.com/{{ member.user }}">@{{ member.user }}</a></p>
+    </div>
+  </div>
 </div>
+{% endfor %}
+</div>
+ 
+## Colaboradores
+
+O código do {{site.title}} é aberto e esta hospedado no GitHub, então qualquer pessoa pode colaborar com o projeto.
+
+[Veja todos os colaboradores do projeto]({{site.repo_url}}/graphs/contributors){: .btn .btn-default}
