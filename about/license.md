@@ -4,9 +4,4 @@ title: Licença
 group: about
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Código e documentação copyright 2015 - {{ site.title }}. Todos os arquivos CSS, SCSS, JS e outros não incluindo arquivos de imagens estão licenciados como [GNU GENERAL PUBLIC LICENSE]({{site.repo_url}}/blob/gh-pages/LICENSE) ou pela licença especificada dentro de seus arquivos.

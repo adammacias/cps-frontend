@@ -79,4 +79,4 @@ A documentação do {{ site.title }} é construída com [Jekyll](http://jekyllrb
 
 ## Copyright e Licença
 
-Código e documentação copyright 2015 - {{ site.title }}. Todos os arquivos CSS, SCSS, JS e outros não incluindo arquivos de imagens estão licenciados como [GNU GENERAL PUBLIC LICENSE](https://github.com/adammacias/cps-bootstrap/blob/master/LICENSE) ou pela licença especificada dentro de seus arquivos.
+Código e documentação copyright 2015 - {{ site.title }}. Todos os arquivos CSS, SCSS, JS e outros não incluindo arquivos de imagens estão licenciados como [GNU GENERAL PUBLIC LICENSE](https://github.com/adammacias/cps-bootstrap/blob/gh-pages/LICENSE) ou pela licença especificada dentro de seus arquivos.

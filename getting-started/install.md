@@ -41,8 +41,7 @@ Faça o download dos arquivos CSS, JavaScript e fonts compilados e minificados, 
 
 Feito o [download]({{ "install/#via-download" | prepend: site.baseurl | prepend: site.url }}), descompacte a pasta compactada para ver a estrutura do {{ site.title }} (o compilado). Você verá algo parecido com isto:
 
-<pre><code>
-cps-bootstrap/
+<pre><code>cps-bootstrap/
 ├── css/
 │   ├── cps.css
 │   └── cps.min.css
@@ -66,7 +65,7 @@ cps-bootstrap/
     └── governo-sp/
         ├── logo.svg
         ├── logo-dark.svg
-        └── logo-light.svg
+        └── logo-light.svg        
 </code></pre>
 
 Fornecemos os arquivos CSS e JS compilados (`cps.*`), tanto como  compilados e minificados (`cps.min.*`). Juntamente com os logos CPS, Etec, Fatec e Governo SP no formato `.svg`.
