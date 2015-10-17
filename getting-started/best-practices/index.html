@@ -7,7 +7,7 @@
 <title>Boas práticas</title>
 <meta name="description" content="Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.">
 <link rel="canonical" href="http://adammacias.github.io/cps-bootstrap//getting-started/best-practices/">
-<link rel="author" href="https://plus.google.com/117839494541292456644" title="Adam Macias">
+<link rel="author" href="https://plus.google.com/" title="">
 <link rel="alternate" type="application/rss+xml" title="CPS Front-end" href="http://adammacias.github.io/cps-bootstrap/feed.xml" />
 
 <!-- Stylesheet -->
@@ -29,8 +29,8 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@adammacias" />
-<meta name="twitter:creator" content="@adammacias" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@" />
 
 <!-- Pinned site Windows -->
 <meta name="application-name" content="CPS Front-end" />
@@ -211,12 +211,6 @@
             
               
               <li class="item-page">
-                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//branding/download/">Download</a>
-              </li>
-            
-            
-              
-              <li class="item-page">
                 <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//components/dropdowns/">Dropdowns</a>
               </li>
             
@@ -279,7 +273,13 @@
             
               
               <li class="item-page">
-                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//templates/example-cps/">Template Padrão</a>
+                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//templates/blog/">Template Blog</a>
+              </li>
+            
+            
+              
+              <li class="item-page">
+                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//templates/page/">Template Padrão</a>
               </li>
             
             
@@ -290,16 +290,14 @@
             
             
               
-            
-              
               <li class="item-page">
-                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//templates/institucional/">Template Institucional - História</a>
+                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//templates/estilos/">Template Estilos</a>
               </li>
             
             
               
               <li class="item-page">
-                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//templates/page/">Template Padrão</a>
+                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//templates/institucional/">Template Institucional - História</a>
               </li>
             
             
@@ -316,14 +314,10 @@
             
             
               
-              <li class="item-page">
-                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//templates/estilos/">Template Estilos</a>
-              </li>
-            
             
               
               <li class="item-page">
-                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//templates/blog/">Template Blog</a>
+                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//templates/example-cps/">Template Padrão</a>
               </li>
             
             
@@ -355,13 +349,13 @@
             
               
               <li class="item-page">
-                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//getting-started/introduction/">Introdução</a>
+                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//content/introduction/">Introdução</a>
               </li>
             
             
               
               <li class="item-page">
-                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//content/introduction/">Introdução</a>
+                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//getting-started/introduction/">Introdução</a>
               </li>
             
             
@@ -471,13 +465,13 @@
             
               
               <li class="item-page">
-                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//content/typography/">Tipografia</a>
+                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//branding/typography/">Tipografia</a>
               </li>
             
             
               
               <li class="item-page">
-                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//branding/typography/">Tipografia</a>
+                <a class="entry-link" href="http://adammacias.github.io/cps-bootstrap//content/typography/">Tipografia</a>
               </li>
             
             
@@ -1359,8 +1353,6 @@
             
               
             
-              
-            
         </ul>
         </li>
         -->
@@ -1465,7 +1457,6 @@
   <li><a href="#acessibilidade" id="markdown-toc-acessibilidade">Acessibilidade</a>    <ul>
       <li><a href="#pular-navegao" id="markdown-toc-pular-navegao">Pular navegação</a></li>
       <li><a href="#hierarquia-de-cabealhos" id="markdown-toc-hierarquia-de-cabealhos">Hierarquia de cabeçalhos</a></li>
-      <li><a href="#contrastes-de-cores" id="markdown-toc-contrastes-de-cores">Contrastes de Cores</a></li>
       <li><a href="#recursos-adicionais" id="markdown-toc-recursos-adicionais">Recursos adicionais</a></li>
     </ul>
   </li>
@@ -1476,7 +1467,9 @@
     </ul>
   </li>
   <li><a href="#css" id="markdown-toc-css">CSS</a>    <ul>
+      <li><a href="#prefixos-de-nomenclatura" id="markdown-toc-prefixos-de-nomenclatura">Prefixos de Nomenclatura</a></li>
       <li><a href="#utilizao-classes-vs-ids" id="markdown-toc-utilizao-classes-vs-ids">Utilização (classes vs. ids)</a></li>
+      <li><a href="#aspas" id="markdown-toc-aspas">Aspas</a></li>
     </ul>
   </li>
 </ul>
@@ -1506,10 +1499,6 @@ Note que este bug também afetará qualquer outro link ancora em seu site possa 
 <p>Quando criamos uma hierarquia de cabeçalho (<code>&lt;h1&gt;</code> - <code>&lt;h6&gt;</code>), em seu documento, o cabeçalho principal deve ser <code>&lt;h1&gt;</code>. Em seguida cabeçalhos <code>&lt;h2&gt;</code> - <code>&lt;h6&gt;</code> devem vir de forma lógica, de tal modo que os leitores de telas consigam criar uma tabela de conteúdo para suas páginas.</p>
 
 <p>Leia mais sobre <a href="http://tableless.com.br/cabecalhos-nivel-1-e-sections/">Cabeçalhos nível 1, sections e acessibilidade</a> e <a href="http://tableless.com.br/entendendo-o-outline-html/">Entendendo o Outline do HTML</a>.</p>
-
-<h3 id="contrastes-de-cores">Contrastes de Cores</h3>
-
-<p style="color:red; font-weight: bold">Atualmente, algumas cores padrão disponíveis no Bootstrap (tais como várias usadas em <a href="../css/#buttons">classes de botões</a>, parte da cor do código destacado em <a href="../css/#code-block">blocos de código básico</a>, a classe <code>.bg-primary</code> em <a href="../css/#helper-classes-backgrounds">background contextual</a> nas classes de ajuda, e a cor do link padrão quando usado em um fundo branco) têm uma relação de baixo contraste (abaixo da <a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast">proporção recomendada de 4.5:1</a>). Isso pode causar problemas para usuários com baixa visão ou que são daltônicos. Estas cores padrão podem precisar ser modificadas para aumentar seu contraste e legibilidade.&lt;/p&gt;</p>
 
 <h3 id="recursos-adicionais">Recursos adicionais</h3>
 
@@ -1592,12 +1581,11 @@ indent_size = 4</code></pre></div>
 
 <h2 id="css">CSS</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Escreva código CSS de forma consciente.</p>
+
+<h3 id="prefixos-de-nomenclatura">Prefixos de Nomenclatura</h3>
+
+<p>Usamos o prefixo <code>cps-</code> para todas as classes do CPS Front-end. Isso nos ajuda a evitar conflitos com o CSS do produto de terceiros ou com outros frameworks.</p>
 
 <h3 id="utilizao-classes-vs-ids">Utilização (classes vs. ids)</h3>
 
@@ -1607,6 +1595,19 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <li><strong>Bons</strong> candidatos para IDs são: cabeçalho, rodapé, janela modal.</li>
   <li><strong>Ruins</strong> candidatos para IDs são: navegações, lista de itens, títulos.</li>
 </ul>
+
+<h3 id="aspas">Aspas</h3>
+
+<p>Utilize <strong>aspas duplas</strong>.</p>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/* Ruim */</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="err">'</span><span class="nt">text</span><span class="err">'</span><span class="o">]</span> <span class="p">{</span> <span class="err">...</span> <span class="p">}</span>
+<span class="nt">div</span><span class="nd">:after</span> <span class="p">{</span> <span class="nl">content</span><span class="p">:</span> <span class="s2">'...'</span><span class="p">;</span> <span class="p">}</span>
+
+<span class="c">/* Bom */</span>
+<span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="err">"</span><span class="nt">text</span><span class="err">"</span><span class="o">]</span> <span class="p">{</span> <span class="err">...</span> <span class="p">}</span>
+<span class="nt">div</span><span class="nd">:after</span> <span class="p">{</span> <span class="nl">content</span><span class="p">:</span> <span class="s1">"..."</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+
 
           </div>
         </main>
@@ -1618,17 +1619,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <p class="text-center">This site is &copy; to CPS Front-end 2015</p>
 </footer>
 
-
-<!-- Google Analytics -->
-<script>
-   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-0000000-0', 'auto');
-  ga('send', 'pageview');
-</script>
 
 
 <!-- Scripts -->

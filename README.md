@@ -1,10 +1,10 @@
-# Centro Paula Souza Styleguide
+# CPS Front-end
 
-Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
+Manual e framework front-end do Centro Paula Souza para projetos web.
 
 ## Conteúdo
 
-* [Indrodução](#)
+* [Indrodução](#indrodução)
 * [Instalação](#)
 * [O que esta incluso](#)
 * [Documentação](#)
@@ -22,9 +22,9 @@ O objetivo do {{ site.title }} é oferecer uma nova ferramenta institucional par
 * [Baixar {{ site.title }}]({{ site.download.dist }}).
 * [Instalar {{ site.title }} usando CDN (Rede de Distribuição de Conteúdo)]({{ "getting-started/install/#via-cdn-rede-de-distribuio-de-contedo" | prepend: site.baseurl | prepend: site.url }}).
 
-### O que esta incluso
+### O que está incluso
 
-Caso faça o download, você irá encontrar algo assim: 
+Feito o download, descompacte a pasta compactada para ver a estrutura do {{ site.title }} (o compilado). Você verá algo parecido com isto:
 
 ```
 cps-bootstrap/
@@ -35,11 +35,26 @@ cps-bootstrap/
 │   ├── cps.js
 │   └── cps.min.js
 └── brand/
-    ├── ...
-    └── ...
+    ├── cps/
+    │   ├── logo.svg
+    │   ├── logo-dark.svg
+    │   ├── logo-gray.svg
+    │   └── logo-light.svg
+    ├── etec/
+    │   ├── logo.svg
+    │   ├── logo-dark.svg
+    │   └── logo-light.svg
+    ├── fatec/
+    │   ├── logo.svg
+    │   ├── logo-dark.svg
+    │   └── logo-light.svg
+    └── governo-sp/
+        ├── logo.svg
+        ├── logo-dark.svg
+        └── logo-light.svg
 ```
 
-Fornecemos os arquivos CSS e JS compilados (`cps.*`), tanto como  compilados e minificados (`cps.min.*`).
+Fornecemos os arquivos CSS e JS compilados (`cps.*`), tanto como  compilados e minificados (`cps.min.*`). Juntamente com os logos CPS, Etec, Fatec e Governo SP no formato `.svg`.
 
 ## Documentação
 
@@ -64,4 +79,4 @@ A documentação do {{ site.title }} é construída com [Jekyll](http://jekyllrb
 
 ## Copyright e Licença
 
-Código e documentação copyright 2015 - {{ site.title }}. Todos os arquivos CSS, SCSS, JS e outros não incluindo arquivos de imagens estão licenciados como [GNU GENERAL PUBLIC LICENSE](https://github.com/adammacias/cps-bootstrap/blob/master/LICENSE) ou pela licença especificada dentro de seus arquivos.
+Código e documentação copyright 2015 - {{ site.title }}. Todos os arquivos CSS, SCSS, JS e outros não incluindo arquivos de imagens estão licenciados como [GNU GENERAL PUBLIC LICENSE](https://github.com/adammacias/cps-bootstrap/blob/gh-pages/LICENSE) ou pela licença especificada dentro de seus arquivos.
