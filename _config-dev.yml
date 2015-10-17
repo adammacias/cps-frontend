@@ -17,39 +17,16 @@ baseurl: "/" # the subpath of your site, e.g. /blog/
 baseurl_content: "http://localhost:4000/assets/" # put path absolute
 url: "http://localhost:4000" # the base hostname & protocol for your site
 
-# Custom variables
-analytics: UA-0000000-0
-version: 1.0
-author:
-  name: Adam Macias
-  url: http://adammacias.com
-  github: adammacias
-  twitter: adammacias
-  facebook: adam.requena.macias
-  instagram: adammacias
-  gplus: 117839494541292456644
-  email: eu@adammacias.com
-
-repo_url: https://github.com/adammacias/cps-bootstrap
-
 # Custom vars
-current_version:  4.0.0-alpha
-repo:             https://github.com/twbs/bootstrap
-sass_repo:        https://github.com/twbs/bootstrap-sass
-slack:            https://bootstrap-slack.herokuapp.com
+current_version:  1.0.0-alpha
+repo:             https://github.com/adammacias/cps-bootstrap
 
 download:
-  source:         https://github.com/twbs/bootstrap/archive/v4.0.0-alpha.zip
-  dist:           https://github.com/twbs/bootstrap/releases/download/v4.0.0-alpha/bootstrap-4.0.0-alpha-dist.zip
+  source:         https://github.com/adammacias/cps-bootstrap/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha.zip
+  dist:           https://github.com/adammacias/cps-bootstrap/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha-dist.zip
   brand:
-    all:          https://xxx.zip
-    cpsgov:       https://xxx.zip
-    fatecs:       https://xxx.zip
-    etecs:        https://xxx.zip
-
-blog:             http://blog.getbootstrap.com
-expo:             http://expo.getbootstrap.com
-themes:           http://themes.getbootstrap.com
+    manual:       http://www.centropaulasouza.sp.gov.br/quem-somos/manual-de-identidade-logo-novo/manual/manual-centro-paula-souza-2015-set.pdf
+    assets:       https://github.com/adammacias/cps-bootstrap/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha-brand.zip
 
 cdn:
   css:            https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css

@@ -1,6 +1,6 @@
-# Centro Paula Souza Styleguide
+# CPS Front-end
 
-Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
+Manual e framework front-end do Centro Paula Souza para projetos web.
 
 ## Conteúdo
 

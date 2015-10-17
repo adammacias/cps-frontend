@@ -31,4 +31,4 @@ O {{site.title}} é mantido pelo criados com ajuda de outros colaboradores.
 
 O código do {{site.title}} é aberto e esta hospedado no GitHub, então qualquer pessoa pode colaborar com o projeto.
 
-[Veja todos os colaboradores do projeto]({{site.repo_url}}/graphs/contributors){: .btn .btn-default}
+[Veja todos os colaboradores do projeto]({{site.repo}}/graphs/contributors){: .btn .btn-default}

@@ -1,37 +1,38 @@
 # Build settings
 exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components, src, tcc/*.docx ]
-timezone: America/Sao_Paulo # e.g. America/New_York or America/Sao_Paulo
+timezone: America/Sao_Paulo
 markdown: kramdown
 highlighter: rouge
 kramdown:
   auto_ids: true
 sass:
     sass_dir: _sass
-    style: :compressed # :nested ? :compact ? :expanded :compressed | Different Sass Output Styles: http://bit.ly/1K5wPnC
+    style: :compressed
 
 # Site settings
 destination: ../gh-pages
 permalink: pretty
 title: CPS Front-end
 description: Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
-baseurl: "/cps-bootstrap/" # the subpath of your site, e.g. /blog/
-baseurl_content: "http://adammacias.github.io/cps-bootstrap/assets/" # put path absolute
-url: "http://adammacias.github.io" # the base hostname & protocol for your site
+baseurl: "/cps-bootstrap/"
+baseurl_content: "http://adammacias.github.io/cps-bootstrap/assets/"
+url: "http://adammacias.github.io"
 
-# Custom variables
-analytics: UA-0000000-0
-version: 1.0
-author:
-  name: Adam Macias
-  url: http://adammacias.com
-  github: adammacias
-  twitter: adammacias
-  facebook: adam.requena.macias
-  instagram: adammacias
-  gplus: 117839494541292456644
-  email: eu@adammacias.com
+# Custom vars
+current_version:  1.0.0-alpha
+repo:             https://github.com/adammacias/cps-bootstrap
 
-repo_url: https://github.com/adammacias/cps-bootstrap
+download:
+  source:         https://github.com/adammacias/cps-bootstrap/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha.zip
+  dist:           https://github.com/adammacias/cps-bootstrap/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha-dist.zip
+  brand:
+    manual:       http://www.centropaulasouza.sp.gov.br/quem-somos/manual-de-identidade-logo-novo/manual/manual-centro-paula-souza-2015-set.pdf
+    assets:       https://github.com/adammacias/cps-bootstrap/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha-brand.zip
+
+cdn:
+  css:            https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css
+  js:             https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
+  jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
 
 gems:
   - jekyll-redirect-from
