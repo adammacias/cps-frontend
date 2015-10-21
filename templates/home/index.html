@@ -3,6 +3,174 @@ layout: template
 title: Template Home
 description: "..."
 css: home.css
+news:
+  - title: "Título de exemplo da notícia"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    image: "http://placehold.it/300x300"
+  - title: "Título de exemplo da notícia"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    image: "http://placehold.it/300x300"
+  - title: "Título de exemplo da notícia"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    image: "http://placehold.it/300x300"
+  - title: "Título de exemplo da notícia"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    image: "http://placehold.it/300x300"
+  - title: "Título de exemplo da notícia"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    image: null
+  - title: "Título de exemplo da notícia"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+    image: null
 ---
 
-<h1>TO-DO</h1>
+{% include templates/header.html %}
+
+<div class="container">
+  <div id="carousel-example" class="carousel carousel-thumbnail slide" data-ride="carousel">
+    <!-- carousel indicadores -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example" data-slide-to="1"></li>
+      <li data-target="#carousel-example" data-slide-to="2"></li>
+    </ol>
+    <!-- carousel slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="row">
+          <div class="col-xs-6">
+            <a class="thumbnail thumbnail-lg">
+              <img src="http://placehold.it/930x930" alt="" class="img-responsive">
+              <div class="thumbnail-caption">
+                <h3 class="thumbnail-caption-title">Primeiro slide <br>Coluna um</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-6">
+            <a class="thumbnail thumbnail-lg">
+              <img src="http://placehold.it/930x930" alt="First slide image" class="img-responsive">
+              <div class="thumbnail-caption">
+                <h3 class="thumbnail-caption-title">Primeiro slide <br>Coluna dois</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <a class="thumbnail thumbnail-lg">
+          <img src="http://placehold.it/930x450" alt="">
+          <div class="thumbnail-caption">
+            <h3 class="thumbnail-caption-title">Segundo slide</h3>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <div class="row">
+          <div class="col-xs-6">
+            <a class="thumbnail thumbnail-sm">
+              <img src="http://placehold.it/930x930" alt="">
+              <div class="thumbnail-caption">
+                <h3 class="thumbnail-caption-title">Primeiro slide <br>Coluna um, Caixa um</h3>
+              </div>
+            </a>
+            <a class="thumbnail thumbnail-sm">
+              <img src="http://placehold.it/930x930" alt="">
+              <div class="thumbnail-caption">
+                <h3 class="thumbnail-caption-title">Primeiro slide <br>Coluna um, Caixa dois</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-6">
+            <a class="thumbnail thumbnail-lg">
+              <img src="http://placehold.it/930x930" alt="">
+              <div class="thumbnail-caption">
+                <h3 class="thumbnail-caption-title">Primeiro slide <br>Coluna dois</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- carousel setas -->
+    <div class="hidden-xs">
+      <a data-slide="prev" href="#carousel-example" class="left carousel-control">‹</a>
+      <a data-slide="next" href="#carousel-example" class="right carousel-control hidden-xs">›</a>
+    </div>
+    <div class="visible-xs">
+      <a data-slide="prev" href="#carousel-example" class="pull-left carousel-control-xs btn btn-default ">‹ Anterior</a>
+      <a data-slide="next" href="#carousel-example" class="pull-right carousel-control-xs btn btn-default visible-xs">Próximo ›</a>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<main class="cps-main">
+  <div class="row">
+    <div id="content" class="col-md-6" tabindex="-1">
+      <h2 class="h3"><i class="fa fa-bullhorn"></i> Notícias</h2>
+      <div class="row">
+      {% for new in page.news %}
+        <article class="col-md-6">
+          <a href="#" class="thumbnail">
+            {% if new.image %}<img src="{{ new.image }}" class="img-responsive img-rounded" alt="">{% endif %}
+            <div class="caption">
+              <h3 class="h6">{{ new.title }}</h3>
+              <p class="text-muted">09/09/2015</p>
+              <p class="small">{{ new.description }}</p>
+            </div>
+          </a>
+        </article>
+      {% endfor %}
+      </div>
+      <p class="text-center"><a href="#" class="btn btn-default btn-block">Ver mais notícias</a></p>
+    </div>
+    <aside class="col-md-6">
+      <div class="widget">
+        <h2 class="h3"><i class="fa fa-calendar-check-o"></i> Agenda</h2>
+        <dl>
+          <dt>Quarta-feira, 21 de outubro</dt>
+          <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+          <dt>Quinta-feira, 22 de outubro</dt>
+          <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+          <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+          <dt>Sexta-feira, 23 de outubro</dt>
+          <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+          <dt>Segunda-feira, 26 de outubro</dt>
+          <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+          <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+        </dl>
+        <p class="text-center"><a href="#" class="btn btn-default btn-block">Ver agenda completa</a></p>
+      </div>
+      <hr>
+      <div class="widget">
+        <h2 class="h3">Destaque</h2>
+        <div class="list-group small">
+          <a href="#" class="list-group-item text-center">
+            <img src="http://placehold.it/600x150" class="img-responsive img-rounded" alt="">
+          </a>
+          <a href="#" class="list-group-item">Link relacionado</a>
+          <a href="#" class="list-group-item">Link relacionado</a>
+          <a href="#" class="list-group-item">Link relacionado</a>
+        </div>
+      </div>
+      <hr>
+      <div class="widget">
+        <h2 class="h3">Social</h2>
+        <div class="list-group">
+          <a href="#" class="list-group-item"><i class="fa fa-twitter fa-fw"></i>&nbsp; Twitter</a>
+          <a href="#" class="list-group-item"><i class="fa fa-facebook-official fa-fw"></i>&nbsp; Facebook</a>
+          <a href="#" class="list-group-item"><i class="fa fa-youtube fa-fw"></i>&nbsp; Youtube</a>
+          <a href="#" class="list-group-item"><i class="fa fa-tumblr fa-fw"></i>&nbsp; Tumblr</a>
+          <a href="#" class="list-group-item"><i class="fa fa-google-plus fa-fw"></i>&nbsp; Google+</a>
+          <a href="#" class="list-group-item"><i class="fa fa-whatsapp fa-fw"></i>&nbsp; WhatsApp</a>
+          <a href="#" class="list-group-item"><i class="fa fa-instagram fa-fw"></i>&nbsp; Instagram</a>
+          <a href="#" class="list-group-item"><i class="fa fa-linkedin fa-fw"></i>&nbsp; LinkedIn</a>
+          <a href="#" class="list-group-item"><i class="fa fa-flickr fa-fw"></i>&nbsp; Flickr</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+{% include templates/footer.html %}

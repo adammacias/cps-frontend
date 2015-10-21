@@ -4,11 +4,14 @@ title: Template Padrão
 description: "..."
 css: page.css
 ---
+
 {% include templates/header.html %}
+
 <header class="cps-page-header">
   <h1>Template padrão</h1>
   <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 </header>
+
 <main class="cps-main">
   <article id="content" tabindex="-1">
     <h1>Cabeçalho H1</h1>
@@ -16,4 +19,5 @@ css: page.css
     <p>Veja como usar o logo da sua institução na <a href="{{ "branding/overview/" | prepend: site.baseurl | prepend: site.url }}">página de identidade</a>.</p>
   </article>
 </main>
+
 {% include templates/footer.html %}

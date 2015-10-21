@@ -4,91 +4,80 @@
 //
 
 .avatar {
-
-  &.avatar-default,
-  &.avatar-horizontal {
-    // Default
-    border: 0;
-    @extend .media;
-
-    .avatar-foto {
-      @extend .media-left;
-      img {
-        @extend .media-object;
-        @extend .img-rounded;
-        margin-top: 3px;
-        width: 35px;
-        height: 35px;
-      }
-    }
-
-    .avatar-details {
-      @extend .media-body;
-      @extend .text-muted;
-      font-size: 12px;
-      .fa {font-size: 14px;}
-      p {
-        margin: 0;
-      }
-
-      .avatar-name {
-        @extend .media-heading;
-        color: $gray-dark;
-        font-size: 16px;
-      }
-    }
-
-    // Large
-    &.avatar-lg {
-      .avatar-foto {
-        img {
-          margin-top: 3px;
-          width: 120px;
-          height: 120px;
+    &.avatar-default,
+    &.avatar-horizontal {
+        // Default
+        border: 0;
+        @extend .media;
+        .avatar-foto {
+            @extend .media-left;
+            img {
+                @extend .media-object;
+                @extend .img-rounded;
+                margin-top: 3px;
+                width: 35px;
+                height: 35px;
+            }
         }
-      }
-      .avatar-details {
-        @extend .text-muted;
-        font-size: 14px;
-        .avatar-name {
-          font-size: 20px;
+        .avatar-details {
+            @extend .media-body;
+            @extend .text-muted;
+            font-size: 12px;
+            .fa {
+                font-size: 14px;
+            }
+            p {
+                margin: 0;
+            }
+            .avatar-name {
+                @extend .media-heading;
+                color: $gray-dark;
+                font-size: 16px;
+            }
         }
-      }
+        // Large
+        &.avatar-lg {
+            .avatar-foto {
+                img {
+                    margin-top: 3px;
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+            .avatar-details {
+                @extend .text-muted;
+                font-size: 14px;
+                .avatar-name {
+                    font-size: 20px;
+                }
+            }
+        }
     }
-  }
-  &.avatar-vertical {
-    border: 0;
-    @extend .thumbnail;
-
-    .avatar-foto {
-      img {
-        @extend .img-rounded;
-        @extend .img-responsive;
-        @extend .center-block;
-        min-width: 100%;
-      }
+    &.avatar-vertical {
+        border: 0;
+        @extend .thumbnail;
+        .avatar-foto {
+            img {
+                @extend .img-rounded;
+                @extend .img-responsive;
+                @extend .center-block;
+                min-width: 100%;
+            }
+        }
+        .avatar-details {
+            @extend .caption;
+            @extend .text-muted;
+            font-size: 12px;
+            .fa {
+                font-size: 14px;
+            }
+            .avatar-name {
+                @extend .media-heading;
+                font-size: 16px;
+            }
+        }
     }
-
-    .avatar-details {
-      @extend .caption;
-      @extend .text-muted;
-      font-size: 12px;
-      .fa {font-size: 14px;}
-      .avatar-name {
-        @extend .media-heading;
-        font-size: 16px;
-      }
-    }
-  }
 }
-
-
-
-
-
-
-
-
 
 //
 // navbar-secundary
@@ -197,16 +186,102 @@
 // Components
 // ==========================================================================
 
-//
-// Modifier class for 21:9 aspect ratio
-//
-.embed-responsive-21by9 {
-    padding-bottom: 42.19%;
-}
-
-//
-// Modifier class for 1:1 aspect ratio
-//
-.embed-responsive-1by1 {
-    padding-bottom: 100%;
+/*
+ * Carousel
+ */
+.carousel {
+    margin-bottom: 0;
+    &.carousel-thumbnail {
+        .carousel-control {
+            font-size: 60px;
+            width: 40px;
+            height: 100px;
+            margin-top: 175px;
+            opacity: 1 !important;
+            color: #333;
+            border: 0;
+            background: none !important;
+            text-shadow: none !important;
+            &:hover {
+                color: #69868e;
+            }
+            &.left {
+                left: -50px;
+            }
+            &.right {
+                right: -50px;
+            }
+        }
+        .carousel-indicators {
+            top: auto;
+            right: 50%;
+            bottom: -20px;
+            margin-right: -19px;
+            li {
+                background: #333;
+            }
+            .active {
+                background: #69868e;
+            }
+        }
+        .item {
+            background: none;
+            a {
+                @extend .thumbnail;
+                position: relative;
+                overflow: hidden;
+                margin: 0 0 30px;
+                padding: 0;
+                img {
+                    @extends .img-responsive;
+                    @include transition(all 0.1s linear);
+                }
+                &:hover img {
+                    @include scale(1.15);
+                }
+                .thumbnail-caption {
+                    position: absolute;
+                    z-index: 2;
+                    top: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    padding: 2%;
+                    color: #fff !important;
+                    @include gradient-directional(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), 45deg);
+                    .thumbnail-caption-title {
+                        position: absolute;
+                        z-index: 3;
+                        right: 20px;
+                        bottom: 20px;
+                        left: 20px;
+                        width: 100%;
+                        text-shadow: 1px 1px 1px #000;
+                    }
+                    &.text-right {
+                        @include gradient-directional(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), -45deg);
+                        .caption-title {
+                            padding-right: 40px;
+                        }
+                    }
+                }
+                &:hover .thumbnail-caption {
+                    @include gradient-directional(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0), 45deg);
+                    &.text-right {
+                        @include gradient-directional(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), -45deg);
+                    }
+                }
+                // Sizes
+                &.thumbnail-lg {
+                    height: 450px;
+                }
+                &.thumbnail-sm {
+                    height: 210px;
+                }
+                &.thumbnail-sm img {
+                    margin-top: -210px;
+                }
+            }
+        }
+    }
 }
