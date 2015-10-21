@@ -96,7 +96,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 <p><b>Tons cinza</b></p>
 <div class="row">
     <div class="col-sm-2">
-        <div class="thumbnail docs-palette palette-branco-bg" style="color:#000" style="color:#fff">
+        <div class="thumbnail docs-palette palette-branco-bg" style="color:#000">
             <p>Branco
                 <br>
                 <br>
@@ -106,7 +106,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     <div class="col-sm-2">
         <div class="thumbnail docs-palette palette-cinza-claro-extra-bg" style="color:#000">
             <p>Cinza Claro Extra
-                <br>
                 <br>
                 <br>#DDE4E7</p>
         </div>
@@ -138,7 +137,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     <div class="col-sm-2">
         <div class="thumbnail docs-palette palette-cinza-escuro-extra-bg" style="color:#fff">
             <p>Cinza Escuro Extra
-                <br>
                 <br>
                 <br>#283337</p>
         </div>
