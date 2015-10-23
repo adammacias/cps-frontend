@@ -61,34 +61,40 @@
     <loc>http://adammacias.github.io/cps-bootstrap//content/images/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/page/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/calendario/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/blog/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/calendario/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/contact/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/estilos/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/contato/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/page/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/page-sidebar/</loc>
   </url>
   <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/showcase-cps/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/showcase-etec-aristoteles/</loc>
+  </url>
+  <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/home/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/showcase-siga/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/page-course/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/course/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//templates/example-cps/</loc>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/estilos/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-bootstrap//templates/</loc>
@@ -151,12 +157,16 @@
     <loc>http://adammacias.github.io/cps-bootstrap//getting-started/template-base/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-bootstrap//content/typography/</loc>
-  </url>
-  <url>
     <loc>http://adammacias.github.io/cps-bootstrap//branding/typography/</loc>
   </url>
   <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//content/typography/</loc>
+  </url>
+  <url>
     <loc>http://adammacias.github.io/cps-bootstrap//components/utilities/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-bootstrap//templates/showcase-fatecrl-semanatec/index.html</loc>
+    <lastmod>2015-10-22T23:55:49+01:00</lastmod>
   </url>
 </urlset>

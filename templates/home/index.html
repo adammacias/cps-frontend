@@ -23,7 +23,282 @@
     </div>
   </a>
 
-  <h1>TO-DO</h1>
+  <header class="cps-header">
+  <div class="container">
+    <div class="logo-group">
+      <div class="logo-group-item">
+        <a class="logo logo-fatec" href="#" title="Página Inicial" data-title="Baixada Santista" data-sub-title="Rubens Lara">
+          <h1 class="sr-only">Fatec Baixada Santista - Rubens Lara</h1>
+        </a>
+      </div>
+      <div class="logo-group-item">
+        <a class="logo logo-cps" href="http://www.cps.sp.gov.br" title="Portal do Centro Paula Souza" target="_blank">
+          <h2 class="sr-only">Centro Paula Souza</h2>
+        </a>
+      </div>
+      <div class="logo-group-item">
+        <a class="logo logo-governo-sp" href="http://www.saopaulo.sp.gov.br" title="Portal do Governo do estado de São Paulo" target="_blank">
+          <span class="sr-only">Governo do estado de São Paulo</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="cps-navbar" data-spy="affix" data-offset-top="140">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false" aria-controls="navbar-collapsed">
+      <span class="sr-only">Alterar navegação</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand visible-xs" href="#">Fatec-RL</a>
+    </div>
+    <div id="navbar-collapsed" class="collapse navbar-collapse ">
+      <ul class="nav navbar-nav">
+        <li class="home"><a href="#">Início</a></li>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li role="presentation" class="dropdown-header">Graduação</li>
+            <li><a href="#">Curso 1</a></li>
+            <li><a href="#">Curso 2</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation" class="dropdown-header">Graduação a distância</li>
+            <li><a href="#">Curso 3</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle">Área exclusiva &nbsp;<i class="fa fa-user fa-fw" aria-hidden="true"></i></a>
+          <ul class="dropdown-menu">
+            <li role="presentation" class="dropdown-header">Acesso restrito</li>
+            <li><a href="#"><i class="fa fa-lock fa-fw" aria-hidden="true"></i>&nbsp; SIGA</a></li>
+            <li><a href="#"><i class="fa fa-lock fa-fw" aria-hidden="true"></i>&nbsp; Moodle</a></li>
+            <li><a href="#"><i class="fa fa-lock fa-fw" aria-hidden="true"></i>&nbsp; E-mail Fatec</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation" class="dropdown-header">Aluno</li>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+  <div id="carousel-example" class="carousel carousel-thumbnail slide" data-ride="carousel">
+    <!-- carousel indicadores -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example" data-slide-to="1"></li>
+      <li data-target="#carousel-example" data-slide-to="2"></li>
+    </ol>
+    <!-- carousel slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="row">
+          <div class="col-xs-6">
+            <a class="thumbnail thumbnail-lg">
+              <img src="http://placehold.it/930x930" alt="" class="img-responsive">
+              <div class="thumbnail-caption">
+                <h3 class="thumbnail-caption-title">Primeiro slide <br>Coluna um</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-6">
+            <a class="thumbnail thumbnail-lg">
+              <img src="http://placehold.it/930x930" alt="First slide image" class="img-responsive">
+              <div class="thumbnail-caption">
+                <h3 class="thumbnail-caption-title">Primeiro slide <br>Coluna dois</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <a class="thumbnail thumbnail-lg">
+          <img src="http://placehold.it/930x450" alt="">
+          <div class="thumbnail-caption">
+            <h3 class="thumbnail-caption-title">Segundo slide</h3>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <div class="row">
+          <div class="col-xs-6">
+            <a class="thumbnail thumbnail-sm">
+              <img src="http://placehold.it/930x930" alt="">
+              <div class="thumbnail-caption">
+                <h3 class="thumbnail-caption-title">Primeiro slide <br>Coluna um, Caixa um</h3>
+              </div>
+            </a>
+            <a class="thumbnail thumbnail-sm">
+              <img src="http://placehold.it/930x930" alt="">
+              <div class="thumbnail-caption">
+                <h3 class="thumbnail-caption-title">Primeiro slide <br>Coluna um, Caixa dois</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-6">
+            <a class="thumbnail thumbnail-lg">
+              <img src="http://placehold.it/930x930" alt="">
+              <div class="thumbnail-caption">
+                <h3 class="thumbnail-caption-title">Primeiro slide <br>Coluna dois</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- carousel setas -->
+    <div class="hidden-xs">
+      <a data-slide="prev" href="#carousel-example" class="left carousel-control">‹</a>
+      <a data-slide="next" href="#carousel-example" class="right carousel-control hidden-xs">›</a>
+    </div>
+    <div class="visible-xs">
+      <a data-slide="prev" href="#carousel-example" class="pull-left carousel-control-xs btn btn-default ">‹ Anterior</a>
+      <a data-slide="next" href="#carousel-example" class="pull-right carousel-control-xs btn btn-default visible-xs">Próximo ›</a>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<main class="cps-main">
+  <div class="row">
+    <div id="content" class="col-md-6" tabindex="-1">
+      <h2 class="h3"><i class="fa fa-bullhorn"></i> Notícias</h2>
+      <div class="row">
+      
+        <article class="col-md-6">
+          <a href="#" class="thumbnail">
+            <img src="http://placehold.it/300x300" class="img-responsive img-rounded" alt="">
+            <div class="caption">
+              <h3 class="h6">Título de exemplo da notícia</h3>
+              <p class="text-muted">09/09/2015</p>
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col-md-6">
+          <a href="#" class="thumbnail">
+            <img src="http://placehold.it/300x300" class="img-responsive img-rounded" alt="">
+            <div class="caption">
+              <h3 class="h6">Título de exemplo da notícia</h3>
+              <p class="text-muted">09/09/2015</p>
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col-md-6">
+          <a href="#" class="thumbnail">
+            <img src="http://placehold.it/300x300" class="img-responsive img-rounded" alt="">
+            <div class="caption">
+              <h3 class="h6">Título de exemplo da notícia</h3>
+              <p class="text-muted">09/09/2015</p>
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col-md-6">
+          <a href="#" class="thumbnail">
+            <img src="http://placehold.it/300x300" class="img-responsive img-rounded" alt="">
+            <div class="caption">
+              <h3 class="h6">Título de exemplo da notícia</h3>
+              <p class="text-muted">09/09/2015</p>
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col-md-6">
+          <a href="#" class="thumbnail">
+            
+            <div class="caption">
+              <h3 class="h6">Título de exemplo da notícia</h3>
+              <p class="text-muted">09/09/2015</p>
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col-md-6">
+          <a href="#" class="thumbnail">
+            
+            <div class="caption">
+              <h3 class="h6">Título de exemplo da notícia</h3>
+              <p class="text-muted">09/09/2015</p>
+              <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+            </div>
+          </a>
+        </article>
+      
+      </div>
+      <p class="text-center"><a href="#" class="btn btn-default btn-block">Ver mais notícias</a></p>
+    </div>
+    <aside class="col-md-6">
+      <div class="widget">
+        <h2 class="h3"><i class="fa fa-calendar-check-o"></i> Agenda</h2>
+        <dl>
+          <dt>Quarta-feira, 21 de outubro</dt>
+          <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</dd>
+          <dt>Quinta-feira, 22 de outubro</dt>
+          <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+          <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+          <dt>Sexta-feira, 23 de outubro</dt>
+          <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+          <dt>Segunda-feira, 26 de outubro</dt>
+          <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+          <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+        </dl>
+        <p class="text-center"><a href="#" class="btn btn-default btn-block">Ver agenda completa</a></p>
+      </div>
+      <hr>
+      <div class="widget">
+        <h2 class="h3">Destaque</h2>
+        <div class="list-group small">
+          <a href="#" class="list-group-item text-center">
+            <img src="http://placehold.it/600x150" class="img-responsive img-rounded" alt="">
+          </a>
+          <a href="#" class="list-group-item">Link relacionado</a>
+          <a href="#" class="list-group-item">Link relacionado</a>
+          <a href="#" class="list-group-item">Link relacionado</a>
+        </div>
+      </div>
+      <hr>
+      <div class="widget">
+        <h2 class="h3">Social</h2>
+        <div class="list-group">
+          <a href="#" class="list-group-item"><i class="fa fa-twitter fa-fw"></i>&nbsp; Twitter</a>
+          <a href="#" class="list-group-item"><i class="fa fa-facebook-official fa-fw"></i>&nbsp; Facebook</a>
+          <a href="#" class="list-group-item"><i class="fa fa-youtube fa-fw"></i>&nbsp; Youtube</a>
+          <a href="#" class="list-group-item"><i class="fa fa-tumblr fa-fw"></i>&nbsp; Tumblr</a>
+          <a href="#" class="list-group-item"><i class="fa fa-google-plus fa-fw"></i>&nbsp; Google+</a>
+          <a href="#" class="list-group-item"><i class="fa fa-whatsapp fa-fw"></i>&nbsp; WhatsApp</a>
+          <a href="#" class="list-group-item"><i class="fa fa-instagram fa-fw"></i>&nbsp; Instagram</a>
+          <a href="#" class="list-group-item"><i class="fa fa-linkedin fa-fw"></i>&nbsp; LinkedIn</a>
+          <a href="#" class="list-group-item"><i class="fa fa-flickr fa-fw"></i>&nbsp; Flickr</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer id="footer" class="cps-footer">
+  <p class="text-center">This site is &copy; to CPS Front-end 2015</p>
+</footer>
+
 
 
   <!-- CPS Front-end core JavaScript -->

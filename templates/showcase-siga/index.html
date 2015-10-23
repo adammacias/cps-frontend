@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIGA - CPS Front-end</title>
+
+  <!-- CPS Front-end core CSS -->
+  <link rel="stylesheet" href="http://adammacias.github.io/cps-bootstrap/assets/css/centropaulasouza.css">
+
+  <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  
+  <!-- CSS customizado -->
+  <link rel="stylesheet" href="page.css">
+  
+</head>
+<body>
+  <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+    <div class="container">
+      <span class="skiplink-text">Pular para o conteúdo</span>
+    </div>
+  </a>
+
+  <style>
+  .cps-main,
+  .cps-header .container {
+    max-width: 1200px;
+  }
+
+  .cps-header {
+    padding-top:20px;
+    padding-bottom:5px;
+    border-bottom: 1px solid #DDE4E7;
+  }
+
+  .cps-header .logo-cps {
+    width: 110px;
+    margin-top: -10px;
+  }
+
+  .cps-sidebar {
+    padding-top: 30px
+  }
+
+  .cps-sidebar .list-group .list-group-item {
+    font-size: 12px;
+  }
+</style>
+
+<header class="cps-header">
+  <div class="container">
+      <div class="pull-left">
+        <a class="logo logo-siga" href="#" title="Página Inicial">
+          <img src="http://adammacias.github.io/cps-bootstrap/templates/showcase-siga/images/siga.png">
+        </a>
+      </div>
+      <div class="pull-right">
+        <a class="logo logo-cps" href="http://www.cps.sp.gov.br" title="Portal do Centro Paula Souza" target="_blank">
+          <h2 class="sr-only">Centro Paula Souza</h2>
+        </a>
+      </div>
+  </div>
+</header>
+
+<main class="cps-main">
+  <div class="row">
+    <aside class="cps-sidebar col-md-3">
+      <div class="widget">
+        <img class="img-responsive img-thumbnail img-rounded" src="http://adammacias.github.io/cps-bootstrap/templates/showcase-siga/images/avatar.jpg" alt="">
+        <h5>Nome do Aluno</h5>
+        <ul class="list-unstyled">
+          <li><b>RA:</b> H14500298</li>
+          <li><b>PP:</b> 71.4% </li>
+          <li><b>PR:</b> 8.1 Maior </li>
+          <li><b>PR Curso:</b> 8.8</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="widget">
+        <h6>Matrícula</h6>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Matrícula (fechada)</a>
+        </div>
+      </div>
+      <div class="widget">
+        <h6>Consultas</h6>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Avisos</a>
+          <a href="#" class="list-group-item">Histórico</a>
+          <a href="#" class="list-group-item">Histórico (Grade)</a>
+          <a href="#" class="list-group-item">Histórico Completo</a>
+          <a href="#" class="list-group-item">Horário</a>
+          <a href="#" class="list-group-item">Notas Parciais</a>
+          <a href="#" class="list-group-item">Faltas Parciais</a>
+        </div>
+      </div>
+    </aside>
+    <div id="content" class="col-md-9" tabindex="-1">
+      <h1>Histórico</h1>
+      <table class="table table-condensed table-bordered table-hover table-responsive small">
+        <caption>Extrato histórico simples.</caption>
+        <thead>
+          <tr>
+            <th>Sigla</th>
+            <th>Disciplina</th>
+            <th>Período</th>
+            <th><abbr title="Aprovado">Aprov.</abbr></th>
+            <th><abbr title="Média Final">MédiaF.</abbr></th>
+            <th><abbr title="Frequência %">Freq.</abbr></th>
+            <th>Observação</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            <tr class="">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>0.0</td>
+              <td>65%</td>
+              <td>Em Curso</td>
+            </tr>
+          
+            <tr class="">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>0.0</td>
+              <td>65%</td>
+              <td>Em Curso</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>0.0</td>
+              <td>65%</td>
+              <td>Em Curso</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="danger">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2716;</td>
+              <td>8.0</td>
+              <td>42%</td>
+              <td>Reprovado por Falta</td>
+            </tr>
+          
+          
+            <tr class="">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>0.0</td>
+              <td>65%</td>
+              <td>Em Curso</td>
+            </tr>
+          
+            <tr class="">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>0.0</td>
+              <td>65%</td>
+              <td>Em Curso</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>0.0</td>
+              <td>65%</td>
+              <td>Em Curso</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="danger">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2716;</td>
+              <td>8.0</td>
+              <td>42%</td>
+              <td>Reprovado por Falta</td>
+            </tr>
+          
+          
+            <tr class="">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>0.0</td>
+              <td>65%</td>
+              <td>Em Curso</td>
+            </tr>
+          
+            <tr class="">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>0.0</td>
+              <td>65%</td>
+              <td>Em Curso</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>0.0</td>
+              <td>65%</td>
+              <td>Em Curso</td>
+            </tr>
+          
+            <tr class="success">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2714;</td>
+              <td>8.0</td>
+              <td>100%</td>
+              <td>Aprovado por Nota e Frequência</td>
+            </tr>
+          
+            <tr class="danger">
+              <td>ISW009</td>
+              <td>Exemplo de título da disciplina</td>
+              <td>20141</td>
+              <td class="text-center">&#x2716;</td>
+              <td>8.0</td>
+              <td>42%</td>
+              <td>Reprovado por Falta</td>
+            </tr>
+          
+        </tbody>
+      </table>
+      <hr>
+      <footer class="well well-xs">
+        <p>** Não possui validade como histórico escolar</p>
+        <p>** Valores temporários e sujeitos a alteração sem aviso prévio</p>
+      </footer>
+    </div>
+  </div>
+</main>
+<footer id="footer" class="cps-footer">
+  <p class="text-center">This site is &copy; to CPS Front-end 2015</p>
+</footer>
+
+
+
+  <!-- CPS Front-end core JavaScript -->
+  
+  <script src="http://adammacias.github.io/cps-bootstrap/assets/js/main.min.js"></script>
+  
+  
+</body>
+</html>
