@@ -3,38 +3,33 @@
 # Screenshoot deve ter obrigatóriamente 1000x800 e 90%
 #
 
-- title: Fatec Baixada Santista - Rubens Lara
-  screenshot: fatecrl.png
-  url: http://fatecrl.edu.br
-  city: Santos
-  group: fatec
+- title: "Fatec Baixada Santista - Rubens Lara"
+  screenshot: "fatecrl.png"
+  url: "http://fatecrl.edu.br"
+  city: "Santos"
+  group: "fatec"
 
-- title: Centro Paula Souza
-  screenshot: cps.png
-  url: http://localhost:4000/templates/example-cps/
-  city: São Paulo
-  group: cps
+- title: "Etec - Aristóteles Ferreira"
+  screenshot: "showcase-etec-aristoteles.png"
+  url: "./templates/showcase-etec-aristoteles/"
+  city: "Santos"
+  group: "fatec"
 
-# - title: Fatec X
-#   screenshot: screenshot-X.png
-#   url: http://X.edu.br
-#   city: X-XX
+- title: "Centro Paula Souza"
+  screenshot: "cps.png"
+  url: "http://localhost:4000/templates/showcase-cps"
+  city: "São Paulo"
+  group: "cps"
 
-# - title: Etec X
-#   screenshot: screenshot-X.png
-#   url: http://X.edu.br
-#   city: X-XX
+- title: XXI Semana de Tecnologia Fatec-RL
+  screenshot: fatecrl-semanatec.png
+  url: "http://fatecrl.edu.br/site/semana-de-tecnologia" #http://localhost:4000/templates/showcase-fatecrl-semanatec/
+  city: "Santos"
+  group: "fatec"
 
-# TESTES
+- title: "SIGA - Sistema Integrado de Gestão Acadêmica"
+  screenshot: "siga.png"
+  url: "./templates/showcase-siga/"
+  city: "São Paulo"
+  group: "cps"
 
-- title: Fatec Baixada Santista - Rubens Lara
-  screenshot: fatecrl.png
-  url: http://fatecrl.edu.br
-  city: Santos
-  group: fatec
-
-- title: Fatec Baixada Santista - Rubens Lara
-  screenshot: fatecrl.png
-  url: http://fatecrl.edu.br
-  city: Santos
-  group: fatec

@@ -39,6 +39,7 @@ cdn:
 mode: dev
 # Devs Tutorial
 # jekyll serve --config _config-dev.yml --w --drafts
+# jekyll s --config _config-dev.yml
 # url 4 page:       {{ "index.html" | prepend: site.baseurl | prepend: site.url }} - or - {{ site.baseurl | prepend: site.url | append: "index.html" }}
 # url 4 css:        {{ "css/main.css" | prepend: site.baseurl | prepend: site.url }}
 # url 4 content:    {{ "favicon.png" | prepend: site.baseurl_content }}

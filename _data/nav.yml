@@ -97,6 +97,8 @@
       slug: page
     - title: Página com barra lateral
       slug: page-sidebar
+    - title: Página Blog
+      slug: blog
     - title: Página curso
       slug: page-course
     - title: Página CSS

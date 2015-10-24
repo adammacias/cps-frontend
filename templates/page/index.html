@@ -13,11 +13,13 @@ css: page.css
 </header>
 
 <main class="cps-main">
-  <article id="content" tabindex="-1">
-    <h1>Cabeçalho H1</h1>
-    <p class="lead">Use este documento para começar uma nova página do seu projeto.</p>
-    <p>Veja como usar o logo da sua institução na <a href="{{ "branding/overview/" | prepend: site.baseurl | prepend: site.url }}">página de identidade</a>.</p>
-  </article>
+  <div id="content" tabindex="-1">
+    <article>
+      <h1>Cabeçalho H1</h1>
+      <p class="lead">Use este documento para começar uma nova página do seu projeto.</p>
+      <p>Veja como usar o logo da sua institução na <a href="{{ "branding/overview/" | prepend: site.baseurl | prepend: site.url }}">página de identidade</a>.</p>
+    </article>
+  </div>
 </main>
 
 {% include templates/footer.html %}

@@ -41,9 +41,9 @@ Conheça a estrutura base de um arquivo HTML do {{ site.title }}.
   </header>
   <!-- Conteúdo da página -->
   <main class="cps-main">
-    <article id="content" tabindex="-1">
+    <div id="content" tabindex="-1">
       ...
-    </article>
+    </div>
   </main>
   <!-- Rodapé -->
   <footer class="cps-footer">
@@ -57,11 +57,15 @@ Conheça a estrutura base de um arquivo HTML do {{ site.title }}.
 </html>
 {% endhighlight %}
 
-## Wireframe
+## Wireframes
 
-Veja o wireframe da página padrão do {{ site.title }}.
+### Template padrão do {{ site.title }}.
 
-![Wireframe Geral]({{ "assets/img/wireframe-general.png" | prepend: site.baseurl | prepend: site.url }}){: .img-responsive}
+![Wireframe Geral]({{ "assets/img/wireframes/padrao-explicativo.png" | prepend: site.baseurl | prepend: site.url }}){: .img-responsive}
+
+### Template com barra lateral do {{ site.title }}.
+
+![Wireframe Geral]({{ "assets/img/wireframes/barra-lateral-explicativo.png" | prepend: site.baseurl | prepend: site.url }}){: .img-responsive}
 
 ## Tutorial
 
@@ -102,7 +106,7 @@ A barra de navegação contém os principais links da sua página, como: *Iníci
 
 ### Passo 5 - Conteúdo da página
 
-É utilizada a tag `<main>` para definir o contéudo da página, normalmente é formado por apenas um `<article>` (Página padrão) ou `<article>` + `<aside>` (Página com barra lateral), mas isso pode variar de acordo com sua necessidade.
+É utilizada a tag `<main>` para definir o contéudo da página, normalmente é formado por apenas um `<div id="content">` (Página padrão) ou `<div id="content">` + `<aside class="cps-sidebar">` (Página com barra lateral), mas isso pode variar de acordo com sua necessidade.
 
 #### Página padrão
 
@@ -110,9 +114,9 @@ Não há necessidade de usar a classes `.row` ou `.col-x-x`.
 
 {% highlight html %}
 <main class="cps-main">
-  <article id="content" tabindex="-1">
+  <div id="content" tabindex="-1">
     ...
-  </article>
+  </div>
 </main>
 {% endhighlight %}
 
@@ -133,14 +137,14 @@ O banner é usado para mostrar o título e descrição de uma página. Para util
 
 #### Página com barra lateral
 
-São utilizadas as classes `.row` após o **main.cps-main** e `.col-x-x` em **article#content** e **aside#sidebar**.
+São utilizadas as classes `.row` após o **main.cps-main** e `.col-x-x` em **div#content** e **aside#sidebar**.
 
 {% highlight html %}
 <main class="cps-main">
   <div class="row">
-    <article id="content" class="col-md-9" tabindex="-1">
+    <div id="content" class="col-md-9" tabindex="-1">
       ...
-    </article>
+    </div>
     <aside id="sidebar" class="col-md-3">
       ...
     </aside>

@@ -59,6 +59,10 @@ $fill-logo-sp-s4: black;
 .logo {
     display: inline-block;
     width: 100%;
+    &.logo-less-2x {
+        zoom: 90%;
+        -moz-transform: scale(0.9);
+    }
     &.logo-2x {
         zoom: 150%;
         -moz-transform: scale(1.5);
@@ -135,6 +139,9 @@ $fill-logo-sp-s4: black;
         }
     }
     &.logo-etec {
+        zoom: 90%;
+        -moz-transform: scale(0.9);
+
         background-image: url(../brand/etec/logo.svg);
         background-repeat: no-repeat;
         background-position: top left;
@@ -161,14 +168,14 @@ $fill-logo-sp-s4: black;
         &::before, .title {
             @extend .h1;
             color: $fill-logo-etec-s1;
-            font-size: 1.45em;
+            font-size: 1.35em; // 1.45em;
             margin-top: 70px;
             content: attr(data-title);
         }
         &::after, .sub-title {
             @extend .h2;
             color: $fill-logo-etec-s2;
-            font-size: 1.20em;
+            font-size: 1.10em; // 1.20em;
             margin-top: -5px;
             content: attr(data-sub-title);
         }

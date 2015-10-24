@@ -121,7 +121,7 @@
         </aside>
         {% endif %}
 
-        <main id="content" class="col-md-9 col-md-offset-1" role="main"  tabindex="-1">
+        <main id="content" class="{% if page.group %}col-md-9 col-md-offset-1{% else %}col-md-12{% endif %}" role="main"  tabindex="-1">
           <div class="entry-content">
             <h1>{{ page.title }}</h1>
             {{ content }}

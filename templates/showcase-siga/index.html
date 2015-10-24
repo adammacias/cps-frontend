@@ -1,0 +1,214 @@
+---
+layout: template
+title: SIGA
+description: "..."
+css: page.css
+disciplinas:
+  - sigla: "ISW009"
+    title: "Exemplo de título da disciplina"
+    period: 20141
+    aproved: true
+    media: 0.0
+    frequencie: 65%
+    description: "Em Curso"
+    status: ""
+  - sigla: "ISW009"
+    title: "Exemplo de título da disciplina"
+    period: 20141
+    aproved: true
+    media: 0.0
+    frequencie: 65%
+    description: "Em Curso"
+    status: ""
+  - sigla: "ISW009"
+    title: "Exemplo de título da disciplina"
+    period: 20141
+    aproved: true
+    media: 8.0
+    frequencie: 100%
+    description: "Aprovado por Nota e Frequência"
+    status: "success"
+  - sigla: "ISW009"
+    title: "Exemplo de título da disciplina"
+    period: 20141
+    aproved: true
+    media: 8.0
+    frequencie: 100%
+    description: "Aprovado por Nota e Frequência"
+    status: "success"
+  - sigla: "ISW009"
+    title: "Exemplo de título da disciplina"
+    period: 20141
+    aproved: true
+    media: 8.0
+    frequencie: 100%
+    description: "Aprovado por Nota e Frequência"
+    status: "success"
+  - sigla: "ISW009"
+    title: "Exemplo de título da disciplina"
+    period: 20141
+    aproved: true
+    media: 8.0
+    frequencie: 100%
+    description: "Aprovado por Nota e Frequência"
+    status: "success"
+  - sigla: "ISW009"
+    title: "Exemplo de título da disciplina"
+    period: 20141
+    aproved: true
+    media: 0.0
+    frequencie: 65%
+    description: "Em Curso"
+    status: ""
+  - sigla: "ISW009"
+    title: "Exemplo de título da disciplina"
+    period: 20141
+    aproved: true
+    media: 8.0
+    frequencie: 100%
+    description: "Aprovado por Nota e Frequência"
+    status: "success"
+  - sigla: "ISW009"
+    title: "Exemplo de título da disciplina"
+    period: 20141
+    aproved: false
+    media: 8.0
+    frequencie: 42%
+    description: "Reprovado por Falta"
+    status: "danger"
+---
+
+<style>
+  .cps-main,
+  .cps-header .container {
+    max-width: 1200px;
+  }
+
+  .cps-header {
+    padding-top:20px;
+    padding-bottom:5px;
+    border-bottom: 1px solid #DDE4E7;
+  }
+
+  .cps-header .logo-cps {
+    width: 110px;
+    margin-top: -10px;
+  }
+
+  .cps-sidebar {
+    padding-top: 30px
+  }
+
+  .cps-sidebar .list-group .list-group-item {
+    font-size: 12px;
+  }
+</style>
+
+<header class="cps-header">
+  <div class="container">
+      <div class="pull-left">
+        <a class="logo logo-siga" href="#" title="Página Inicial">
+          <img src="{{ "templates/showcase-siga" | prepend: site.baseurl | prepend: site.url }}/images/siga.png">
+        </a>
+      </div>
+      <div class="pull-right">
+        <a class="logo logo-cps" href="http://www.cps.sp.gov.br" title="Portal do Centro Paula Souza" target="_blank">
+          <h2 class="sr-only">Centro Paula Souza</h2>
+        </a>
+      </div>
+  </div>
+</header>
+
+<main class="cps-main">
+  <div class="row">
+    <aside class="cps-sidebar col-md-3">
+      <div class="widget">
+        <img class="img-responsive img-thumbnail img-rounded" src="{{ "templates/showcase-siga" | prepend: site.baseurl | prepend: site.url }}/images/avatar.jpg" alt="">
+        <h5>Nome do Aluno</h5>
+        <ul class="list-unstyled">
+          <li><b>RA:</b> H14500298</li>
+          <li><b>PP:</b> 71.4% </li>
+          <li><b>PR:</b> 8.1 Maior </li>
+          <li><b>PR Curso:</b> 8.8</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="widget">
+        <h6>Matrícula</h6>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Matrícula (fechada)</a>
+        </div>
+      </div>
+      <div class="widget">
+        <h6>Consultas</h6>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Avisos</a>
+          <a href="#" class="list-group-item">Histórico</a>
+          <a href="#" class="list-group-item">Histórico (Grade)</a>
+          <a href="#" class="list-group-item">Histórico Completo</a>
+          <a href="#" class="list-group-item">Horário</a>
+          <a href="#" class="list-group-item">Notas Parciais</a>
+          <a href="#" class="list-group-item">Faltas Parciais</a>
+        </div>
+      </div>
+    </aside>
+    <div id="content" class="col-md-9" tabindex="-1">
+      <h1>Histórico</h1>
+      <table class="table table-condensed table-bordered table-hover table-responsive small">
+        <caption>Extrato histórico simples.</caption>
+        <thead>
+          <tr>
+            <th>Sigla</th>
+            <th>Disciplina</th>
+            <th>Período</th>
+            <th><abbr title="Aprovado">Aprov.</abbr></th>
+            <th><abbr title="Média Final">MédiaF.</abbr></th>
+            <th><abbr title="Frequência %">Freq.</abbr></th>
+            <th>Observação</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for d in page.disciplinas %}
+            <tr class="{{ d.status }}">
+              <td>{{ d.sigla }}</td>
+              <td>{{ d.title }}</td>
+              <td>{{ d.period }}</td>
+              <td class="text-center">{% if d.aproved %}&#x2714;{% else %}&#x2716;{% endif %}</td>
+              <td>{{ d.media }}</td>
+              <td>{{ d.frequencie }}</td>
+              <td>{{ d.description }}</td>
+            </tr>
+          {% endfor %}
+          {% for d in page.disciplinas %}
+            <tr class="{{ d.status }}">
+              <td>{{ d.sigla }}</td>
+              <td>{{ d.title }}</td>
+              <td>{{ d.period }}</td>
+              <td class="text-center">{% if d.aproved %}&#x2714;{% else %}&#x2716;{% endif %}</td>
+              <td>{{ d.media }}</td>
+              <td>{{ d.frequencie }}</td>
+              <td>{{ d.description }}</td>
+            </tr>
+          {% endfor %}
+          {% for d in page.disciplinas %}
+            <tr class="{{ d.status }}">
+              <td>{{ d.sigla }}</td>
+              <td>{{ d.title }}</td>
+              <td>{{ d.period }}</td>
+              <td class="text-center">{% if d.aproved %}&#x2714;{% else %}&#x2716;{% endif %}</td>
+              <td>{{ d.media }}</td>
+              <td>{{ d.frequencie }}</td>
+              <td>{{ d.description }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <hr>
+      <footer class="well well-xs">
+        <p>** Não possui validade como histórico escolar</p>
+        <p>** Valores temporários e sujeitos a alteração sem aviso prévio</p>
+      </footer>
+    </div>
+  </div>
+</main>
+{% include templates/footer.html %}

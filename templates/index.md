@@ -1,71 +1,61 @@
 ---
-layout: simple
+layout: docs
 title: Templates
+group: null
 ---
 
-[Download the Bootstrap source code]({{ site.download.source }}) to snag these examples.
+Templates são modelos prontos para serem utilizados ou customizados, é possível aproveita-los para agilizar o desenvolvimento de novas páginas do projeto.
+{: .lead}
 
-## Framework
+Utilizamos nos modelos a **Fatec Baixada Santista - Rubens Lara** para exemplificar a unidade, mas certamente você pode querer conhecer nossa [página de identidade]({{ "branding/overview/" | prepend: site.baseurl | prepend: site.url }}), onde demostramos como utilizar a marca da sua unidade de forma simples e padronizada.
 
-Examples that focus on implementing uses of built-in components provided by Bootstrap.
+[Veja o código fonte]({{ site.download.source }}) de qualquer template.
 
-<div class="row bd-examples">
-  <div class="col-xs-6 col-md-4">
-    <a href="{{ site.baseurl }}/examples/starter-template/">
-      <img class="img-thumbnail" src="{{ site.baseurl }}/examples/screenshots/starter-template.jpg" alt="">
-    </a>
-    <h4>Starter template</h4>
-    <p>Nothing but the basics: compiled CSS and JavaScript.</p>
-  </div>
-  <div class="col-xs-6 col-md-4">
-    <a href="{{ site.baseurl }}/examples/grid/">
-      <img class="img-thumbnail" src="{{ site.baseurl }}/examples/screenshots/grid.jpg" alt="">
-    </a>
-    <h4>Grids</h4>
-    <p>Multiple examples of grid layouts with all four tiers, nesting, and more.</p>
-  </div>
-  <div class="clearfix hidden-sm-up"></div>
+## Base
 
-  <div class="col-xs-6 col-md-4">
-    <a href="{{ site.baseurl }}/examples/jumbotron/">
-      <img class="img-thumbnail" src="{{ site.baseurl }}/examples/screenshots/jumbotron.jpg" alt="">
+A partir dos templates base é perfeitamente possível criar qualquer [página]({{ "templates/#paginas" | prepend: site.baseurl | prepend: site.url }}).
+
+<div class="row">
+  <article class="col-xs-6 col-md-4">
+    <a href="{{ "templates/page" | prepend: site.baseurl | prepend: site.url }}">
+      <img class="img-thumbnail img-responsive" src="{{ "templates/page" | prepend: site.baseurl | prepend: site.url }}/screenshot.png" alt="">
     </a>
-    <h4>Jumbotron</h4>
-    <p>Build around the jumbotron with a navbar and some basic grid columns.</p>
-  </div>
-  <div class="col-xs-6 col-md-4">
-    <a href="{{ site.baseurl }}/examples/narrow-jumbotron/">
-      <img class="img-thumbnail" src="{{ site.baseurl }}/examples/screenshots/jumbotron-narrow.jpg" alt="">
+    <h3 class="h5">Template básico (Padrão)</h3>
+    <p>Nada além do básico, template com cabeçalho, rodapé e conteúdo da página em uma só coluna.</p>
+  </article>
+  <article class="col-xs-6 col-md-4">
+    <a href="{{ "templates/page-sidebar" | prepend: site.baseurl | prepend: site.url }}">
+      <img class="img-thumbnail img-responsive" src="{{ "templates/page-sidebar" | prepend: site.baseurl | prepend: site.url }}/screenshot.png" alt="">
     </a>
-    <h4>Narrow jumbotron</h4>
-    <p>Build a more custom page by narrowing the default container and jumbotron.</p>
-  </div>
+    <h3 class="h5">Template com barra lateral</h3>
+    <p>Template com cabeçalho, rodapé e conteúdo da página separado em duas colunas, o conteúdo principal e a barra complementar.</p>
+  </article>
 </div>
 
-## Navbars
+## Páginas
 
 Taking the default navbar component and showing how it can be moved, placed, and extended.
 
-<div class="row bd-examples">
-  <div class="col-xs-6 col-md-4">
-    <a href="{{ site.baseurl }}/examples/navbar/">
-      <img class="img-thumbnail" src="{{ site.baseurl }}/examples/screenshots/navbar.jpg" alt="">
+<div class="row">
+  <article class="col-xs-6 col-md-4">
+    <a href="{{ "templates/home" | prepend: site.baseurl | prepend: site.url }}">
+      <img class="img-thumbnail img-responsive" src="{{ "templates/home" | prepend: site.baseurl | prepend: site.url }}/screenshot.png" alt="">
     </a>
-    <h4>Navbar</h4>
-    <p>Super basic template that includes the navbar along with some additional content.</p>
-  </div>
-  <div class="col-xs-6 col-md-4">
-    <a href="{{ site.baseurl }}/examples/navbar-top/">
-      <img class="img-thumbnail" src="{{ site.baseurl }}/examples/screenshots/navbar-static.jpg" alt="">
+    <h3 class="h5">Página inicial (Home)</h3>
+    <p>Página com caroussel (slides), listagem de artigos, agenda, social e outros.</p>
+  </article>
+  <article class="col-xs-6 col-md-4">
+    <a href="{{ "templates/blog" | prepend: site.baseurl | prepend: site.url }}">
+      <img class="img-thumbnail img-responsive" src="{{ "templates/blog" | prepend: site.baseurl | prepend: site.url }}/screenshot.png" alt="">
     </a>
-    <h4>Static top navbar</h4>
-    <p>Super basic template with a static top navbar along with some additional content.</p>
-  </div>
+    <h3 class="h5">Página Blog</h3>
+    <p>Página com lista de artigos, perfeita para mostrar notícias, eventos e outros artigos.</p>
+  </article>
   <div class="clearfix hidden-sm-up"></div>
 
   <div class="col-xs-6 col-md-4">
     <a href="{{ site.baseurl }}/examples/navbar-top-fixed/">
-      <img class="img-thumbnail" src="{{ site.baseurl }}/examples/screenshots/navbar-fixed.jpg" alt="">
+      <img class="img-thumbnail img-responsive" src="{{ site.baseurl }}/examples/screenshots/navbar-fixed.jpg" alt="">
     </a>
     <h4>Fixed navbar</h4>
     <p>Super basic template with a fixed top navbar along with some additional content.</p>
