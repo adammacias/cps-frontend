@@ -10,7 +10,7 @@
   group: "fatec"
 
 - title: "Etec - Aristóteles Ferreira"
-  screenshot: "showcase-etec-aristoteles.png"
+  screenshot: "etecaf.png"
   url: "./templates/showcase-etec-aristoteles/"
   city: "Santos"
   group: "fatec"
@@ -21,15 +21,14 @@
   city: "São Paulo"
   group: "cps"
 
-- title: XXI Semana de Tecnologia Fatec-RL
-  screenshot: fatecrl-semanatec.png
-  url: "http://fatecrl.edu.br/site/semana-de-tecnologia" #http://localhost:4000/templates/showcase-fatecrl-semanatec/
-  city: "Santos"
-  group: "fatec"
-
 - title: "SIGA - Sistema Integrado de Gestão Acadêmica"
   screenshot: "siga.png"
   url: "./templates/showcase-siga/"
   city: "São Paulo"
   group: "cps"
 
+- title: XXI Semana de Tecnologia Fatec-RL
+  screenshot: fatecrl-semanatec.png
+  url: "http://fatecrl.edu.br/site/semana-de-tecnologia" #http://localhost:4000/templates/showcase-fatecrl-semanatec/
+  city: "Santos"
+  group: "fatec"
