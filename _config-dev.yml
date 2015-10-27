@@ -19,14 +19,14 @@ url: "http://localhost:4000" # the base hostname & protocol for your site
 
 # Custom vars
 current_version:  1.0.0-alpha
-repo:             https://github.com/adammacias/cps-bootstrap
+repo:             https://github.com/adammacias/cps-frontend
 
 download:
-  source:         https://github.com/adammacias/cps-bootstrap/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha.zip
-  dist:           https://github.com/adammacias/cps-bootstrap/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha-dist.zip
+  source:         https://github.com/adammacias/cps-frontend/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha.zip
+  dist:           https://github.com/adammacias/cps-frontend/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha-dist.zip
   brand:
     manual:       http://www.centropaulasouza.sp.gov.br/quem-somos/manual-de-identidade-logo-novo/manual/manual-centro-paula-souza-2015-set.pdf
-    assets:       https://github.com/adammacias/cps-bootstrap/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha-brand.zip
+    assets:       https://github.com/adammacias/cps-frontend/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha-brand.zip
 
 cdn:
   css:            https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css
