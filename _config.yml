@@ -13,8 +13,8 @@ sass:
 destination: ../gh-pages
 permalink: pretty
 title: CPS Front-end
-description: Guia de estilos de Fatecs e Etecs para desenvolvedores e designers.
-baseurl: "/cps-bootstrap/"
+description: Manual e framework front-end para projetos web do Centro Paula Souza.
+baseurl: "/cps-frontend/"
 baseurl_content: "http://adammacias.github.io/cps-frontend/assets/"
 url: "http://adammacias.github.io"
 
