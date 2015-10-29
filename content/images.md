@@ -4,77 +4,53 @@ title: Imagens
 group: content
 ---
 
-Opt your images into responsive behavior (so they never become larger than their parent elements) and add lightweight styles to them—all via classes.
+Estilos de imagens em geral, tal como: no modo responsivo, formatos arredondados e outros.
+{: .lead}
 
-## Contents
+## Conteúdo
 
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-## Responsive images
+## Imagens responsivas
 
-Images in Bootstrap are made responsive with `.img-fluid`. `max-width: 100%;` and `height: auto;` are applied to the image so that it scales with the parent element.
+Imagens no {{site.title}} podem ser feitas responsivas amigavelmente através da adição da classe `.img-responsive`. Isso aplica `max-width: 100%;`, `height: auto;` e `display: block;` na imagem para que dimensione de forma agradável ao elemento pai.
 
-<div class="bd-example">
-  <img data-src="holder.js/100px250" class="img-fluid" alt="Generic responsive image">
+Centralize as imagens que usam a classe `.img-responsive`, usando `.center-block` em vez de `.text-center`. <a href="../css/#helper-classes-center">Veja a seção de classes de ajuda</a> para mais detalhes sobre o uso do `.center-block`.
+
+{% example html %}
+<img src="http://placehold.it/1200x250" class="img-responsive" alt="Imagem responsiva">
+{% endexample %}
+
+## Formas
+
+Adicione classes a um elemento `<img>` para estilizar imagens facilmente em qualquer projeto.
+
+{% example html %}
+<img src="http://placehold.it/150x150" alt="..." class="img-rounded">
+<img src="http://placehold.it/150x150" alt="..." class="img-circle">
+<img src="http://placehold.it/150x150" alt="..." class="img-thumbnail">
+{% endexample %}
+
+## Alinhamento
+
+Alinhe imagens com as [classes de ajuda]({{ site.baseurl }}/components/utilities/#floats) ou [classes de alinhamento de texto]({{ site.baseurl }}/components/utilities/#text-alignment).
+
+{% example html %}
+<div class="clearfix">
+  <img src="http://placehold.it/150x150" alt="..." class="img-rounded pull-left" >
+  <img src="http://placehold.it/150x150" alt="..." class="img-rounded pull-right" >
 </div>
+{% endexample %}
 
-{% highlight html %}
-<img src="..." class="img-fluid" alt="Responsive image">
-{% endhighlight %}
+{% example html %}
+<img src="http://placehold.it/150x150" alt="..." class="img-rounded center-block" style="display: block;">
+{% endexample %}
 
-{% callout warning %}
-#### SVG images and IE 9-10
-
-In Internet Explorer 9-10, SVG images with `.img-fluid` are disproportionately sized. To fix this, add `width: 100% \9;` where necessary. Bootstrap doesn't apply this automatically as it causes complications to other image formats.
-{% endcallout %}
-
-## Image shapes
-
-Add classes to an `<img>` element to easily style images in any project.
-
-<div class="bd-example bd-example-images">
-  <img data-src="holder.js/200x200" class="img-rounded" alt="A generic square placeholder image with rounded corners">
-  <img data-src="holder.js/200x200" class="img-circle" alt="A generic square placeholder image where only the portion within the circle circumscribed about said square is visible">
-  <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
-</div>
-
-{% highlight html %}
-<img src="..." alt="..." class="img-rounded">
-<img src="..." alt="..." class="img-circle">
-<img src="..." alt="..." class="img-thumbnail">
-{% endhighlight %}
-
-## Aligning images
-
-Align images with the [helper float classes]({{ site.baseurl }}/components/utilities/#floats) or [text alignment classes]({{ site.baseurl }}/components/utilities/#text-alignment). A simple centering class can also be used for `block` level images.
-
-<div class="bd-example bd-example-images">
-  <img data-src="holder.js/200x200" class="img-rounded pull-left" alt="A generic square placeholder image with rounded corners">
-  <img data-src="holder.js/200x200" class="img-rounded pull-right" alt="A generic square placeholder image with rounded corners">
-</div>
-
-{% highlight html %}
-<img src="..." class="img-rounded pull-left" alt="...">
-<img src="..." class="img-rounded pull-right" alt="...">
-{% endhighlight %}
-
-<div class="bd-example bd-example-images">
-  <img data-src="holder.js/200x200" class="img-rounded center-block" style="display: block;" alt="A generic square placeholder image with rounded corners">
-</div>
-
-{% highlight html %}
-<img src="..." class="img-rounded center-block" style="display: block;" alt="...">
-{% endhighlight %}
-
-<div class="bd-example bd-example-images">
-  <div class="text-center">
-    <img data-src="holder.js/200x200" class="img-rounded" alt="A generic square placeholder image with rounded corners">
-  </div>
-</div>
-
-{% highlight html %}
+{% example html %}
 <div class="text-center">
-  <img src="..." class="img-rounded" alt="...">
+  <img src="http://placehold.it/150x150" alt="..." class="img-rounded">
 </div>
-{% endhighlight %}
+{% endexample %}
+
+

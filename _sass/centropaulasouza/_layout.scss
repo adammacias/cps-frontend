@@ -27,14 +27,36 @@ body {
 // Contain the content sections, articles and sidebar
 //
 
+
 //#main,#wrapper
 .cps-main {
     @extend .container;
     background: #fff;
     padding: 0 30px 30px;
+    min-height: 300px;
     &.cps-main-fluid {
         @extend .container-fluid;
     }
+
+}
+
+.cps-footer {
+  border-top: 4px solid #C21D16;
+  background: #283337;
+  color: #688590;
+  font-size: 12px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h1,h2,h3,h4,h5,h6 {
+    color: lighten(#C21D16,4%);
+  }
+  .nav.nav-pills li a:hover {
+    color: #fff;
+    background-color: darken(#283337,4%);
+  }
+  a, a:link {
+    color: #FFFFFF;
+  }
 }
 
 //

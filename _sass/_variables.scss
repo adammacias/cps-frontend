@@ -19,40 +19,83 @@ $bootstrap-sass-asset-helper: false;
 // http://www.centropaulasouza.sp.gov.br/quem-somos/manual-de-identidade/logo/fatec/fatec_ra_baixada_santista.pdf
 
 // Site Default
-$default-name: default;
+$default-name: "default";
 $default-color: #69868e;
 
 // Site CPS
-$cps-name: cps;
+$cps-name: "cps";
 $cps-color: rgb(176,17,22); // B01116 ----------- lighten(rgb(148,22,17), 10%); // #e05444
 
 // Site Fatec
-$fatec-name: fatec;
+$fatec-name: "fatec";
 $fatec-color: lighten(rgb(148,22,17), 10%); // #e05444
 
 // Site Etec
-$etec-name: etec;
+$etec-name: "etec";
 $etec-color: lighten(rgb(148,22,17), 10%); // #e05444
 
+$red-name: "red";
+$red-color: $cps-color;
+
+$pink-name: "pink"; // #d81b60 pink darken-1
+$pink-color: #d81b60;
+
+$deep-purple-name: "deep-purple"; // #5e35b1 deep-purple darken-1
+$deep-purple-color: #5e35b1;
+
+$indigo-name: "indigo"; // #3949ab indigo darken-1
+$indigo-color: #3949ab;
+
+$teal-name: "teal"; // #00897b teal darken-1
+$teal-color: #00897b;
+
+$light-green-name: "light-green"; // #7cb342 light-green darken-1
+$light-green-color: #7cb342;
+
+$lime-name: "lime"; // #c0ca33 lime darken-1
+$lime-color: #c0ca33;
+
+$yellow-name: "yellow"; // #f9a825 yellow darken-3
+$yellow-color: #f9a825;
+
+$orange-name: "orange"; // #ef6c00 orange darken-3
+$orange-color: #ef6c00;
+
+$brown-name: "brown"; // #6d4c41 brown darken-1
+$brown-color: #6d4c41;
+
+$grey-name: "grey"; // #757575 grey darken-1
+$grey-color: #757575;
+
+$blue-grey-name: "blue-grey"; // #546e7a blue-grey darken-1
+$blue-grey-color: #546e7a;
+
+$black-name: "black"; // #000000 black
+$black-color: #000000;
+
+$white-name: "white"; // #ffffff white
+$white-color: #ffffff;
+
+
 // Site Ads
-$ads-name: ads;
-$ads-color: darken(#1976D2, 5.5%); // #5ea7dc  darken(#428bca, 6.5%)
+$blue-name: "blue"; // #1976d2 blue darken-2
+$blue-color: darken(#1976D2, 5.5%); // #5ea7dc  darken(#428bca, 6.5%)
 
 // Site Ge
-$ge-name: ge;
-$ge-color: darken(#5fb27b, 6.5%); // #5fb27b
+$green-name: "green"; // #43a047 green darken-1
+$green-color: darken(#5fb27b, 6.5%); // #5fb27b
 
 // Site Gp
-$gp-name: gp;
-$gp-color: darken(#4cb19f, 6.5%); // #4cb19f
+$cyan-name: "cyan"; // #00acc1 cyan darken-1
+$cyan-color: darken(#4cb19f, 6.5%); // #4cb19f
 
 // Site Si
-$si-name: si;
-$si-color: darken(#03A9F4, 5.5%); //#e19e2f /* #FFB212 + #B58C59 */   darken(#e19e2f, 6.5%)
+$light-blue-name: "light-blue"; // #0288d1 light-blue darken-2
+$light-blue-color: darken(#03A9F4, 5.5%); //#e19e2f /* #FFB212 + #B58C59 */   darken(#e19e2f, 6.5%)
 
 // Site Log
-$log-name: log;
-$log-color: #6e5494; // #6e5494
+$purple-name: "purple"; // #5e35b1 deep-purple darken-1
+$purple-color: #6e5494; // #6e5494
 
 
 /* ==========================================================================

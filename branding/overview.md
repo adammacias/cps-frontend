@@ -3,7 +3,47 @@ layout: docs
 title: Visão geral
 group: branding
 redirect_from: "/branding/"
+colors_theme: 
+  - title: "pink"
+    rgb: "#D81B60"
+  - title: "deep-purple"
+    rgb: "#5E35B1"
+  - title: "indigo"
+    rgb: "#3949AB"
+  - title: "teal"
+    rgb: "#00897B"
+  - title: "light-green"
+    rgb: "#7CB342"
+  - title: "lime"
+    rgb: "#C0CA33"
+  - title: "yellow"
+    rgb: "#F9A825"
+  - title: "orange"
+    rgb: "#EF6C00"
+  - title: "brown"
+    rgb: "#6D4C41"
+  - title: "grey"
+    rgb: "#757575"
+  - title: "blue-grey"
+    rgb: "#546E7A"
+  - title: "blue"
+    rgb: "#1668B9"
+  - title: "green"
+    rgb: "#4EA26A"
+  - title: "cyan"
+    rgb: "#429A8A"
+  - title: "light-blue"
+    rgb: "#0396D8"
+  - title: "purple"
+    rgb: "#6E5494"
 ---
+
+<!--
+  - default
+  - red
+  - black
+  - white
+-->
 
 Manual de uso das cores e tipografia do {{ site.title }} e download de arquivos para designers, tais como fonts de texto ou logotipos de Etecs, Fatecs, Centro Paula Souza e Governo do Estado de São Paulo.
 {: .lead}
@@ -141,4 +181,17 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 <br>#283337</p>
         </div>
     </div>
+</div>
+
+
+<h2>OIII</h2>
+
+<div class="row">
+  {% for c in page.colors_theme %}
+  <div class="col-sm-2">
+    <div class="thumbnail docs-palette palette-{{ c.title }}-bg" style="color:#fff">
+      <p>{{ c.title }}<br><br><br>{{ c.rgb }}</p>
+    </div>
+  </div>
+  {% endfor %}
 </div>

@@ -4,50 +4,53 @@ title: Código
 group: content
 ---
 
-Styles for inline code snippets and longer, multiline blocks of code.
+Estilos de códigos em geral, tal como: em linha, entrada via teclado, em bloco e outros.
+{: .lead}
 
-## Contents
+## Conteúdo
 
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-## Inline code
+## Em linha
 
-Wrap inline snippets of code with `code`. Be sure to escape HTML angle brackets.
-
-{% example html %}
-For example, <code>&lt;section&gt;</code> should be wrapped as inline.
-{% endexample %}
-
-## Preformatted text
-
-Or, code blocks. Use `<pre>`s for multiple lines of code. Once again, be sure to escape any angle brackets in the code for proper rendering. You may optionally add the `.pre-scrollable` class, which will set a max-height of 350px and provide a y-axis scrollbar.
+Empacote trechos de códigos em linha com `<code>`.
 
 {% example html %}
-<pre>&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+Por exemplo, <code>&lt;section&gt;</code> deve ser empacotado em linha.
 {% endexample %}
 
-## Variables
+## Entrada de usuário
 
-For indicating variables use the `<var>` tag.
+Use `<kbd>` para indicar entradas via teclado.
+
+{% example html %}
+Para mudar de diretório, digite <kbd>cd</kbd> seguido pelo nome do diretório.<br>
+Para editar configurações, pressione <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+{% endexample %}
+
+## Bloco básico
+
+Use `<pre>` para múltiplas linhas de código. Be sure to escape any angle brackets in the code for proper rendering.
+
+{% example html %}
+<pre>&lt;p&gt;Texto simples aqui...&lt;/p&gt;</pre>
+{% endexample %}
+
+Você pode opcionalmente adicionar a classe `.pre-scrollable`, que irá definir uma altura máxima de 350px e fornecer uma barra de rolagem eixo-y.
+
+## Variáveis
+
+Para indicar variáveis use a tag `<var>`.
 
 {% example html %}
 <var>y</var> = <var>m</var><var>x</var> + <var>b</var>
 {% endexample %}
 
-## User input
+## Exemplo de saída
 
-Use the `<kbd>` to indicate input that is typically entered via keyboard.
-
-{% example html %}
-To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
-To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
-{% endexample %}
-
-## Sample output
-
-For indicating blocks sample output from a program use the `<samp>` tag.
+Para indicar blocos de saída simples a partir de um programa use a tag `<samp>`.
 
 {% example html %}
-<samp>This text is meant to be treated as sample output from a computer program.</samp>
+<samp>Esse texto é como uma saída simples de um programa de computador</samp>
 {% endexample %}

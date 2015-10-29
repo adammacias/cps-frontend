@@ -29,7 +29,7 @@
         color: $color !important;
     }
     .palette-#{$site}-bg {
-        background: $color !important;
+        background-color: $color !important;
     }
 }
 
@@ -63,6 +63,15 @@
         .cps-navbar {
             //@extend .navbar;
             border-bottom: 5px solid $color !important;
+        }
+        //
+        // Page Footer
+        //
+        .cps-footer {
+          border-top: 4px solid $color;
+          h1,h2,h3,h4,h5,h6 {
+            color: lighten($color,4%);
+          }
         }
         //
         // Page Header
