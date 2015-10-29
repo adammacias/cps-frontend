@@ -79,6 +79,10 @@
   pages:
     - title: Visão geral
       slug: overview
+    - title: Tipografia
+      slug: "overview/#tipografia"
+    - title: Cores
+      slug: "overview/#cores"
     - title: Centro Paula Souza
       slug: cps
     - title: Governo do estado de São Paulo
