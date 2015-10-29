@@ -1402,7 +1402,7 @@
         
   <h1>Estilos</h1>
   <p class="lead">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Conteúdo estilizados em alguns dos elementos HTML mais usados normalmente, como: tipografia, imagens, tabelas, e muito mais.
   </p>
 
 
@@ -1495,27 +1495,11 @@
         <main id="content" class="col-md-9 col-md-offset-1" role="main"  tabindex="-1">
           <div class="entry-content">
             <h1>Tabelas</h1>
-            <p>Due to the widespread use of tables across third-party widgets like calendars and date pickers, we’ve designed our tables to be <strong>opt-in</strong>. Just add the base class <code>.table</code> to any <code>&lt;table&gt;</code>.</p>
+            <p class="lead">Estilos de tabelas, tal como: linhas listradas, com bordas e outros.</p>
 
-<h2 id="contents">Contents</h2>
+<h2 id="contedo">Conteúdo</h2>
 
-<ul id="markdown-toc">
-  <li><a href="#contents" id="markdown-toc-contents">Contents</a></li>
-  <li><a href="#basic-example" id="markdown-toc-basic-example">Basic example</a></li>
-  <li><a href="#inverse-table" id="markdown-toc-inverse-table">Inverse table</a></li>
-  <li><a href="#table-head-options" id="markdown-toc-table-head-options">Table head options</a></li>
-  <li><a href="#striped-rows" id="markdown-toc-striped-rows">Striped rows</a></li>
-  <li><a href="#bordered-table" id="markdown-toc-bordered-table">Bordered table</a></li>
-  <li><a href="#hoverable-rows" id="markdown-toc-hoverable-rows">Hoverable rows</a></li>
-  <li><a href="#small-table" id="markdown-toc-small-table">Small table</a></li>
-  <li><a href="#contextual-classes" id="markdown-toc-contextual-classes">Contextual classes</a></li>
-  <li><a href="#responsive-tables" id="markdown-toc-responsive-tables">Responsive tables</a>    <ul>
-      <li><a href="#reflow" id="markdown-toc-reflow">Reflow</a></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="basic-example">Basic example</h2>
+<h2 id="exemplo-basico">Exemplo basico</h2>
 
 <div class="bd-example" data-example-id="">
 <table class="table">
@@ -1580,203 +1564,9 @@
   <span class="nt">&lt;/tbody&gt;</span>
 <span class="nt">&lt;/table&gt;</span></code></pre></div>
 
-<h2 id="inverse-table">Inverse table</h2>
+<h2 id="linhas-listradas">Linhas listradas</h2>
 
-<div class="bd-example" data-example-id="">
-<table class="table table-inverse">
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Username</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-inverse"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;thead&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th&gt;</span>#<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>First Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Last Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Username<span class="nt">&lt;/th&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/thead&gt;</span>
-  <span class="nt">&lt;tbody&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Mark<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Otto<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>@mdo<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Jacob<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Thornton<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>@fat<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Larry<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>the Bird<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>@twitter<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/tbody&gt;</span>
-<span class="nt">&lt;/table&gt;</span></code></pre></div>
-
-<h2 id="table-head-options">Table head options</h2>
-
-<p>Use one of two modifier classes to make <code>&lt;thead&gt;</code>s appear light or dark gray.</p>
-
-<div class="bd-example" data-example-id="">
-<table class="table">
-  <thead class="thead-inverse">
-    <tr>
-      <th>#</th>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Username</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="table">
-  <thead class="thead-default">
-    <tr>
-      <th>#</th>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Username</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;thead</span> <span class="na">class=</span><span class="s">"thead-inverse"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th&gt;</span>#<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>First Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Last Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Username<span class="nt">&lt;/th&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/thead&gt;</span>
-  <span class="nt">&lt;tbody&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Mark<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Otto<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>@mdo<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Jacob<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Thornton<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>@fat<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Larry<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>the Bird<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>@twitter<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/tbody&gt;</span>
-<span class="nt">&lt;/table&gt;</span>
-
-<span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;thead</span> <span class="na">class=</span><span class="s">"thead-default"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th&gt;</span>#<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>First Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Last Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Username<span class="nt">&lt;/th&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/thead&gt;</span>
-  <span class="nt">&lt;tbody&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Mark<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Otto<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>@mdo<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Jacob<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Thornton<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>@fat<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Larry<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>the Bird<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>@twitter<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/tbody&gt;</span>
-<span class="nt">&lt;/table&gt;</span></code></pre></div>
-
-<h2 id="striped-rows">Striped rows</h2>
-
-<p>Use <code>.table-striped</code> to add zebra-striping to any table row within the <code>&lt;tbody&gt;</code>.</p>
+<p>Use <code>.table-striped</code> para adicionar linhas zebradas à qualquer linha da tabela dentro do <code>&lt;tbody&gt;</code>.</p>
 
 <div class="bd-example" data-example-id="">
 <table class="table table-striped">
@@ -1841,9 +1631,9 @@
   <span class="nt">&lt;/tbody&gt;</span>
 <span class="nt">&lt;/table&gt;</span></code></pre></div>
 
-<h2 id="bordered-table">Bordered table</h2>
+<h2 id="tabela-com-bordas">Tabela com bordas</h2>
 
-<p>Add <code>.table-bordered</code> for borders on all sides of the table and cells.</p>
+<p>Adicione <code>.table-bordered</code> para bordas em todoas os lados da tabela e celulas.</p>
 
 <div class="bd-example" data-example-id="">
 <table class="table table-bordered">
@@ -1918,9 +1708,9 @@
   <span class="nt">&lt;/tbody&gt;</span>
 <span class="nt">&lt;/table&gt;</span></code></pre></div>
 
-<h2 id="hoverable-rows">Hoverable rows</h2>
+<h2 id="linhas-com-hover">Linhas com Hover</h2>
 
-<p>Add <code>.table-hover</code> to enable a hover state on table rows within a <code>&lt;tbody&gt;</code>.</p>
+<p>Adicione  <code>.table-hover</code> para habilitar um efeito hover nas linhas da tabela dentro do <code>&lt;tbody&gt;</code>.</p>
 
 <div class="bd-example" data-example-id="">
 <table class="table table-hover">
@@ -1983,12 +1773,12 @@
   <span class="nt">&lt;/tbody&gt;</span>
 <span class="nt">&lt;/table&gt;</span></code></pre></div>
 
-<h2 id="small-table">Small table</h2>
+<h2 id="tabela-condensada">Tabela condensada</h2>
 
-<p>Add <code>.table-sm</code> to make tables more compact by cutting cell padding in half.</p>
+<p>Adicione <code>.table-condensed</code> para fazer as tabelas mais comactadas por cortar o padding das celulas na metade.</p>
 
 <div class="bd-example" data-example-id="">
-<table class="table table-sm">
+<table class="table table-condensed">
   <thead>
     <tr>
       <th>#</th>
@@ -2018,7 +1808,7 @@
   </tbody>
 </table>
 </div>
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-sm"</span><span class="nt">&gt;</span>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-condensed"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;thead&gt;</span>
     <span class="nt">&lt;tr&gt;</span>
       <span class="nt">&lt;th&gt;</span>#<span class="nt">&lt;/th&gt;</span>
@@ -2048,9 +1838,9 @@
   <span class="nt">&lt;/tbody&gt;</span>
 <span class="nt">&lt;/table&gt;</span></code></pre></div>
 
-<h2 id="contextual-classes">Contextual classes</h2>
+<h2 id="classes-contextuais">Classes contextuais</h2>
 
-<p>Use contextual classes to color table rows or individual cells.</p>
+<p>Use classes contextuais para colorir as linhas da tabela ou células individuais.</p>
 
 <div class="table-responsive">
   <table class="table table-bordered table-striped">
@@ -2060,338 +1850,130 @@
     </colgroup>
     <thead>
       <tr>
-        <th>Class</th>
-        <th>Description</th>
+        <th>Classe</th>
+        <th>Descrição</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <th scope="row">
-          <code>.table-active</code>
+          <code>.active</code>
         </th>
-        <td>Applies the hover color to a particular row or cell</td>
+        <td>Aplique a cor de hover para uma linha ou célula em particular</td>
       </tr>
       <tr>
         <th scope="row">
-          <code>.table-success</code>
+          <code>.success</code>
         </th>
-        <td>Indicates a successful or positive action</td>
+        <td>Indica uma ação bem-sucedida ou positiva</td>
       </tr>
       <tr>
         <th scope="row">
-          <code>.table-info</code>
+          <code>.info</code>
         </th>
-        <td>Indicates a neutral informative change or action</td>
+        <td>Indica uma alteração de informação neutra ou ação</td>
       </tr>
       <tr>
         <th scope="row">
-          <code>.table-warning</code>
+          <code>.warning</code>
         </th>
-        <td>Indicates a warning that might need attention</td>
+        <td>Indica um aviso de que pode precisar de atenção</td>
       </tr>
       <tr>
         <th scope="row">
-          <code>.table-danger</code>
+          <code>.danger</code>
         </th>
-        <td>Indicates a dangerous or potentially negative action</td>
+        <td>Indica uma ação perigosa ou potencialmente negativa</td>
       </tr>
     </tbody>
   </table>
 </div>
-
-<div class="bd-example">
-  <table class="table">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Column heading</th>
-        <th>Column heading</th>
-        <th>Column heading</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="table-active">
-        <th scope="row">1</th>
-        <td>Column content</td>
-        <td>Column content</td>
-        <td>Column content</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Column content</td>
-        <td>Column content</td>
-        <td>Column content</td>
-      </tr>
-      <tr class="table-success">
-        <th scope="row">3</th>
-        <td>Column content</td>
-        <td>Column content</td>
-        <td>Column content</td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td>Column content</td>
-        <td>Column content</td>
-        <td>Column content</td>
-      </tr>
-      <tr class="table-info">
-        <th scope="row">5</th>
-        <td>Column content</td>
-        <td>Column content</td>
-        <td>Column content</td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td>Column content</td>
-        <td>Column content</td>
-        <td>Column content</td>
-      </tr>
-      <tr class="table-warning">
-        <th scope="row">7</th>
-        <td>Column content</td>
-        <td>Column content</td>
-        <td>Column content</td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td>Column content</td>
-        <td>Column content</td>
-        <td>Column content</td>
-      </tr>
-      <tr class="table-danger">
-        <th scope="row">9</th>
-        <td>Column content</td>
-        <td>Column content</td>
-        <td>Column content</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- On rows --&gt;</span>
-<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"table-active"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
-<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"table-success"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
-<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"table-warning"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
-<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"table-danger"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
-<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"table-info"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
-
-<span class="c">&lt;!-- On cells (`td` or `th`) --&gt;</span>
-<span class="nt">&lt;tr&gt;</span>
-  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"table-active"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
-  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"table-success"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
-  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"table-warning"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
-  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"table-danger"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
-  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"table-info"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
-<span class="nt">&lt;/tr&gt;</span></code></pre></div>
-
-<h2 id="responsive-tables">Responsive tables</h2>
-
-<p>Create responsive tables by wrapping any <code>.table</code> in <code>.table-responsive</code> to make them scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, you will not see any difference in these tables.</p>
-
-<div class="bd-callout bd-callout-warning">
-<h4 id="vertical-clippingtruncation">Vertical clipping/truncation</h4>
-
-<p>Responsive tables make use of <code>overflow-y: hidden</code>, which clips off any content that goes beyond the bottom or top edges of the table. In particular, this can clip off dropdown menus and other third-party widgets.</p>
-</div>
-
-<div class="bd-callout bd-callout-warning">
-<h4 id="firefox-and-fieldsets">Firefox and fieldsets</h4>
-
-<p>Firefox has some awkward fieldset styling involving <code>width</code> that interferes with the responsive table. This cannot be overriden without a Firefox-specific hack that we <strong>don’t</strong> provide in Bootstrap:</p>
-
-<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="k">@-moz-document</span> <span class="n">url-prefix</span><span class="p">()</span> <span class="p">{</span>
-  <span class="nt">fieldset</span> <span class="p">{</span> <span class="nl">display</span><span class="p">:</span> <span class="nb">table-cell</span><span class="p">;</span> <span class="p">}</span>
-<span class="p">}</span></code></pre></div>
-
-<p>For more information, read <a href="https://stackoverflow.com/questions/17408815/fieldset-resizes-wrong-appears-to-have-unremovable-min-width-min-content/17863685#17863685">this Stack Overflow answer</a>.</p>
-</div>
-
-<div class="bd-example">
-  <div class="table-responsive">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Table heading</th>
-          <th>Table heading</th>
-          <th>Table heading</th>
-          <th>Table heading</th>
-          <th>Table heading</th>
-          <th>Table heading</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="table-responsive">
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Table heading</th>
-          <th>Table heading</th>
-          <th>Table heading</th>
-          <th>Table heading</th>
-          <th>Table heading</th>
-          <th>Table heading</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-          <td>Table cell</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"table-responsive"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table"</span><span class="nt">&gt;</span>
-    ...
-  <span class="nt">&lt;/table&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div>
-
-<h3 id="reflow">Reflow</h3>
 
 <div class="bd-example" data-example-id="">
-<table class="table table-reflow">
+<table class="table">
   <thead>
     <tr>
       <th>#</th>
-      <th>Table heading</th>
-      <th>Table heading</th>
-      <th>Table heading</th>
-      <th>Table heading</th>
-      <th>Table heading</th>
-      <th>Table heading</th>
+      <th>Título da coluna</th>
+      <th>Título da coluna</th>
+      <th>Título da coluna</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="active">
       <th scope="row">1</th>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+    </tr>
+    <tr class="success">
+      <th scope="row">3</th>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
-      <td>Table cell</td>
+      <th scope="row">4</th>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+    </tr>
+    <tr class="info">
+      <th scope="row">5</th>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+    </tr>
+    <tr class="warning">
+      <th scope="row">7</th>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+    </tr>
+    <tr class="danger">
+      <th scope="row">9</th>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
+      <td>Conteúdo da coluna</td>
     </tr>
   </tbody>
 </table>
 </div>
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">"table table-reflow"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;thead&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th&gt;</span>#<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Table heading<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Table heading<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Table heading<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Table heading<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Table heading<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th&gt;</span>Table heading<span class="nt">&lt;/th&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/thead&gt;</span>
-  <span class="nt">&lt;tbody&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">scope=</span><span class="s">"row"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-      <span class="nt">&lt;td&gt;</span>Table cell<span class="nt">&lt;/td&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/tbody&gt;</span>
-<span class="nt">&lt;/table&gt;</span></code></pre></div>
+<!-- /example -->
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- On rows --&gt;</span>
+<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"success"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"warning"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"danger"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">"info"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/tr&gt;</span>
+
+<span class="c">&lt;!-- On cells (`td` or `th`) --&gt;</span>
+<span class="nt">&lt;tr&gt;</span>
+  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"active"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"success"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"warning"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"danger"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">"info"</span><span class="nt">&gt;</span>...<span class="nt">&lt;/td&gt;</span>
+<span class="nt">&lt;/tr&gt;</span></code></pre></div>
 
 
           </div>

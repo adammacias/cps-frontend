@@ -1402,7 +1402,7 @@
         
   <h1>Estilos</h1>
   <p class="lead">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Conteúdo estilizados em alguns dos elementos HTML mais usados normalmente, como: tipografia, imagens, tabelas, e muito mais.
   </p>
 
 
@@ -1495,73 +1495,68 @@
         <main id="content" class="col-md-9 col-md-offset-1" role="main"  tabindex="-1">
           <div class="entry-content">
             <h1>Imagens</h1>
-            <p>Opt your images into responsive behavior (so they never become larger than their parent elements) and add lightweight styles to them—all via classes.</p>
+            <p class="lead">Estilos de imagens em geral, tal como: no modo responsivo, formatos arredondados e outros.</p>
 
-<h2 id="contents">Contents</h2>
+<h2 id="contedo">Conteúdo</h2>
 
 <ul id="markdown-toc">
-  <li><a href="#contents" id="markdown-toc-contents">Contents</a></li>
-  <li><a href="#responsive-images" id="markdown-toc-responsive-images">Responsive images</a></li>
-  <li><a href="#image-shapes" id="markdown-toc-image-shapes">Image shapes</a></li>
-  <li><a href="#aligning-images" id="markdown-toc-aligning-images">Aligning images</a></li>
+  <li><a href="#contedo" id="markdown-toc-contedo">Conteúdo</a></li>
+  <li><a href="#imagens-responsivas" id="markdown-toc-imagens-responsivas">Imagens responsivas</a></li>
+  <li><a href="#formas" id="markdown-toc-formas">Formas</a></li>
+  <li><a href="#alinhamento" id="markdown-toc-alinhamento">Alinhamento</a></li>
 </ul>
 
-<h2 id="responsive-images">Responsive images</h2>
+<h2 id="imagens-responsivas">Imagens responsivas</h2>
 
-<p>Images in Bootstrap are made responsive with <code>.img-fluid</code>. <code>max-width: 100%;</code> and <code>height: auto;</code> are applied to the image so that it scales with the parent element.</p>
+<p>Imagens no CPS Front-end podem ser feitas responsivas amigavelmente através da adição da classe <code>.img-responsive</code>. Isso aplica <code>max-width: 100%;</code>, <code>height: auto;</code> e <code>display: block;</code> na imagem para que dimensione de forma agradável ao elemento pai.</p>
 
-<div class="bd-example">
-  <img data-src="holder.js/100px250" class="img-fluid" alt="Generic responsive image" />
+<p>Centralize as imagens que usam a classe <code>.img-responsive</code>, usando <code>.center-block</code> em vez de <code>.text-center</code>. <a href="../css/#helper-classes-center">Veja a seção de classes de ajuda</a> para mais detalhes sobre o uso do <code>.center-block</code>.</p>
+
+<div class="bd-example" data-example-id="">
+<img src="http://placehold.it/1200x250" class="img-responsive" alt="Imagem responsiva" />
 </div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://placehold.it/1200x250"</span> <span class="na">class=</span><span class="s">"img-responsive"</span> <span class="na">alt=</span><span class="s">"Imagem responsiva"</span><span class="nt">&gt;</span></code></pre></div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-fluid"</span> <span class="na">alt=</span><span class="s">"Responsive image"</span><span class="nt">&gt;</span></code></pre></div>
+<h2 id="formas">Formas</h2>
 
-<div class="bd-callout bd-callout-warning">
-<h4 id="svg-images-and-ie-9-10">SVG images and IE 9-10</h4>
+<p>Adicione classes a um elemento <code>&lt;img&gt;</code> para estilizar imagens facilmente em qualquer projeto.</p>
 
-<p>In Internet Explorer 9-10, SVG images with <code>.img-fluid</code> are disproportionately sized. To fix this, add <code>width: 100% \9;</code> where necessary. Bootstrap doesn’t apply this automatically as it causes complications to other image formats.</p>
+<div class="bd-example" data-example-id="">
+<img src="http://placehold.it/150x150" alt="..." class="img-rounded" />
+<img src="http://placehold.it/150x150" alt="..." class="img-circle" />
+<img src="http://placehold.it/150x150" alt="..." class="img-thumbnail" />
 </div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://placehold.it/150x150"</span> <span class="na">alt=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-rounded"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://placehold.it/150x150"</span> <span class="na">alt=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-circle"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://placehold.it/150x150"</span> <span class="na">alt=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-thumbnail"</span><span class="nt">&gt;</span></code></pre></div>
 
-<h2 id="image-shapes">Image shapes</h2>
+<h2 id="alinhamento">Alinhamento</h2>
 
-<p>Add classes to an <code>&lt;img&gt;</code> element to easily style images in any project.</p>
+<p>Alinhe imagens com as <a href="/cps-frontend//components/utilities/#floats">classes de ajuda</a> ou <a href="/cps-frontend//components/utilities/#text-alignment">classes de alinhamento de texto</a>.</p>
 
-<div class="bd-example bd-example-images">
-  <img data-src="holder.js/200x200" class="img-rounded" alt="A generic square placeholder image with rounded corners" />
-  <img data-src="holder.js/200x200" class="img-circle" alt="A generic square placeholder image where only the portion within the circle circumscribed about said square is visible" />
-  <img data-src="holder.js/200x200" class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera" />
+<div class="bd-example" data-example-id="">
+<div class="clearfix">
+  <img src="http://placehold.it/150x150" alt="..." class="img-rounded pull-left" />
+  <img src="http://placehold.it/150x150" alt="..." class="img-rounded pull-right" />
 </div>
-
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-rounded"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-circle"</span><span class="nt">&gt;</span>
-<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">alt=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-thumbnail"</span><span class="nt">&gt;</span></code></pre></div>
-
-<h2 id="aligning-images">Aligning images</h2>
-
-<p>Align images with the <a href="/cps-frontend//components/utilities/#floats">helper float classes</a> or <a href="/cps-frontend//components/utilities/#text-alignment">text alignment classes</a>. A simple centering class can also be used for <code>block</code> level images.</p>
-
-<div class="bd-example bd-example-images">
-  <img data-src="holder.js/200x200" class="img-rounded pull-left" alt="A generic square placeholder image with rounded corners" />
-  <img data-src="holder.js/200x200" class="img-rounded pull-right" alt="A generic square placeholder image with rounded corners" />
 </div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"clearfix"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://placehold.it/150x150"</span> <span class="na">alt=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-rounded pull-left"</span> <span class="nt">&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://placehold.it/150x150"</span> <span class="na">alt=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-rounded pull-right"</span> <span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-rounded pull-left"</span> <span class="na">alt=</span><span class="s">"..."</span><span class="nt">&gt;</span>
-<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-rounded pull-right"</span> <span class="na">alt=</span><span class="s">"..."</span><span class="nt">&gt;</span></code></pre></div>
-
-<div class="bd-example bd-example-images">
-  <img data-src="holder.js/200x200" class="img-rounded center-block" style="display: block;" alt="A generic square placeholder image with rounded corners" />
+<div class="bd-example" data-example-id="">
+<img src="http://placehold.it/150x150" alt="..." class="img-rounded center-block" style="display: block;" />
 </div>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://placehold.it/150x150"</span> <span class="na">alt=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-rounded center-block"</span> <span class="na">style=</span><span class="s">"display: block;"</span><span class="nt">&gt;</span></code></pre></div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-rounded center-block"</span> <span class="na">style=</span><span class="s">"display: block;"</span> <span class="na">alt=</span><span class="s">"..."</span><span class="nt">&gt;</span></code></pre></div>
-
-<div class="bd-example bd-example-images">
-  <div class="text-center">
-    <img data-src="holder.js/200x200" class="img-rounded" alt="A generic square placeholder image with rounded corners" />
-  </div>
+<div class="bd-example" data-example-id="">
+<div class="text-center">
+  <img src="http://placehold.it/150x150" alt="..." class="img-rounded" />
 </div>
-
+</div>
 <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"text-center"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-rounded"</span> <span class="na">alt=</span><span class="s">"..."</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://placehold.it/150x150"</span> <span class="na">alt=</span><span class="s">"..."</span> <span class="na">class=</span><span class="s">"img-rounded"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/div&gt;</span></code></pre></div>
 
 
