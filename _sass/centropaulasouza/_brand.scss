@@ -272,27 +272,22 @@ $fill-logo-sp-s4: black;
 // ==========================================================================
 //
 // Generate theme for default Centro Paula Souza
+// @include create-theme($cps-name, $cps-color, false);
 //
-@include create-theme($cps-name, $cps-color, false);
-
-@include create-theme($fatec-name, $fatec-color, true);
-
-@include create-theme($etec-name, $etec-color, true);
+@include create-theme($red-name, $red-color, false);
+// @include create-theme($fatec-name, $fatec-color, true);
+// @include create-theme($etec-name, $etec-color, true);
 
 //
 // Generate theme for all courses
 //
-@each $site, $color in ($default-name, $default-color), ($red-name, $red-color), ($pink-name, $pink-color), ($deep-purple-name, $deep-purple-color), ($indigo-name, $indigo-color), ($teal-name, $teal-color), ($light-green-name, $light-green-color), ($lime-name, $lime-color), ($yellow-name, $yellow-color), ($orange-name, $orange-color), ($brown-name, $brown-color), ($grey-name, $grey-color), ($blue-grey-name, $blue-grey-color), ($black-name, $black-color), ($white-name, $white-color), ($blue-name, $blue-color), ($green-name, $green-color), ($cyan-name, $cyan-color), ($light-blue-name, $light-blue-color), ($purple-name, $purple-color) {
+@each $site, $color in ($pink-name, $pink-color), ($deep-purple-name, $deep-purple-color), ($indigo-name, $indigo-color), ($teal-name, $teal-color), ($light-green-name, $light-green-color), ($lime-name, $lime-color), ($yellow-name, $yellow-color), ($orange-name, $orange-color), ($brown-name, $brown-color), ($grey-name, $grey-color), ($blue-grey-name, $blue-grey-color), ($blue-name, $blue-color), ($green-name, $green-color), ($cyan-name, $cyan-color), ($light-blue-name, $light-blue-color), ($purple-name, $purple-color) {
     @include create-theme($site, $color);
 }
 
-
-
-
-//@include create-palette($site, $color);
-
 //
 // Generate palletes
+//@include create-palette($site, $color);
 //
 @each $site, $color in ("branco", #fff), ("cps-principal", $cps-color), ("fatec-principal", $fatec-color), ("etec-principal", $etec-color), ("cinza-escuro-extra", $gray-base), ("cinza-escuro", $gray-dark), ("cinza", $gray), ("cinza-claro", $gray-light), ("cinza-claro-extra", $gray-lighter) {
     @include create-palette($site, $color);

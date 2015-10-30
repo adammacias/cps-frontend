@@ -34,7 +34,7 @@ A partir dos templates base é perfeitamente possível criar qualquer [página](
 
 ## Páginas
 
-Taking the default navbar component and showing how it can be moved, placed, and extended.
+Templates páginas estão prontos para receber informações apenas.
 
 <div class="row">
   <article class="col-xs-6 col-md-4">
@@ -51,16 +51,16 @@ Taking the default navbar component and showing how it can be moved, placed, and
     <h3 class="h5">Página Blog</h3>
     <p>Página com lista de artigos, perfeita para mostrar notícias, eventos e outros artigos.</p>
   </article>
-  <div class="clearfix hidden-sm-up"></div>
-
-  <div class="col-xs-6 col-md-4">
-    <a href="{{ site.baseurl }}/examples/navbar-top-fixed/">
-      <img class="img-thumbnail img-responsive" src="{{ site.baseurl }}/examples/screenshots/navbar-fixed.jpg" alt="">
+  <article class="col-xs-6 col-md-4">
+    <a href="{{ "templates/theme" | prepend: site.baseurl | prepend: site.url }}">
+      <img class="img-thumbnail img-responsive" src="{{ "templates/theme" | prepend: site.baseurl | prepend: site.url }}/screenshot.png" alt="">
     </a>
-    <h4>Fixed navbar</h4>
-    <p>Super basic template with a fixed top navbar along with some additional content.</p>
-  </div>
+    <h3 class="h5">Página Tema</h3>
+    <p>Exemplo de uma página promocional, usada para: eventos, cursos, vestibular e etc..</p>
+  </article>
 </div>
+
+{% comment %} 
 
 ## Custom components
 
@@ -153,3 +153,5 @@ Examples that focus on future-friendly features or techniques.
     <p>Build a toggleable off-canvas navigation menu for use with Bootstrap.</p>
   </div>
 </div>
+
+{% endcomment %}

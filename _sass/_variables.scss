@@ -24,15 +24,15 @@ $default-color: #69868e;
 
 // Site CPS
 $cps-name: "cps";
-$cps-color: rgb(176,17,22); // B01116 ----------- lighten(rgb(148,22,17), 10%); // #e05444
+$cps-color: lighten(rgb(148,22,17), 10%); // rgb(176,17,22) B01116 (ORIGINAL) ----------- lighten(rgb(148,22,17), 10%); // #C21D16
 
 // Site Fatec
 $fatec-name: "fatec";
-$fatec-color: lighten(rgb(148,22,17), 10%); // #e05444
+$fatec-color: lighten(rgb(148,22,17), 10%); // #C21D16
 
 // Site Etec
 $etec-name: "etec";
-$etec-color: lighten(rgb(148,22,17), 10%); // #e05444
+$etec-color: lighten(rgb(148,22,17), 10%); // #C21D16
 
 $red-name: "red";
 $red-color: $cps-color;

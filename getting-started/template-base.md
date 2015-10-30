@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Template padrão
+title: Template base
 group: getting-started
 ---
 

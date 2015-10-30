@@ -5,7 +5,7 @@
       slug: introduction
     - title: Instalação
       slug: install
-    - title: Template Básico
+    - title: Template Base
       slug: template-base
     - title: Boas práticas
       slug: best-practices
@@ -101,12 +101,14 @@
       slug: page
     - title: Página com barra lateral
       slug: page-sidebar
+    - title: Página Home
+      slug: home
     - title: Página Blog
       slug: blog
-    - title: Página curso
-      slug: page-course
-    - title: Página CSS
-      slug: page-css
+    - title: Página Tema
+      slug: theme
+    - title: Página Contato
+      slug: contact
 
 - title: Sobre
   slug: about
