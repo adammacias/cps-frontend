@@ -61,40 +61,34 @@
     <loc>http://adammacias.github.io/cps-frontend//content/images/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-frontend//templates/calendario/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-frontend//templates/blog/</loc>
+    <loc>http://adammacias.github.io/cps-frontend//templates/showcase-siga/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-frontend//templates/contact/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-frontend//templates/page/</loc>
+    <loc>http://adammacias.github.io/cps-frontend//</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-frontend//templates/page-sidebar/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-frontend//templates/showcase-cps/</loc>
+    <loc>http://adammacias.github.io/cps-frontend//templates/blog/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-frontend//templates/showcase-etec-aristoteles/</loc>
   </url>
   <url>
+    <loc>http://adammacias.github.io/cps-frontend//templates/showcase-cps/</loc>
+  </url>
+  <url>
+    <loc>http://adammacias.github.io/cps-frontend//templates/page/</loc>
+  </url>
+  <url>
     <loc>http://adammacias.github.io/cps-frontend//templates/home/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-frontend//templates/showcase-siga/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-frontend//</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-frontend//templates/course/</loc>
-  </url>
-  <url>
-    <loc>http://adammacias.github.io/cps-frontend//templates/estilos/</loc>
+    <loc>http://adammacias.github.io/cps-frontend//templates/theme/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-frontend//templates/</loc>
@@ -103,10 +97,10 @@
     <loc>http://adammacias.github.io/cps-frontend//getting-started/install/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-frontend//getting-started/introduction/</loc>
+    <loc>http://adammacias.github.io/cps-frontend//content/introduction/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-frontend//content/introduction/</loc>
+    <loc>http://adammacias.github.io/cps-frontend//getting-started/introduction/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-frontend//components/label/</loc>
@@ -157,10 +151,10 @@
     <loc>http://adammacias.github.io/cps-frontend//getting-started/template-base/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-frontend//branding/typography/</loc>
+    <loc>http://adammacias.github.io/cps-frontend//content/typography/</loc>
   </url>
   <url>
-    <loc>http://adammacias.github.io/cps-frontend//content/typography/</loc>
+    <loc>http://adammacias.github.io/cps-frontend//branding/typography/</loc>
   </url>
   <url>
     <loc>http://adammacias.github.io/cps-frontend//components/utilities/</loc>
