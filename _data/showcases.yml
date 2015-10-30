@@ -17,7 +17,7 @@
 
 - title: "Centro Paula Souza"
   screenshot: "cps.png"
-  url: "http://localhost:4000/templates/showcase-cps"
+  url: "./templates/showcase-cps"
   city: "São Paulo"
   group: "cps"
 

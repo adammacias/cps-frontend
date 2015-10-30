@@ -6,8 +6,8 @@
 // ==========================================================================
 @import "centropaulasouza";
 
-$brand-docs-primary:  darken(blueviolet,30%) ; // darken(darkred,10%) ;
-$brand-docs-primary-helper: aqua; // lime blueviolet
+$brand-docs-primary:  #688590; //darken(blueviolet,30%) ; // darken(darkred,10%) ;
+$brand-docs-primary-helper: #fff; //aqua; // lime blueviolet
 
 // ==========================================================================
 // Docs Style Main
@@ -60,6 +60,16 @@ body {
     /* fixed header height*/
     margin: -80px 0 0;
     /* negative fixed header height */
+}
+
+#top.navbar-default {
+  background: $brand-docs-primary-helper;
+  a {
+    color: $brand-docs-primary
+  }
+  a:hover {
+    color: darken($brand-docs-primary,25%);
+  }
 }
 
 // Page Header
@@ -158,7 +168,8 @@ body {
     height: 80vh;
     display:table;
     .container {
-      display:table-cell;vertical-align:middle;
+      display:table-cell;
+      vertical-align:middle;
       h1, p { max-width:1120px; margin-left:auto;margin-right:auto;}
       h1 {font-size: 4.2em;}
       .lead {font-size: 1.7em;}
@@ -166,6 +177,25 @@ body {
           &:hover {background: $brand-docs-primary-helper;   color: $brand-docs-primary;}
       }
     }
+  }
+  .section-feature {
+      border-bottom: 1px dashed $brand-docs-primary;
+      margin-top: 20px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      &:last-child {
+        border-bottom: 0;
+      }
+  }
+  .section-showcase {
+    text-align: center;
+    h2 {
+      border:0;
+    }
+    p {
+      padding-bottom: 30px;
+    }
+
   }
 }
 
@@ -203,8 +233,15 @@ body {
         li {
             //@extend .list-group-item;
 
+
         }
     }
+}
+
+aside {
+  margin-top:5px;
+  .nav-pills li.active a,
+  .nav-pills li.active:hover a {background: $brand-docs-primary}
 }
 
 // Footer
@@ -481,3 +518,81 @@ body {
 }
 
 
+
+
+
+
+/// TEMPLATE DOCS
+ul#markdown-toc > li:first-child {
+      display: none;
+    }
+
+    .entry-content h2 {
+      border-top: 1px dashed $brand-docs-primary;
+      margin-top: 40px;
+      padding-top: 30px;
+    }
+
+      /* EXAMPLE */
+    .bd-example {
+      background: #E5E5E5;
+      padding: 10px 20px;
+      border: 1px solid #CCC;
+      border-bottom: 0px;
+      border-radius: 10px 10px 0 0;
+    }
+    .bd-example h2 {
+      border-top: none;
+      margin-top: 20px;
+      padding-top: 0px;
+    }
+    .highlight pre {
+      border-radius: 0 0 10px 10px;
+    }
+
+    /* BRANDING */
+
+.bd-example .logo {
+    /* zoom: 110%;
+  -moz-transform: scale(1.1);*/
+}
+
+
+.docs-logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.docs-logo p {
+  margin: 0;
+}
+
+.docs-logo .logo {
+  zoom: 110%;
+  -moz-transform: scale(1.1);
+}
+
+
+
+
+
+.docs-logo-img {
+  padding: 30px;
+}
+.docs-logo-img img {
+  max-width: 300px;
+}
+.docs-logo-img figcaption {
+    margin-top: 15px;
+}
+.label-success {
+  background: lime;
+}
+.label-danger {
+  background: red;
+}
+.docs-palette {
+  padding: 10px 15px 0;
+  font-size: 12px;
+}
