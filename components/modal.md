@@ -41,7 +41,7 @@ There are some caveats regarding using modals on mobile devices. [See our browse
 
 A rendered modal with header, body, and set of actions in the footer.
 
-<div class="bd-example bd-example-modal">
+{% example html %}
   <div class="modal">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -62,30 +62,8 @@ A rendered modal with header, body, and set of actions in the footer.
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
-</div>
+{% endexample %}
 
-{% highlight html %}
-<div class="modal fade">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-          <span class="sr-only">Close</span>
-        </button>
-        <h4 class="modal-title">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        <p>One fine body&hellip;</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-{% endhighlight %}
 
 ### Live demo
 
@@ -134,13 +112,8 @@ Toggle a modal via JavaScript by clicking the button below. It will slide down a
   </div><!-- /.modal-dialog -->
 </div>
 
-<div class="bd-example" style="padding-bottom: 24px;">
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-    Launch demo modal
-  </button>
-</div>
 
-{% highlight html %}
+{% example html %}
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
   Launch demo modal
@@ -167,7 +140,7 @@ Toggle a modal via JavaScript by clicking the button below. It will slide down a
     </div>
   </div>
 </div>
-{% endhighlight %}
+{% endexample %}
 
 {% callout warning %}
 #### Make modals accessible
@@ -187,12 +160,7 @@ Embedding YouTube videos in modals requires additional JavaScript not in Bootstr
 
 Modals have two optional sizes, available via modifier classes to be placed on a `.modal-dialog`.
 
-<div class="bd-example">
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
-</div>
-
-{% highlight html %}
+{% example html %}
 <!-- Large modal -->
 <button class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
 
@@ -214,7 +182,7 @@ Modals have two optional sizes, available via modifier classes to be placed on a
     </div>
   </div>
 </div>
-{% endhighlight %}
+{% endexample %}
 
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">

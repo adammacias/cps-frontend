@@ -58,7 +58,7 @@ The `.active` class needs to be added to one of the slides. Otherwise, the carou
 
 Add captions to your slides easily with the `.carousel-caption` element within any `.carousel-item`. Place just about any optional HTML within there and it will be automatically aligned and formatted.
 
-<div class="bd-example">
+{% example html %}
   <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carousel-example-captions" data-slide-to="0" class="active"></li>
@@ -97,17 +97,8 @@ Add captions to your slides easily with the `.carousel-caption` element within a
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div>
+{% endexample %}
 
-{% highlight html %}
-<div class="carousel-item">
-  <img src="..." alt="...">
-  <div class="carousel-caption">
-    <h3>...</h3>
-    <p>...</p>
-  </div>
-</div>
-{% endhighlight %}
 
 {% callout danger %}
 #### Accessibility issue
