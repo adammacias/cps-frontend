@@ -35,3 +35,8 @@
     z-index: 1;
   }
 }
+
+@media (max-width: 768px) {
+  .logo-siga,
+  .logo-cps {text-align:center!important; margin:0 auto!important; margin-bottom:20px!important}
+}

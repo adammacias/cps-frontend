@@ -35,3 +35,17 @@
     z-index: 1;
   }
 }
+
+@media (max-width: 768px) {
+
+  .carousel {
+    .thumbnail {
+      max-height: 300px!important;
+      img {
+        min-width: 100%!important;
+        min-height: 300px!important;
+      }
+    }
+  }
+
+}

@@ -106,15 +106,21 @@ disciplinas:
 
 <header class="cps-header">
   <div class="container">
-      <div class="pull-left">
-        <a class="logo logo-siga" href="#" title="Página Inicial">
-          <img src="{{ "templates/showcase-siga" | prepend: site.baseurl | prepend: site.url }}/images/siga.png">
-        </a>
-      </div>
-      <div class="pull-right">
-        <a class="logo logo-cps" href="http://www.cps.sp.gov.br" title="Portal do Centro Paula Souza" target="_blank">
-          <h2 class="sr-only">Centro Paula Souza</h2>
-        </a>
+      <div class="row">
+        <div class="col-md-6">
+          <span class="pull-left">
+            <a class="logo logo-siga" href="#" title="Página Inicial">
+              <img src="{{ "templates/showcase-siga" | prepend: site.baseurl | prepend: site.url }}/images/siga.png" class="img-responsive">
+            </a>
+          </span>
+        </div>
+        <div class="col-md-6">
+          <span class="pull-right">
+            <a class="logo logo-cps hidden-xs" href="http://www.cps.sp.gov.br" title="Portal do Centro Paula Souza" target="_blank">
+              <h2 class="sr-only">Centro Paula Souza</h2>
+            </a>
+          </span>
+        </div>
       </div>
   </div>
 </header>
@@ -154,55 +160,57 @@ disciplinas:
     </aside>
     <div id="content" class="col-md-9" tabindex="-1">
       <h1>Histórico</h1>
-      <table class="table table-condensed table-bordered table-hover table-responsive small">
-        <caption>Extrato histórico simples.</caption>
-        <thead>
-          <tr>
-            <th>Sigla</th>
-            <th>Disciplina</th>
-            <th>Período</th>
-            <th><abbr title="Aprovado">Aprov.</abbr></th>
-            <th><abbr title="Média Final">MédiaF.</abbr></th>
-            <th><abbr title="Frequência %">Freq.</abbr></th>
-            <th>Observação</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for d in page.disciplinas %}
-            <tr class="{{ d.status }}">
-              <td>{{ d.sigla }}</td>
-              <td>{{ d.title }}</td>
-              <td>{{ d.period }}</td>
-              <td class="text-center">{% if d.aproved %}&#x2714;{% else %}&#x2716;{% endif %}</td>
-              <td>{{ d.media }}</td>
-              <td>{{ d.frequencie }}</td>
-              <td>{{ d.description }}</td>
+      <div class="table-responsive">
+        <table class="table table-condensed table-bordered table-hover small">
+          <caption>Extrato histórico simples.</caption>
+          <thead>
+            <tr>
+              <th>Sigla</th>
+              <th>Disciplina</th>
+              <th>Período</th>
+              <th><abbr title="Aprovado">Aprov.</abbr></th>
+              <th><abbr title="Média Final">MédiaF.</abbr></th>
+              <th><abbr title="Frequência %">Freq.</abbr></th>
+              <th>Observação</th>
             </tr>
-          {% endfor %}
-          {% for d in page.disciplinas %}
-            <tr class="{{ d.status }}">
-              <td>{{ d.sigla }}</td>
-              <td>{{ d.title }}</td>
-              <td>{{ d.period }}</td>
-              <td class="text-center">{% if d.aproved %}&#x2714;{% else %}&#x2716;{% endif %}</td>
-              <td>{{ d.media }}</td>
-              <td>{{ d.frequencie }}</td>
-              <td>{{ d.description }}</td>
-            </tr>
-          {% endfor %}
-          {% for d in page.disciplinas %}
-            <tr class="{{ d.status }}">
-              <td>{{ d.sigla }}</td>
-              <td>{{ d.title }}</td>
-              <td>{{ d.period }}</td>
-              <td class="text-center">{% if d.aproved %}&#x2714;{% else %}&#x2716;{% endif %}</td>
-              <td>{{ d.media }}</td>
-              <td>{{ d.frequencie }}</td>
-              <td>{{ d.description }}</td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {% for d in page.disciplinas %}
+              <tr class="{{ d.status }}">
+                <td>{{ d.sigla }}</td>
+                <td>{{ d.title }}</td>
+                <td>{{ d.period }}</td>
+                <td class="text-center">{% if d.aproved %}&#x2714;{% else %}&#x2716;{% endif %}</td>
+                <td>{{ d.media }}</td>
+                <td>{{ d.frequencie }}</td>
+                <td>{{ d.description }}</td>
+              </tr>
+            {% endfor %}
+            {% for d in page.disciplinas %}
+              <tr class="{{ d.status }}">
+                <td>{{ d.sigla }}</td>
+                <td>{{ d.title }}</td>
+                <td>{{ d.period }}</td>
+                <td class="text-center">{% if d.aproved %}&#x2714;{% else %}&#x2716;{% endif %}</td>
+                <td>{{ d.media }}</td>
+                <td>{{ d.frequencie }}</td>
+                <td>{{ d.description }}</td>
+              </tr>
+            {% endfor %}
+            {% for d in page.disciplinas %}
+              <tr class="{{ d.status }}">
+                <td>{{ d.sigla }}</td>
+                <td>{{ d.title }}</td>
+                <td>{{ d.period }}</td>
+                <td class="text-center">{% if d.aproved %}&#x2714;{% else %}&#x2716;{% endif %}</td>
+                <td>{{ d.media }}</td>
+                <td>{{ d.frequencie }}</td>
+                <td>{{ d.description }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
       <hr>
       <footer class="well well-xs">
         <p>** Não possui validade como histórico escolar</p>

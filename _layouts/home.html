@@ -16,7 +16,10 @@
       <div class="container">
         <h1 class="entry-title">{{ site.title }}</h1>
         <p class="lead">{{ site.description }}</p>
-        <p><a href="{{ "getting-started/introduction/" | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary btn-lg">Ponto de partida</a> — ou — <a href="{{ "getting-started/install/#via-download" | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary btn-lg">Download</a></p>
+        <p>
+          <a href="{{ "getting-started/introduction/" | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary btn-lg">Ponto de partida</a>
+          <span class="hidden-xs"> — ou — <a href="{{ "getting-started/install/#via-download" | prepend: site.baseurl | prepend: site.url }}" class="btn btn-primary btn-lg">Download</a></span>
+        </p>
       </div>
     </header>
 
