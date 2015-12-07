@@ -21,7 +21,7 @@ Button dropdowns require the [dropdown plugin]({{ site.baseurl }}/components/dro
 
 Turn a button into a dropdown toggle with some basic markup changes.
 
-<div class="bd-example">
+{% example html %}
   <div class="btn-group">
     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Default</button>
     <div class="dropdown-menu">
@@ -82,29 +82,14 @@ Turn a button into a dropdown toggle with some basic markup changes.
       <a class="dropdown-item" href="#">Separated link</a>
     </div>
   </div><!-- /btn-group -->
-</div>
+{% endexample %}
 
-{% highlight html %}
-<!-- Single button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Action
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Separated link</a>
-  </div>
-</div>
-{% endhighlight %}
 
 ### Split button dropdowns
 
 Similarly, create split button dropdowns with the same markup changes, only with a separate button.
 
-<div class="bd-example">
+{% example html %}
   <div class="btn-group">
     <button type="button" class="btn btn-secondary">Default</button>
     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -183,30 +168,14 @@ Similarly, create split button dropdowns with the same markup changes, only with
       <a class="dropdown-item" href="#">Separated link</a>
     </div>
   </div><!-- /btn-group -->
-</div>
+{% endexample %}
 
-{% highlight html %}
-<!-- Split button -->
-<div class="btn-group">
-  <button type="button" class="btn btn-danger">Action</button>
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Separated link</a>
-  </div>
-</div>
-{% endhighlight %}
 
 ### Sizing
 
 Button dropdowns work with buttons of all sizes.
 
-<div class="bd-example">
+{% example html %}
   <div class="btn-toolbar" role="toolbar">
     <div class="btn-group">
       <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -235,35 +204,14 @@ Button dropdowns work with buttons of all sizes.
       </div>
     </div><!-- /btn-group -->
   </div><!-- /btn-toolbar -->
-</div><!-- /example -->
+{% endexample %}
 
-{% highlight html %}
-<!-- Large button group -->
-<div class="btn-group">
-  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Large button
-  </button>
-  <div class="dropdown-menu">
-    ...
-  </div>
-</div>
-
-<!-- Small button group -->
-<div class="btn-group">
-  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Small button
-  </button>
-  <div class="dropdown-menu">
-    ...
-  </div>
-</div>
-{% endhighlight %}
 
 ### Dropup variation
 
 Trigger dropdown menus above elements by adding `.dropup` to the parent.
 
-<div class="bd-example">
+{% example html %}
   <div class="btn-toolbar" role="toolbar">
     <div class="btn-group dropup">
       <button type="button" class="btn btn-secondary">Dropup</button>
@@ -292,16 +240,4 @@ Trigger dropdown menus above elements by adding `.dropup` to the parent.
       </div>
     </div><!-- /btn-group -->
   </div>
-</div>
-
-{% highlight html %}
-<div class="btn-group dropup">
-  <button type="button" class="btn btn-secondary">Dropup</button>
-  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <span class="sr-only">Toggle Dropdown</span>
-  </button>
-  <div class="dropdown-menu">
-    <!-- Dropdown menu links -->
-  </div>
-</div>
-{% endhighlight %}
+{% example %}

@@ -61,7 +61,7 @@ Theming the navbar has never been easier thanks to the combination of a simple l
 
 Here are some examples to show what we mean.
 
-<div class="bd-example">
+{% example html %}
   <nav class="navbar navbar-dark bg-inverse">
     <a class="navbar-brand" href="#">Navbar</a>
     <ul class="nav navbar-nav">
@@ -125,21 +125,8 @@ Here are some examples to show what we mean.
       <button class="btn btn-primary-outline" type="submit">Search</button>
     </form>
   </nav>
-</div>
+{% endexample %}
 
-{% highlight html %}
-<nav class="navbar navbar-dark bg-inverse">
-  <!-- Navbar content -->
-</nav>
-
-<nav class="navbar navbar-dark bg-primary">
-  <!-- Navbar content -->
-</nav>
-
-<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-  <!-- Navbar content -->
-</nav>
-{% endhighlight %}
 
 ## Containers
 
