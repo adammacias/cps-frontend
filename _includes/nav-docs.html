@@ -1,5 +1,5 @@
 
-    {% for group in site.data.nav %}
+    {% for group in site.data.navtop %}
       {% assign link = group.pages | first %}
       {% assign slug = group.title | downcase | replace: ' ', '-' || page.title | downcase | replace: ' ', '-' %}
       {% assign active = nil %}

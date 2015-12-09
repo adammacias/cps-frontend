@@ -22,6 +22,7 @@ themes:
   - title: "deep-purple"
     rgb: "#5E35B1"
   - title: "indigo"
+    rgb: "#3949AB"
   - title: "blue"
     rgb: "#1668B9"
   - title: "light-blue"

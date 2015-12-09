@@ -240,4 +240,4 @@ Trigger dropdown menus above elements by adding `.dropup` to the parent.
       </div>
     </div><!-- /btn-group -->
   </div>
-{% example %}
+{% endexample %}

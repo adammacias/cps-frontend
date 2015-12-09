@@ -30,8 +30,8 @@ download:
     assets:       https://github.com/adammacias/cps-frontend/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha-brand.zip
 
 cdn:
-  css:            https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css
-  js:             https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js
+  css:            https://cdn.cps.gov.com/cps-frontend/v1/dist/css/cps-frontend.css
+  js:             https://cdn.cps.gov.com/cps-frontend/v1/dist/js/cps-frontend.js
   jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
 
 gems:

@@ -11,19 +11,19 @@
 
 - title: "Etec - Aristóteles Ferreira"
   screenshot: "etecaf.png"
-  url: "./templates/showcase-etec-aristoteles/"
+  url: "templates/showcase-etec-aristoteles/"
   city: "Santos"
   group: "fatec"
 
 - title: "Centro Paula Souza"
   screenshot: "cps.png"
-  url: "./templates/showcase-cps"
+  url: "templates/showcase-cps/"
   city: "São Paulo"
   group: "cps"
 
 - title: "SIGA - Sistema Integrado de Gestão Acadêmica"
   screenshot: "siga.png"
-  url: "./templates/showcase-siga/"
+  url: "templates/showcase-siga/"
   city: "São Paulo"
   group: "cps"
 

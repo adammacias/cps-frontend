@@ -63,7 +63,7 @@ layout: home
   <div class="row">
     {% for case in site.data.showcases limit: 3 %}
       <div class="col-md-4">
-        <a href="{{ case.url }}" target="_blank">
+        <a href="{% if case.url contains 'http://' %}{{ case.url }}{% else %}{{ case.url | prepend: site.baseurl | prepend: site.url }}{% endif %}" target="_blank">
           <img src="{{ site.baseurl_content }}showcases/{{ case.screenshot }}" alt="" class="img-responsive thumbnail">
           <h3 class="h6">{{ case.title }}</h3>
         </a>
