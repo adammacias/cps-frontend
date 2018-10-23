@@ -3,4 +3,4 @@
 # Allow crawling of all content
 User-agent: *
 Disallow:
-Sitemap: http://adammacias.github.io/cps-frontend/sitemap.xml
+Sitemap: https://adammacias.github.io/cps-frontend/sitemap.xml
