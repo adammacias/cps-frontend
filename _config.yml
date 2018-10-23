@@ -15,8 +15,8 @@ permalink: pretty
 title: CPS Front-end
 description: Manual e framework front-end para projetos web do Centro Paula Souza.
 baseurl: "/cps-frontend/"
-baseurl_content: "http://adammacias.github.io/cps-frontend/assets/"
-url: "http://adammacias.github.io"
+baseurl_content: "https://adammacias.github.io/cps-frontend/assets/"
+url: "https://adammacias.github.io"
 
 # Custom vars
 current_version:  1.0.0-alpha
@@ -30,8 +30,8 @@ download:
     assets:       https://github.com/adammacias/cps-frontend/releases/download/v1.0.0-alpha/cps-v1.0.0-alpha-brand.zip
 
 cdn:
-  css:            http://bb.adammacias.com.br/cps-frontend/assets/css/centropaulasouza.css
-  js:             http://bb.adammacias.com.br/cps-frontend/assets/js/main.min.js
+  css:            https://adammacias.com.br/cps-frontend/assets/css/centropaulasouza.css
+  js:             https://adammacias.com.br/cps-frontend/assets/js/main.min.js
   jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js
 
 gems:
